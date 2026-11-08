@@ -1,0 +1,65 @@
+{
+  "image": "KZIV5445_frame_000488",
+  "candidate": "P03",
+  "key": "KZIV5445_P03",
+  "roi_original_xyxy": [
+    2287,
+    440,
+    2607,
+    900
+  ],
+  "prompt_box_original_xyxy": [
+    2292,
+    445,
+    2602,
+    895
+  ],
+  "positive_original_xy": [
+    [
+      2569,
+      490
+    ],
+    [
+      2498,
+      600
+    ],
+    [
+      2418,
+      720
+    ],
+    [
+      2326,
+      850
+    ]
+  ],
+  "negative_original_xy": [
+    [
+      2397,
+      600
+    ],
+    [
+      2442,
+      775
+    ],
+    [
+      2380,
+      720
+    ]
+  ],
+  "source_mask_sha256": "95268e15886db8b37ada91c23e9dc5c8f92a764d31174ba38b9e0148a25faa91",
+  "source_image_sha256": "fbaa0cc2d29d0e67510fc1d6ca0936eb254ae728a0639535b4fed4460b934c69",
+  "before_area": 7137,
+  "after_area": 3546,
+  "positive_hits": 4,
+  "negative_hits": 0,
+  "positive_count": 4,
+  "negative_count": 3,
+  "all_prompt_constraints_met": true,
+  "selected_index": 0,
+  "scores": [
+    0.75390625,
+    0.62109375,
+    0.2080078125
+  ],
+  "inference_seconds": 0.040999237447977066
+}

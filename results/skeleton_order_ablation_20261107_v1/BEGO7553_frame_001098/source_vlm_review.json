@@ -1,0 +1,384 @@
+{
+  "status": "REVIEW_COMPLETE",
+  "counts": {
+    "uncertain": 3,
+    "reject": 5,
+    "keep": 5
+  },
+  "candidate_count": 13,
+  "valid_json_count": 13,
+  "inference_seconds_total": 14.043618462979794,
+  "model_load_seconds": 12.286135666072369,
+  "ground_truth_used": false,
+  "accuracy_evaluated": false,
+  "source_masks_unchanged": true,
+  "empty_control_pass": true,
+  "changes": [
+    {
+      "id": "P01",
+      "v1": "keep",
+      "v2": "uncertain",
+      "v4": "uncertain"
+    },
+    {
+      "id": "P02",
+      "v1": "keep",
+      "v2": "reject",
+      "v4": "reject"
+    },
+    {
+      "id": "P03",
+      "v1": "keep",
+      "v2": "uncertain",
+      "v4": "reject"
+    },
+    {
+      "id": "P04",
+      "v1": "keep",
+      "v2": "uncertain",
+      "v4": "reject"
+    },
+    {
+      "id": "P05",
+      "v1": "keep",
+      "v2": "uncertain",
+      "v4": "reject"
+    },
+    {
+      "id": "P06",
+      "v1": "keep",
+      "v2": "reject",
+      "v4": "keep"
+    },
+    {
+      "id": "P07",
+      "v1": "keep",
+      "v2": "reject",
+      "v4": "keep"
+    },
+    {
+      "id": "P08",
+      "v1": "keep",
+      "v2": "reject",
+      "v4": "keep"
+    },
+    {
+      "id": "P09",
+      "v1": "keep",
+      "v2": "reject",
+      "v4": "keep"
+    },
+    {
+      "id": "P10",
+      "v1": "keep",
+      "v2": "reject",
+      "v4": "uncertain"
+    },
+    {
+      "id": "P11",
+      "v1": "keep",
+      "v2": "reject",
+      "v4": "uncertain"
+    },
+    {
+      "id": "P12",
+      "v1": "keep",
+      "v2": "reject",
+      "v4": "keep"
+    },
+    {
+      "id": "P13",
+      "v1": "keep",
+      "v2": "reject",
+      "v4": "reject"
+    }
+  ],
+  "results": [
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a long cable running across the road\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "a long cable running across the road"
+      },
+      "parse_error": null,
+      "seconds": 1.0827610604465008,
+      "image_tokens": 924,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P01_isolated.jpg",
+      "input_sha256": "b6287af61fa3005bc0587a15e629878b1fe47f8b282e08785cce776f39c4b428",
+      "finish_reason": "stop",
+      "decision_proposal": "uncertain",
+      "control_gate_pass": true,
+      "candidate_id": "P01",
+      "decision": "uncertain",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 111.05117797851562,
+      "mask_area_original_pixels": 203464,
+      "next_action": "resegment"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A vertical pole with a dark color is visible against a uniform gray background.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "A vertical pole with a dark color is visible against a uniform gray background."
+      },
+      "parse_error": null,
+      "seconds": 1.0537182837724686,
+      "image_tokens": 672,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P02_isolated.jpg",
+      "input_sha256": "3926bd2b7ff65c9f955a5ab4dea620e2976ce1aff069aa0b9ba8f7e0be15a60d",
+      "finish_reason": "stop",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "candidate_id": "P02",
+      "decision": "reject",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.0,
+      "mask_area_original_pixels": 7916,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A vertical line of light color against a uniform gray background.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "A vertical line of light color against a uniform gray background."
+      },
+      "parse_error": null,
+      "seconds": 0.9925261028110981,
+      "image_tokens": 768,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P03_isolated.jpg",
+      "input_sha256": "952df732d0d82c318b068e023475dc609f0cba568c7c0a62cc7ee80311e93dff",
+      "finish_reason": "stop",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "candidate_id": "P03",
+      "decision": "reject",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.0,
+      "mask_area_original_pixels": 7546,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a long, thin, dark-colored pole with a small, white, rectangular object attached to it.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "a long, thin, dark-colored pole with a small, white, rectangular object attached to it."
+      },
+      "parse_error": null,
+      "seconds": 1.1399886943399906,
+      "image_tokens": 280,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P04_isolated.jpg",
+      "input_sha256": "aae72dfb66bf539da4ce655dd7e70f1e4149b3c872873375f3cdde3799e10cbb",
+      "finish_reason": "stop",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "candidate_id": "P04",
+      "decision": "reject",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 9.993799209594727,
+      "mask_area_original_pixels": 6411,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a tall, thin metal pole with a horizontal crossbar and several wires attached to it.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "a tall, thin metal pole with a horizontal crossbar and several wires attached to it."
+      },
+      "parse_error": null,
+      "seconds": 1.1712726168334484,
+      "image_tokens": 984,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P05_isolated.jpg",
+      "input_sha256": "b611cad36e21d1c3367b401a5ef522b9fa8298ed2fe292fac1e05ce02284b090",
+      "finish_reason": "stop",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "candidate_id": "P05",
+      "decision": "reject",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 204.1767578125,
+      "mask_area_original_pixels": 334637,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a long, thin, metallic object with a pointed end\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "a long, thin, metallic object with a pointed end"
+      },
+      "parse_error": null,
+      "seconds": 1.0589594468474388,
+      "image_tokens": 630,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P06_isolated.jpg",
+      "input_sha256": "6975c7ceb0301fac6bc75109b41d128acb862036f718f20da62c022547f32a67",
+      "finish_reason": "stop",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "candidate_id": "P06",
+      "decision": "keep",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.0,
+      "mask_area_original_pixels": 5304,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin object with a metallic sheen, resembling a wire or cable.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The image shows a long, thin object with a metallic sheen, resembling a wire or cable."
+      },
+      "parse_error": null,
+      "seconds": 1.2042978033423424,
+      "image_tokens": 60,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P07_isolated.jpg",
+      "input_sha256": "4b139508ad1f5679234c68713675412029a0e228c430c592a18b6d1465237443",
+      "finish_reason": "stop",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "candidate_id": "P07",
+      "decision": "keep",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 10.0,
+      "mask_area_original_pixels": 2175,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a long, thin, metallic wire or cable running horizontally across the image.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "a long, thin, metallic wire or cable running horizontally across the image."
+      },
+      "parse_error": null,
+      "seconds": 1.143710482865572,
+      "image_tokens": 816,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P08_isolated.jpg",
+      "input_sha256": "fc40e4d81a8f362496589414b96a514fdb89bb227f11250b3537aafd4027aeae",
+      "finish_reason": "stop",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "candidate_id": "P08",
+      "decision": "keep",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 14.0,
+      "mask_area_original_pixels": 13637,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a long, thin, metallic object with a pointed tip\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "a long, thin, metallic object with a pointed tip"
+      },
+      "parse_error": null,
+      "seconds": 1.0276971980929375,
+      "image_tokens": 341,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P09_isolated.jpg",
+      "input_sha256": "0a9877896b4fd1afdc1c2122d185720dbe4deae0f5f3ae265e24361114cc28f3",
+      "finish_reason": "stop",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "candidate_id": "P09",
+      "decision": "keep",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 9.993799209594727,
+      "mask_area_original_pixels": 5467,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a section of a wire or cable with a uniform gray background.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The image shows a section of a wire or cable with a uniform gray background."
+      },
+      "parse_error": null,
+      "seconds": 1.1571216769516468,
+      "image_tokens": 798,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P10_isolated.jpg",
+      "input_sha256": "e5f56466384688b4d55d8e93caf88eaf193718301655b9037b8982c37932b2cb",
+      "finish_reason": "stop",
+      "decision_proposal": "uncertain",
+      "control_gate_pass": true,
+      "candidate_id": "P10",
+      "decision": "uncertain",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 67.5318374633789,
+      "mask_area_original_pixels": 86549,
+      "next_action": "resegment"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a wire or cable with a uniform gray background.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The image shows a wire or cable with a uniform gray background."
+      },
+      "parse_error": null,
+      "seconds": 1.0585604421794415,
+      "image_tokens": 510,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P11_isolated.jpg",
+      "input_sha256": "a0613f693f1ff829c203d83cf47a1c8c6dbb75b0ba014cba7ac5550bd7755a7e",
+      "finish_reason": "stop",
+      "decision_proposal": "uncertain",
+      "control_gate_pass": true,
+      "candidate_id": "P11",
+      "decision": "uncertain",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 36.393798828125,
+      "mask_area_original_pixels": 28835,
+      "next_action": "resegment"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a wire or cable with a blue and white color scheme.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The image shows a wire or cable with a blue and white color scheme."
+      },
+      "parse_error": null,
+      "seconds": 1.0947135761380196,
+      "image_tokens": 198,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P12_isolated.jpg",
+      "input_sha256": "d27d16a43a6d3d07e77151e6e61e7d8246dbca600346d50f515e7f9de3a0784f",
+      "finish_reason": "stop",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "candidate_id": "P12",
+      "decision": "keep",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.787599563598633,
+      "mask_area_original_pixels": 4069,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vehicle\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"white car with black windows and wheels\"\n}\n```",
+      "parsed": {
+        "category": "vehicle",
+        "visibility": "clear",
+        "evidence": "white car with black windows and wheels"
+      },
+      "parse_error": null,
+      "seconds": 0.8582910783588886,
+      "image_tokens": 187,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P13_isolated.jpg",
+      "input_sha256": "bc8d2df9c595eb058008b9ab611268b535f0ec2aed418510d8e0df462bb662d0",
+      "finish_reason": "stop",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "candidate_id": "P13",
+      "decision": "reject",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 120.0,
+      "mask_area_original_pixels": 40651,
+      "next_action": "none"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+PREDICTED BEGO7553_frame_001098 Qwen anchors 0 0 removed mask pixels {'baseline': 0, 'expanded_standard': 64153, 'photo_auto': 584086, 'standard_and_photo_auto': 64153, 'photo_qwen': 0, 'standard_and_photo_qwen': 64153}
+PREDICTED PUYL5573_frame_000165 Qwen anchors 0 0 removed mask pixels {'baseline': 0, 'expanded_standard': 989966, 'photo_auto': 1529467, 'standard_and_photo_auto': 924758, 'photo_qwen': 0, 'standard_and_photo_qwen': 989966}
+PREDICTED KZIV5445_frame_000488 Qwen anchors 0 0 removed mask pixels {'baseline': 0, 'expanded_standard': 64857, 'photo_auto': 476629, 'standard_and_photo_auto': 47956, 'photo_qwen': 0, 'standard_and_photo_qwen': 64857}
+baseline 32.49 48.62 38.92
+expanded_standard 32.25 48.99 38.84
+photo_auto 50.11 42.80 45.35
+standard_and_photo_auto 32.66 50.14 39.49
+photo_qwen 32.49 48.62 38.92
+standard_and_photo_qwen 32.25 48.99 38.84
+VERIFIED results/wire_color_prior_20261108_v3.zip

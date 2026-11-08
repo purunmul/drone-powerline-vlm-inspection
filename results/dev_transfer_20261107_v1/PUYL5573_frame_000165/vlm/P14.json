@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, green wire or cable stretching horizontally across the frame.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "The image shows a long, thin, green wire or cable stretching horizontally across the frame."
+  },
+  "parse_error": null,
+  "seconds": 1.195047602057457,
+  "image_tokens": 902,
+  "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P14_isolated.jpg",
+  "input_sha256": "1452a7b56db4a6640a7d0a2b758bb539bac315a9580cac98d5a4620a0d622645",
+  "finish_reason": "stop",
+  "candidate_id": "P14",
+  "decision": "keep",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 6.393799781799316,
+  "mask_area_original_pixels": 4263
+}

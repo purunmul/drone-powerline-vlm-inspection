@@ -1,0 +1,53 @@
+{
+  "candidate_id": "P12",
+  "identity": {
+    "raw": "```json\n{\n  \"category\": \"building_edge\",\n  \"description\": \"edge of the building\",\n  \"evidence\": \"the red region is highlighted along the edge of the building\"\n}\n```",
+    "seconds": 1.0507289730012417,
+    "image_tokens": 396,
+    "prompt_tokens": 551,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P12/original_context.jpg",
+        "sha256": "3d1633da505ce238113c8e2559d549127704fd5de3b159ac1112c77407dbc8f7"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P12/marked_context.jpg",
+        "sha256": "0b836b7d80878b71366ef0cdc37fd923b76836cbb82f8dccb37aae6d06dc7692"
+      }
+    ]
+  },
+  "geometry": {
+    "raw": "```json\n{\n  \"shape\": \"thin_strand\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+    "seconds": 0.7697624266147614,
+    "image_tokens": 396,
+    "prompt_tokens": 551,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P12/original_context.jpg",
+        "sha256": "3d1633da505ce238113c8e2559d549127704fd5de3b159ac1112c77407dbc8f7"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P12/marked_context.jpg",
+        "sha256": "0b836b7d80878b71366ef0cdc37fd923b76836cbb82f8dccb37aae6d06dc7692"
+      }
+    ]
+  },
+  "identity_parsed": {
+    "category": "building_edge",
+    "description": "edge of the building",
+    "evidence": "the red region is highlighted along the edge of the building"
+  },
+  "geometry_parsed": {
+    "shape": "thin_strand",
+    "fit": "tight",
+    "evidence": "short visible evidence"
+  },
+  "parse_errors": [
+    null,
+    null
+  ],
+  "decision": "reject",
+  "next_action": "none"
+}

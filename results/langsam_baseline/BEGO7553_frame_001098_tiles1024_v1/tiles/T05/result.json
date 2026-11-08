@@ -1,0 +1,12 @@
+{
+  "tile_id": "T05",
+  "crop_xyxy_original": [
+    2816,
+    0,
+    3840,
+    1024
+  ],
+  "candidate_count": 0,
+  "candidate_ids": [],
+  "inference_seconds": 0.16310394927859306
+}

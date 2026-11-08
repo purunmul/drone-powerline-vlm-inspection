@@ -1,0 +1,239 @@
+{
+  "image": "BEGO7553_frame_001098",
+  "candidate_count": 13,
+  "keep_count": 5,
+  "frozen_keep_ids": [
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P12"
+  ],
+  "previous_results_reproduced_exactly": true,
+  "new_keep_centerline_is_subset_of_new_all_centerline": true,
+  "exclusion_comparison": [
+    {
+      "method": "union_then_skeleton",
+      "tolerance_pixels": 3,
+      "reference_pixels_lost_after_keep_only": 5063,
+      "reference_pixels_gained_after_keep_only": 0
+    },
+    {
+      "method": "union_then_skeleton",
+      "tolerance_pixels": 5,
+      "reference_pixels_lost_after_keep_only": 6907,
+      "reference_pixels_gained_after_keep_only": 0
+    },
+    {
+      "method": "union_then_skeleton",
+      "tolerance_pixels": 10,
+      "reference_pixels_lost_after_keep_only": 10244,
+      "reference_pixels_gained_after_keep_only": 0
+    },
+    {
+      "method": "skeleton_then_union",
+      "tolerance_pixels": 3,
+      "reference_pixels_lost_after_keep_only": 7329,
+      "reference_pixels_gained_after_keep_only": 0
+    },
+    {
+      "method": "skeleton_then_union",
+      "tolerance_pixels": 5,
+      "reference_pixels_lost_after_keep_only": 9523,
+      "reference_pixels_gained_after_keep_only": 0
+    },
+    {
+      "method": "skeleton_then_union",
+      "tolerance_pixels": 10,
+      "reference_pixels_lost_after_keep_only": 13005,
+      "reference_pixels_gained_after_keep_only": 0
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "A_all_candidates",
+      "method": "union_then_skeleton",
+      "graph_path_count": 2614,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.31980295566502465,
+          "centerline_recall": 0.31141580515156825,
+          "centerline_f1": 0.31555365939832175,
+          "pred_centerline_pixels": 20300,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 6492,
+          "covered_reference_pixels": 7109,
+          "image": "BEGO7553_frame_001098",
+          "condition": "A_all_candidates",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.3751231527093596,
+          "centerline_recall": 0.3996407920098125,
+          "centerline_f1": 0.3869940383049851,
+          "pred_centerline_pixels": 20300,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 7615,
+          "covered_reference_pixels": 9123,
+          "image": "BEGO7553_frame_001098",
+          "condition": "A_all_candidates",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.47665024630541875,
+          "centerline_recall": 0.5572980550201507,
+          "centerline_f1": 0.5138288923156558,
+          "pred_centerline_pixels": 20300,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 9676,
+          "covered_reference_pixels": 12722,
+          "image": "BEGO7553_frame_001098",
+          "condition": "A_all_candidates",
+          "method": "union_then_skeleton"
+        }
+      ]
+    },
+    {
+      "condition": "A_all_candidates",
+      "method": "skeleton_then_union",
+      "graph_path_count": 11626,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.2934452146418582,
+          "centerline_recall": 0.4106798668302085,
+          "centerline_f1": 0.34230293691323677,
+          "pred_centerline_pixels": 32892,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 9652,
+          "covered_reference_pixels": 9375,
+          "image": "BEGO7553_frame_001098",
+          "condition": "A_all_candidates",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.3530949775021282,
+          "centerline_recall": 0.5142369020501139,
+          "centerline_f1": 0.41869662960823356,
+          "pred_centerline_pixels": 32892,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 11614,
+          "covered_reference_pixels": 11739,
+          "image": "BEGO7553_frame_001098",
+          "condition": "A_all_candidates",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.45874376748145446,
+          "centerline_recall": 0.678246013667426,
+          "centerline_f1": 0.5473068214820329,
+          "pred_centerline_pixels": 32892,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 15089,
+          "covered_reference_pixels": 15483,
+          "image": "BEGO7553_frame_001098",
+          "condition": "A_all_candidates",
+          "method": "skeleton_then_union"
+        }
+      ]
+    },
+    {
+      "condition": "B_vlm_keep_only",
+      "method": "union_then_skeleton",
+      "graph_path_count": 317,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.5450263230811859,
+          "centerline_recall": 0.0896267741370247,
+          "centerline_f1": 0.15393906173827412,
+          "pred_centerline_pixels": 3609,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 1967,
+          "covered_reference_pixels": 2046,
+          "image": "BEGO7553_frame_001098",
+          "condition": "B_vlm_keep_only",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.5782765308949848,
+          "centerline_recall": 0.09707376905554582,
+          "centerline_f1": 0.1662410823374296,
+          "pred_centerline_pixels": 3609,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2087,
+          "covered_reference_pixels": 2216,
+          "image": "BEGO7553_frame_001098",
+          "condition": "B_vlm_keep_only",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.6328622887226378,
+          "centerline_recall": 0.10855090240056071,
+          "centerline_f1": 0.18531575471985692,
+          "pred_centerline_pixels": 3609,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2284,
+          "covered_reference_pixels": 2478,
+          "image": "BEGO7553_frame_001098",
+          "condition": "B_vlm_keep_only",
+          "method": "union_then_skeleton"
+        }
+      ]
+    },
+    {
+      "condition": "B_vlm_keep_only",
+      "method": "skeleton_then_union",
+      "graph_path_count": 1183,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.5608339931380312,
+          "centerline_recall": 0.0896267741370247,
+          "centerline_f1": 0.15455426110301423,
+          "pred_centerline_pixels": 3789,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2125,
+          "covered_reference_pixels": 2046,
+          "image": "BEGO7553_frame_001098",
+          "condition": "B_vlm_keep_only",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.5964634468197414,
+          "centerline_recall": 0.09707376905554582,
+          "centerline_f1": 0.16697288497656118,
+          "pred_centerline_pixels": 3789,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2260,
+          "covered_reference_pixels": 2216,
+          "image": "BEGO7553_frame_001098",
+          "condition": "B_vlm_keep_only",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.6503035101609923,
+          "centerline_recall": 0.10855090240056071,
+          "centerline_f1": 0.18604631321558548,
+          "pred_centerline_pixels": 3789,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2464,
+          "covered_reference_pixels": 2478,
+          "image": "BEGO7553_frame_001098",
+          "condition": "B_vlm_keep_only",
+          "method": "skeleton_then_union"
+        }
+      ]
+    }
+  ],
+  "processing_seconds_including_io": 12.719983242452145
+}

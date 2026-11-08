@@ -1,0 +1,20 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict a long, thin, metallic object with a pointed end, resembling a fishing rod.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "The isolated pixels depict a long, thin, metallic object with a pointed end, resembling a fishing rod."
+  },
+  "parse_error": null,
+  "seconds": 1.2816818617284298,
+  "image_tokens": 806,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P09_isolated.jpg",
+  "input_sha256": "7cb7c16532573d188ac1bc646e796ae1b320d08b6239e6e63223d800eb85c786",
+  "finish_reason": "stop",
+  "candidate_id": "P09",
+  "decision": "keep",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 9.993799209594727,
+  "mask_area_original_pixels": 5467,
+  "next_action": "none"
+}

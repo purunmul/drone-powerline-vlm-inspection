@@ -1,0 +1,20 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The green poles are part of the road infrastructure.\"\n}\n```",
+  "parsed": {
+    "category": "vegetation",
+    "visibility": "clear",
+    "evidence": "The green poles are part of the road infrastructure."
+  },
+  "parse_error": null,
+  "seconds": 1.1268972605466843,
+  "image_tokens": 999,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P02_isolated.jpg",
+  "input_sha256": "7f89219c02da3ee978b745c5ba5cb5a171a1be10957cf894b58da845fc2f921b",
+  "finish_reason": "stop",
+  "candidate_id": "P02",
+  "decision": "reject",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.0,
+  "mask_area_original_pixels": 7916,
+  "next_action": "none"
+}

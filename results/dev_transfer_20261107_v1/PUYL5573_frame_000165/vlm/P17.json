@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a tall metal pole with wires attached to it\"\n}\n```",
+  "parsed": {
+    "category": "pole",
+    "visibility": "clear",
+    "evidence": "a tall metal pole with wires attached to it"
+  },
+  "parse_error": null,
+  "seconds": 0.9472788646817207,
+  "image_tokens": 910,
+  "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P17_isolated.jpg",
+  "input_sha256": "e80fbec4c65b1c859850126b3044a28d4f76162bf36e5d100da2752344a50499",
+  "finish_reason": "stop",
+  "candidate_id": "P17",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 29.593795776367188,
+  "mask_area_original_pixels": 31055
+}

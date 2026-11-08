@@ -1,0 +1,45 @@
+One or both local paths not provided. Loading from Hugging Face Hub: IDEA-Research/grounding-dino-base
+Predicting 1 masks
+/home/work/123-0125/.venv-langsam/lib/python3.12/site-packages/torchvision/transforms/functional.py:154: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  img = torch.from_numpy(pic.transpose((2, 0, 1))).contiguous()
+Predicted 1 masks
+TILE 1 / 15 candidates 1 seconds 3.959
+Predicting 1 masks
+Predicted 1 masks
+TILE 2 / 15 candidates 1 seconds 0.254
+Predicting 1 masks
+Predicted 1 masks
+TILE 3 / 15 candidates 1 seconds 0.22
+Predicting 1 masks
+Predicted 1 masks
+TILE 4 / 15 candidates 1 seconds 0.193
+Predicting 1 masks
+Predicted 1 masks
+TILE 5 / 15 candidates 1 seconds 0.19
+Predicting 1 masks
+Predicted 1 masks
+TILE 6 / 15 candidates 1 seconds 0.199
+Predicting 1 masks
+Predicted 1 masks
+TILE 7 / 15 candidates 1 seconds 0.259
+TILE 8 / 15 candidates 0 seconds 0.164
+TILE 9 / 15 candidates 0 seconds 0.161
+TILE 10 / 15 candidates 0 seconds 0.156
+TILE 11 / 15 candidates 0 seconds 0.161
+TILE 12 / 15 candidates 0 seconds 0.16
+Predicting 1 masks
+Predicted 1 masks
+TILE 13 / 15 candidates 1 seconds 0.192
+TILE 14 / 15 candidates 0 seconds 0.161
+TILE 15 / 15 candidates 0 seconds 0.175
+{
+  "status": "INFERENCE_COMPLETE",
+  "tile_count": 15,
+  "tiles_with_candidates": 8,
+  "candidate_count_raw": 8,
+  "union_mask_area_pixels": 138342,
+  "inference_seconds_total": 6.603995144367218,
+  "gpu_peak_allocated_gib": 2.416248321533203,
+  "output_directory": "/home/work/123-0125/results/sam_clip_transfer_20261108_v1/XMLF7591_frame_000000/tiles",
+  "accuracy_evaluated": false
+}

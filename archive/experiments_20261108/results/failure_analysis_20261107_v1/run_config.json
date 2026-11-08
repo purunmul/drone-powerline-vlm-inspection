@@ -1,0 +1,30 @@
+{
+  "scope": "posthoc error diagnosis on three development images",
+  "tolerances_pixels": [
+    3,
+    5,
+    10
+  ],
+  "ranking": "descending count of reference pixels covered by an individual excluded-candidate skeleton and lost from the strict-keep union; ties by candidate ID",
+  "reference_used_for_diagnosis_and_case_selection": true,
+  "not_a_deployable_selection_rule": true,
+  "new_model_inference": false,
+  "training": false,
+  "source_masks_modified": false,
+  "heldout_160_used": false,
+  "metric_caution": "individual candidate skeleton support is annotation agreement, not binary candidate accuracy; supports overlap and category contributions must not be added; union skeletonization is nonlinear",
+  "source_hashes": {
+    "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/candidates.json": "c04211feb31813cae36cdea96095bae6472a3b5a7df8fd707e06efcf2d720e3b",
+    "results/vlm_review/BEGO7553_frame_001098_review_v4/review.json": "5c403b9cf21a87432f9400b0ac773833ac30d47237ff3b24b8e9ad1f4ffc226b",
+    "results/vlm_review/BEGO7553_frame_001098_review_v4_1/review.json": "76a7261ca1c09a65da7a4edb289f5342190ca5b3793d1417ac61749cfbbb1409",
+    "results/diagnostic_eval/BEGO7553_frame_001098_v1/reference_centerlines.png": "4dd09ff4d4706c8cb4427d28574d96148d519b541eca0441826fa2750a722db7",
+    "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/candidates/candidates.json": "dc5f4bc3e222741579b9b9afac9cd4168bf4e769f47ad75886b9790d8235fa92",
+    "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/review.json": "82b0959ed30b08523af51a9e2b838e07cc9e8fbbfb93d964239c3ccecb31db37",
+    "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/conservative_policy.json": "dd3bb9fdb3667172ca2357eaf86abeb7ce4bf34008e59c8a2d641c70cfded44d",
+    "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/evaluation/reference_centerlines.png": "9afae5adf040ae46522001c7acd07e1d31038b31f6017b25d8bba174955f9851",
+    "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/candidates/candidates.json": "42d1e5015e1f6f8dd1aefb9a5eabb9d0601a2957650233e3c4bc440d3acf12d3",
+    "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/review.json": "d976b1ec2372ceeb7b60cb7bafc168d7068fcf84357dad38604bd93ccc139a40",
+    "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/conservative_policy.json": "e2f35996e8ff7c65cd783fe7b66d21d33b2aaf6a27fadd540d8a065da02c2cf1",
+    "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/evaluation/reference_centerlines.png": "e013a39dc9e066f416757c0c2396047f15af8a4ccbf49f038fa0cb22e53cd28c"
+  }
+}

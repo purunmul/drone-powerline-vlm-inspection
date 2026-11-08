@@ -1,0 +1,53 @@
+{
+  "candidate_id": "P04",
+  "identity": {
+    "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"description\": \"suspended narrow strand\",\n  \"evidence\": \"red region on the wire\"\n}\n```",
+    "seconds": 0.9832319989800453,
+    "image_tokens": 560,
+    "prompt_tokens": 715,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P04/original_context.jpg",
+        "sha256": "6c34a6581732f5cf97981cf9d2f211754d1f288335e46f53ed8a71eecffc4f3e"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P04/marked_context.jpg",
+        "sha256": "21a9c03a2b1397d049f994ccabd61f3f1f27fa9aaca0fafbb86d6101db748994"
+      }
+    ]
+  },
+  "geometry": {
+    "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+    "seconds": 0.7277624234557152,
+    "image_tokens": 560,
+    "prompt_tokens": 715,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P04/original_context.jpg",
+        "sha256": "6c34a6581732f5cf97981cf9d2f211754d1f288335e46f53ed8a71eecffc4f3e"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P04/marked_context.jpg",
+        "sha256": "21a9c03a2b1397d049f994ccabd61f3f1f27fa9aaca0fafbb86d6101db748994"
+      }
+    ]
+  },
+  "identity_parsed": {
+    "category": "wire_or_cable",
+    "description": "suspended narrow strand",
+    "evidence": "red region on the wire"
+  },
+  "geometry_parsed": {
+    "shape": "mixed",
+    "fit": "tight",
+    "evidence": "short visible evidence"
+  },
+  "parse_errors": [
+    null,
+    null
+  ],
+  "decision": "uncertain",
+  "next_action": "resegment"
+}

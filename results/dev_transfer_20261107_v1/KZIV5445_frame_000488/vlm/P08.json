@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a section of a green, grassy area with some brownish patches, indicating a mix of healthy and possibly dead vegetation.\"\n}\n```",
+  "parsed": {
+    "category": "vegetation",
+    "visibility": "clear",
+    "evidence": "The image shows a section of a green, grassy area with some brownish patches, indicating a mix of healthy and possibly dead vegetation."
+  },
+  "parse_error": null,
+  "seconds": 1.5126466378569603,
+  "image_tokens": 798,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P08_isolated.jpg",
+  "input_sha256": "7819810755e290f7aadcc9db2f6d6342d0fe79f03af00fb9028b60c293ae6da8",
+  "finish_reason": "stop",
+  "candidate_id": "P08",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 110.0,
+  "mask_area_original_pixels": 118475
+}

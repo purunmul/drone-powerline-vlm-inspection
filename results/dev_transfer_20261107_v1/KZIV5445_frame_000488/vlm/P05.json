@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, metallic object that appears to be a wire or cable.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "The image shows a long, thin, metallic object that appears to be a wire or cable."
+  },
+  "parse_error": null,
+  "seconds": 1.195537120103836,
+  "image_tokens": 252,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P05_isolated.jpg",
+  "input_sha256": "78658496d5cd783719da7a1293246203be1c3da56dc992847667f040163df701",
+  "finish_reason": "stop",
+  "candidate_id": "P05",
+  "decision": "keep",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.393799781799316,
+  "mask_area_original_pixels": 3875
+}

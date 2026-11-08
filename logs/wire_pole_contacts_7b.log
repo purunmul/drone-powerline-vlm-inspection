@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/work/123-0125/pipeline/run_wire_contacts_v1.py", line 13, in <module>
+    from evaluate_first_image_v1 import metrics, readmask
+  File "/home/work/123-0125/pipeline/evaluate_first_image_v1.py", line 7, in <module>
+    from skimage.morphology import skeletonize
+ModuleNotFoundError: No module named 'skimage'
+VLM_EXIT=1

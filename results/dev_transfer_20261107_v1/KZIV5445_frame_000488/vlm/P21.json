@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a wire or cable running diagonally across the frame, with some parts of it appearing to be broken or damaged.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "The image shows a wire or cable running diagonally across the frame, with some parts of it appearing to be broken or damaged."
+  },
+  "parse_error": null,
+  "seconds": 1.39656300842762,
+  "image_tokens": 986,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P21_isolated.jpg",
+  "input_sha256": "967b96b3373f7330c6b2a3daa897529fabb770045536bfecc69b2d06424d58cc",
+  "finish_reason": "stop",
+  "candidate_id": "P21",
+  "decision": "uncertain",
+  "decision_proposal": "uncertain",
+  "control_gate_pass": true,
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 24.393798828125,
+  "mask_area_original_pixels": 48548
+}

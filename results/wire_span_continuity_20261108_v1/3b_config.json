@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "dtype": "float16",
+    "gpu_memory_utilization": 0.65,
+    "max_model_len": 2048,
+    "max_num_batched_tokens": 2048,
+    "max_num_seqs": 2,
+    "enforce_eager": true,
+    "limit_mm_per_prompt": {
+      "image": 1,
+      "video": 0
+    },
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 250880
+    },
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3"
+  },
+  "sampling": {
+    "temperature": 0,
+    "max_tokens": 14
+  },
+  "prompts": {
+    "pole": "The two panels show the same place. Inspect only the object enclosed by the cyan rectangle in the right panel. Use the left panel to see the original. Answer NO if there is no cyan rectangle or it encloses a fence post, lamp or building. Answer YES only if it identifies an overhead electrical utility pole. If ambiguous answer UNSURE. Reply with one word.",
+    "gap": "The two panels show the same place. In the right panel the two cyan rings mark ends of two short candidate fragments. In the unmarked left panel, check whether the evidence supports joining exactly those two endpoints along the same overhead electrical wire. Answer YES only if supported. Answer NO if there are no two rings or they are different wires or background. Answer UNSURE if the connection cannot be judged. Reply with one word."
+  }
+}

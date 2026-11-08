@@ -1,0 +1,775 @@
+{
+  "status": "REVIEW_COMPLETE",
+  "candidate_count": 13,
+  "counts": {
+    "uncertain": 4,
+    "reject": 9
+  },
+  "valid_pair_count": 13,
+  "model_load_seconds": 11.512745909392834,
+  "candidate_inference_seconds_total": 22.55193007737398,
+  "ground_truth_used": false,
+  "accuracy_evaluated": false,
+  "source_masks_unchanged": true,
+  "baseline_counts": {
+    "keep": 13
+  },
+  "changes": [
+    {
+      "id": "P01",
+      "v1": "keep",
+      "v2": "uncertain"
+    },
+    {
+      "id": "P02",
+      "v1": "keep",
+      "v2": "reject"
+    },
+    {
+      "id": "P03",
+      "v1": "keep",
+      "v2": "uncertain"
+    },
+    {
+      "id": "P04",
+      "v1": "keep",
+      "v2": "uncertain"
+    },
+    {
+      "id": "P05",
+      "v1": "keep",
+      "v2": "uncertain"
+    },
+    {
+      "id": "P06",
+      "v1": "keep",
+      "v2": "reject"
+    },
+    {
+      "id": "P07",
+      "v1": "keep",
+      "v2": "reject"
+    },
+    {
+      "id": "P08",
+      "v1": "keep",
+      "v2": "reject"
+    },
+    {
+      "id": "P09",
+      "v1": "keep",
+      "v2": "reject"
+    },
+    {
+      "id": "P10",
+      "v1": "keep",
+      "v2": "reject"
+    },
+    {
+      "id": "P11",
+      "v1": "keep",
+      "v2": "reject"
+    },
+    {
+      "id": "P12",
+      "v1": "keep",
+      "v2": "reject"
+    },
+    {
+      "id": "P13",
+      "v1": "keep",
+      "v2": "reject"
+    }
+  ],
+  "results": [
+    {
+      "candidate_id": "P01",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"description\": \"suspended narrow strand\",\n  \"evidence\": \"red region covers a suspended narrow strand\"\n}\n```",
+        "seconds": 1.0806653313338757,
+        "image_tokens": 992,
+        "prompt_tokens": 1147,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P01/original_context.jpg",
+            "sha256": "f26c6452722403ea6e529a6b5660a3e1beff718d3c9d112867e8db9ecb475a75"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P01/marked_context.jpg",
+            "sha256": "c6f07f1c766ecc7a364ee09f471642439283d8a793f77fdb65d4d8eff9c06dc7"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7452033795416355,
+        "image_tokens": 992,
+        "prompt_tokens": 1147,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P01/original_context.jpg",
+            "sha256": "f26c6452722403ea6e529a6b5660a3e1beff718d3c9d112867e8db9ecb475a75"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P01/marked_context.jpg",
+            "sha256": "c6f07f1c766ecc7a364ee09f471642439283d8a793f77fdb65d4d8eff9c06dc7"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "wire_or_cable",
+        "description": "suspended narrow strand",
+        "evidence": "red region covers a suspended narrow strand"
+      },
+      "geometry_parsed": {
+        "shape": "mixed",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "uncertain",
+      "next_action": "resegment"
+    },
+    {
+      "candidate_id": "P02",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"specific visible object\",\n  \"evidence\": \"flowers and plants along the road\"\n}\n```",
+        "seconds": 0.9655316658318043,
+        "image_tokens": 936,
+        "prompt_tokens": 1091,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P02/original_context.jpg",
+            "sha256": "58e8c9331512e69bbefab14c2d00e9d0771f46a56fe2d134a9385985e0fc567b"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P02/marked_context.jpg",
+            "sha256": "6942eabeb8241512f70ada550ce3ead64604005f585701a880fd5589ac942cfa"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7405338287353516,
+        "image_tokens": 936,
+        "prompt_tokens": 1091,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P02/original_context.jpg",
+            "sha256": "58e8c9331512e69bbefab14c2d00e9d0771f46a56fe2d134a9385985e0fc567b"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P02/marked_context.jpg",
+            "sha256": "6942eabeb8241512f70ada550ce3ead64604005f585701a880fd5589ac942cfa"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "vegetation",
+        "description": "specific visible object",
+        "evidence": "flowers and plants along the road"
+      },
+      "geometry_parsed": {
+        "shape": "mixed",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "reject",
+      "next_action": "none"
+    },
+    {
+      "candidate_id": "P03",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"description\": \"suspended narrow strand\",\n  \"evidence\": \"red region highlighting a wire\"\n}\n```",
+        "seconds": 1.0109690316021442,
+        "image_tokens": 936,
+        "prompt_tokens": 1091,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P03/original_context.jpg",
+            "sha256": "95fe1c9cc5184036093ed72e3fdcdd40661437bb355c12e5a011cd28fc6d6cd0"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P03/marked_context.jpg",
+            "sha256": "8f121157b34bd5e8fdd1a71059abc80f7d11b9efda2884f6b53aceadfc16b7db"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7335040271282196,
+        "image_tokens": 936,
+        "prompt_tokens": 1091,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P03/original_context.jpg",
+            "sha256": "95fe1c9cc5184036093ed72e3fdcdd40661437bb355c12e5a011cd28fc6d6cd0"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P03/marked_context.jpg",
+            "sha256": "8f121157b34bd5e8fdd1a71059abc80f7d11b9efda2884f6b53aceadfc16b7db"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "wire_or_cable",
+        "description": "suspended narrow strand",
+        "evidence": "red region highlighting a wire"
+      },
+      "geometry_parsed": {
+        "shape": "mixed",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "uncertain",
+      "next_action": "resegment"
+    },
+    {
+      "candidate_id": "P04",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"description\": \"suspended narrow strand\",\n  \"evidence\": \"red region on the wire\"\n}\n```",
+        "seconds": 0.9832319989800453,
+        "image_tokens": 560,
+        "prompt_tokens": 715,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P04/original_context.jpg",
+            "sha256": "6c34a6581732f5cf97981cf9d2f211754d1f288335e46f53ed8a71eecffc4f3e"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P04/marked_context.jpg",
+            "sha256": "21a9c03a2b1397d049f994ccabd61f3f1f27fa9aaca0fafbb86d6101db748994"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7277624234557152,
+        "image_tokens": 560,
+        "prompt_tokens": 715,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P04/original_context.jpg",
+            "sha256": "6c34a6581732f5cf97981cf9d2f211754d1f288335e46f53ed8a71eecffc4f3e"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P04/marked_context.jpg",
+            "sha256": "21a9c03a2b1397d049f994ccabd61f3f1f27fa9aaca0fafbb86d6101db748994"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "wire_or_cable",
+        "description": "suspended narrow strand",
+        "evidence": "red region on the wire"
+      },
+      "geometry_parsed": {
+        "shape": "mixed",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "uncertain",
+      "next_action": "resegment"
+    },
+    {
+      "candidate_id": "P05",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"description\": \"suspended narrow strand\",\n  \"evidence\": \"red region covers the wire\"\n}\n```",
+        "seconds": 1.0197130367159843,
+        "image_tokens": 986,
+        "prompt_tokens": 1141,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P05/original_context.jpg",
+            "sha256": "d82b5993791ee3896d2763d768716d8122c4dce15b3933b999e1a4f3c3e24e15"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P05/marked_context.jpg",
+            "sha256": "dc8fd6f9d1493e0524da1d34ef240899fc257f68d7e2a9ce8bc4ab8f5654bae5"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"The red region closely follows the visible extent of the road and the power lines.\"\n}\n```",
+        "seconds": 1.011708501726389,
+        "image_tokens": 986,
+        "prompt_tokens": 1141,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P05/original_context.jpg",
+            "sha256": "d82b5993791ee3896d2763d768716d8122c4dce15b3933b999e1a4f3c3e24e15"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P05/marked_context.jpg",
+            "sha256": "dc8fd6f9d1493e0524da1d34ef240899fc257f68d7e2a9ce8bc4ab8f5654bae5"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "wire_or_cable",
+        "description": "suspended narrow strand",
+        "evidence": "red region covers the wire"
+      },
+      "geometry_parsed": {
+        "shape": "mixed",
+        "fit": "tight",
+        "evidence": "The red region closely follows the visible extent of the road and the power lines."
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "uncertain",
+      "next_action": "resegment"
+    },
+    {
+      "candidate_id": "P06",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"tree with bare branches\",\n  \"evidence\": \"bare branches and tree trunk\"\n}\n```",
+        "seconds": 0.9744696244597435,
+        "image_tokens": 962,
+        "prompt_tokens": 1117,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P06/original_context.jpg",
+            "sha256": "c00b906961da36ec02e918714fa3fbeb81764abb66a48a7364e3999fedb75b78"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P06/marked_context.jpg",
+            "sha256": "c564ef98b7f584ed1634e7151bc13fbcbcfe1b819e31656d0f517f6dfed4ffd5"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"thin_strand\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7802867032587528,
+        "image_tokens": 962,
+        "prompt_tokens": 1117,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P06/original_context.jpg",
+            "sha256": "c00b906961da36ec02e918714fa3fbeb81764abb66a48a7364e3999fedb75b78"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P06/marked_context.jpg",
+            "sha256": "c564ef98b7f584ed1634e7151bc13fbcbcfe1b819e31656d0f517f6dfed4ffd5"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "vegetation",
+        "description": "tree with bare branches",
+        "evidence": "bare branches and tree trunk"
+      },
+      "geometry_parsed": {
+        "shape": "thin_strand",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "reject",
+      "next_action": "none"
+    },
+    {
+      "candidate_id": "P07",
+      "identity": {
+        "raw": "{\"category\":\"vegetation\", \"description\":\"green plants\", \"evidence\":\"green plants visible under the red region\"}",
+        "seconds": 0.6264971569180489,
+        "image_tokens": 120,
+        "prompt_tokens": 275,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P07/original_context.jpg",
+            "sha256": "e9d7902b34f82dac25b074c973c5654f56b4e0097177650c0a6b944939ef48e3"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P07/marked_context.jpg",
+            "sha256": "39f3fed4353177012f0f0010388fece70c53aa9fd905c71fc569e8b66342bbb8"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"thin_strand\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7726987563073635,
+        "image_tokens": 120,
+        "prompt_tokens": 275,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P07/original_context.jpg",
+            "sha256": "e9d7902b34f82dac25b074c973c5654f56b4e0097177650c0a6b944939ef48e3"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P07/marked_context.jpg",
+            "sha256": "39f3fed4353177012f0f0010388fece70c53aa9fd905c71fc569e8b66342bbb8"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "vegetation",
+        "description": "green plants",
+        "evidence": "green plants visible under the red region"
+      },
+      "geometry_parsed": {
+        "shape": "thin_strand",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "reject",
+      "next_action": "none"
+    },
+    {
+      "candidate_id": "P08",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"specific visible object\",\n  \"evidence\": \"a tree with bare branches\"\n}\n```",
+        "seconds": 0.9601411037147045,
+        "image_tokens": 988,
+        "prompt_tokens": 1143,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P08/original_context.jpg",
+            "sha256": "cd7332336c89803e488be4fc701054ff12a0611c76175599d5987d7bdd49653a"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P08/marked_context.jpg",
+            "sha256": "e3d8b8befa080ada13177a642f6f376140a0f8d377ddfa414735713f1826c322"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7331534326076508,
+        "image_tokens": 988,
+        "prompt_tokens": 1143,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P08/original_context.jpg",
+            "sha256": "cd7332336c89803e488be4fc701054ff12a0611c76175599d5987d7bdd49653a"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P08/marked_context.jpg",
+            "sha256": "e3d8b8befa080ada13177a642f6f376140a0f8d377ddfa414735713f1826c322"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "vegetation",
+        "description": "specific visible object",
+        "evidence": "a tree with bare branches"
+      },
+      "geometry_parsed": {
+        "shape": "mixed",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "reject",
+      "next_action": "none"
+    },
+    {
+      "candidate_id": "P09",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"green leafy plants\",\n  \"evidence\": \"the red region highlights a row of green leafy plants\"\n}\n```",
+        "seconds": 1.0654842890799046,
+        "image_tokens": 682,
+        "prompt_tokens": 837,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P09/original_context.jpg",
+            "sha256": "bda778907fa3388d379e284cf787ad4c9c0890fa558a25a371861e4469d2bcf1"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P09/marked_context.jpg",
+            "sha256": "b7834750220f6a62ffffc6debdf5b3a77e5f4e482c5a02a924b252f12c351cb6"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"thin_strand\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7743944674730301,
+        "image_tokens": 682,
+        "prompt_tokens": 837,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P09/original_context.jpg",
+            "sha256": "bda778907fa3388d379e284cf787ad4c9c0890fa558a25a371861e4469d2bcf1"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P09/marked_context.jpg",
+            "sha256": "b7834750220f6a62ffffc6debdf5b3a77e5f4e482c5a02a924b252f12c351cb6"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "vegetation",
+        "description": "green leafy plants",
+        "evidence": "the red region highlights a row of green leafy plants"
+      },
+      "geometry_parsed": {
+        "shape": "thin_strand",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "reject",
+      "next_action": "none"
+    },
+    {
+      "candidate_id": "P10",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"specific visible object\",\n  \"evidence\": \"orange flowers and green plants\"\n}\n```",
+        "seconds": 0.9635915197432041,
+        "image_tokens": 990,
+        "prompt_tokens": 1145,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P10/original_context.jpg",
+            "sha256": "6590f68576c01f01091f67c159b24f4a41a77e82f4541fe61dde39484d3bcc0a"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P10/marked_context.jpg",
+            "sha256": "f20342ae3e37830afea2673ca73f25626cb5e50b986adbf7d33d0366ca272570"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7383796274662018,
+        "image_tokens": 990,
+        "prompt_tokens": 1145,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P10/original_context.jpg",
+            "sha256": "6590f68576c01f01091f67c159b24f4a41a77e82f4541fe61dde39484d3bcc0a"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P10/marked_context.jpg",
+            "sha256": "f20342ae3e37830afea2673ca73f25626cb5e50b986adbf7d33d0366ca272570"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "vegetation",
+        "description": "specific visible object",
+        "evidence": "orange flowers and green plants"
+      },
+      "geometry_parsed": {
+        "shape": "mixed",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "reject",
+      "next_action": "none"
+    },
+    {
+      "candidate_id": "P11",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"specific visible object\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.8999230191111565,
+        "image_tokens": 1020,
+        "prompt_tokens": 1175,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/original_context.jpg",
+            "sha256": "6701ef40baf9f3b0b26bb419a915d0fc65f5c5724ea74fdb4e4921a018c14b2e"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/marked_context.jpg",
+            "sha256": "6120a83329bb177cd57054ec938c76803d418195907e0a96c9c7fb9ebacd8f37"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7316657826304436,
+        "image_tokens": 1020,
+        "prompt_tokens": 1175,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/original_context.jpg",
+            "sha256": "6701ef40baf9f3b0b26bb419a915d0fc65f5c5724ea74fdb4e4921a018c14b2e"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/marked_context.jpg",
+            "sha256": "6120a83329bb177cd57054ec938c76803d418195907e0a96c9c7fb9ebacd8f37"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "vegetation",
+        "description": "specific visible object",
+        "evidence": "short visible evidence"
+      },
+      "geometry_parsed": {
+        "shape": "mixed",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "reject",
+      "next_action": "none"
+    },
+    {
+      "candidate_id": "P12",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"building_edge\",\n  \"description\": \"edge of the building\",\n  \"evidence\": \"the red region is highlighted along the edge of the building\"\n}\n```",
+        "seconds": 1.0507289730012417,
+        "image_tokens": 396,
+        "prompt_tokens": 551,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P12/original_context.jpg",
+            "sha256": "3d1633da505ce238113c8e2559d549127704fd5de3b159ac1112c77407dbc8f7"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P12/marked_context.jpg",
+            "sha256": "0b836b7d80878b71366ef0cdc37fd923b76836cbb82f8dccb37aae6d06dc7692"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"thin_strand\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.7697624266147614,
+        "image_tokens": 396,
+        "prompt_tokens": 551,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P12/original_context.jpg",
+            "sha256": "3d1633da505ce238113c8e2559d549127704fd5de3b159ac1112c77407dbc8f7"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P12/marked_context.jpg",
+            "sha256": "0b836b7d80878b71366ef0cdc37fd923b76836cbb82f8dccb37aae6d06dc7692"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "building_edge",
+        "description": "edge of the building",
+        "evidence": "the red region is highlighted along the edge of the building"
+      },
+      "geometry_parsed": {
+        "shape": "thin_strand",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "reject",
+      "next_action": "none"
+    },
+    {
+      "candidate_id": "P13",
+      "identity": {
+        "raw": "```json\n{\n  \"category\": \"road_or_ground\",\n  \"description\": \"concrete surface\",\n  \"evidence\": \"the car is parked on a concrete surface\"\n}\n```",
+        "seconds": 0.9656654559075832,
+        "image_tokens": 374,
+        "prompt_tokens": 529,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P13/original_context.jpg",
+            "sha256": "4b685b033a3900a82cc7436a5cc61910dfc3dd7636bb1496fbc6e737125d273f"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P13/marked_context.jpg",
+            "sha256": "2a96f955d3feac40dc7cb1139f85a997c2dc59027a397635b3bfd150b4d72abe"
+          }
+        ]
+      },
+      "geometry": {
+        "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+        "seconds": 0.726264514029026,
+        "image_tokens": 374,
+        "prompt_tokens": 529,
+        "finish_reason": "stop",
+        "inputs": [
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P13/original_context.jpg",
+            "sha256": "4b685b033a3900a82cc7436a5cc61910dfc3dd7636bb1496fbc6e737125d273f"
+          },
+          {
+            "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P13/marked_context.jpg",
+            "sha256": "2a96f955d3feac40dc7cb1139f85a997c2dc59027a397635b3bfd150b4d72abe"
+          }
+        ]
+      },
+      "identity_parsed": {
+        "category": "road_or_ground",
+        "description": "concrete surface",
+        "evidence": "the car is parked on a concrete surface"
+      },
+      "geometry_parsed": {
+        "shape": "mixed",
+        "fit": "tight",
+        "evidence": "short visible evidence"
+      },
+      "parse_errors": [
+        null,
+        null
+      ],
+      "decision": "reject",
+      "next_action": "none"
+    }
+  ]
+}

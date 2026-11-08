@@ -1,0 +1,55 @@
+{
+  "status": "VERIFIED",
+  "versions": [
+    {
+      "version": 1,
+      "counts": {
+        "keep": 13
+      },
+      "seconds": 33.58947332948446,
+      "model_load_seconds": 1354.3168630339205,
+      "empty_control_pass": null
+    },
+    {
+      "version": 2,
+      "counts": {
+        "uncertain": 4,
+        "reject": 9
+      },
+      "seconds": 22.55193007737398,
+      "model_load_seconds": 11.512745909392834,
+      "empty_control_pass": null
+    },
+    {
+      "version": 3,
+      "counts": {
+        "uncertain": 2,
+        "reject": 8,
+        "keep": 3
+      },
+      "seconds": 13.885830543935299,
+      "model_load_seconds": 12.188053764402866,
+      "empty_control_pass": false
+    },
+    {
+      "version": 4,
+      "counts": {
+        "uncertain": 3,
+        "reject": 5,
+        "keep": 5
+      },
+      "seconds": 14.043618462979794,
+      "model_load_seconds": 12.286135666072369,
+      "empty_control_pass": true
+    }
+  ],
+  "ground_truth_used": false,
+  "accuracy_evaluated": false,
+  "recommended_prototype": "v4 with manual review before finalization",
+  "notes": [
+    "v1/v2/v3/v4 are exploratory iterations on one development image",
+    "Multiple changes were made; no single-change causal effect or held-out performance claimed",
+    "v3 failed the empty-target control and is not adopted",
+    "v4 control pass is necessary but not sufficient for accuracy"
+  ]
+}

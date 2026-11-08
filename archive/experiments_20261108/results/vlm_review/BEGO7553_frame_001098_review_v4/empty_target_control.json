@@ -1,0 +1,14 @@
+{
+  "raw": "```json\n{\n  \"category\": \"unclear\",\n  \"visibility\": \"unclear\",\n  \"evidence\": \"The image contains only selected foreground pixels in their original colors on a uniform gray background. There is no clear object visible.\"\n}\n```",
+  "parsed": {
+    "category": "unclear",
+    "visibility": "unclear",
+    "evidence": "The image contains only selected foreground pixels in their original colors on a uniform gray background. There is no clear object visible."
+  },
+  "parse_error": null,
+  "seconds": 3.9967357367277145,
+  "image_tokens": 187,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/empty_target_control.jpg",
+  "input_sha256": "43e9fc810a876d19c0066f4b5caf806e26b335cf19616321960359661243bd7d",
+  "finish_reason": "stop"
+}

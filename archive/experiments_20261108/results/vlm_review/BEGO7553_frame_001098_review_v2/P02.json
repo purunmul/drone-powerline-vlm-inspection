@@ -1,0 +1,53 @@
+{
+  "candidate_id": "P02",
+  "identity": {
+    "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"specific visible object\",\n  \"evidence\": \"flowers and plants along the road\"\n}\n```",
+    "seconds": 0.9655316658318043,
+    "image_tokens": 936,
+    "prompt_tokens": 1091,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P02/original_context.jpg",
+        "sha256": "58e8c9331512e69bbefab14c2d00e9d0771f46a56fe2d134a9385985e0fc567b"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P02/marked_context.jpg",
+        "sha256": "6942eabeb8241512f70ada550ce3ead64604005f585701a880fd5589ac942cfa"
+      }
+    ]
+  },
+  "geometry": {
+    "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+    "seconds": 0.7405338287353516,
+    "image_tokens": 936,
+    "prompt_tokens": 1091,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P02/original_context.jpg",
+        "sha256": "58e8c9331512e69bbefab14c2d00e9d0771f46a56fe2d134a9385985e0fc567b"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P02/marked_context.jpg",
+        "sha256": "6942eabeb8241512f70ada550ce3ead64604005f585701a880fd5589ac942cfa"
+      }
+    ]
+  },
+  "identity_parsed": {
+    "category": "vegetation",
+    "description": "specific visible object",
+    "evidence": "flowers and plants along the road"
+  },
+  "geometry_parsed": {
+    "shape": "mixed",
+    "fit": "tight",
+    "evidence": "short visible evidence"
+  },
+  "parse_errors": [
+    null,
+    null
+  ],
+  "decision": "reject",
+  "next_action": "none"
+}

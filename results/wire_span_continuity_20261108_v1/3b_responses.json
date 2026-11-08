@@ -1,0 +1,322 @@
+[
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "P01",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_P01.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "P02",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_P02.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "P03",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_P03.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "P04",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_P04.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "P05",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_P05.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "G001",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_G001.jpg",
+    "raw": "SURE",
+    "label": null
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "G002",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_G002.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "G003",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_G003.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_pole",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_CTRL_pole.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_gap",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/BEGO7553_frame_001098_CTRL_gap.jpg",
+    "raw": "SURE",
+    "label": null
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "P01",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_P01.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "P02",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_P02.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "P03",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_P03.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "P04",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_P04.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "P05",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_P05.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "P06",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_P06.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "P07",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_P07.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "P08",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_P08.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "G001",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_G001.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "G002",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_G002.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "G003",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_G003.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "G004",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_G004.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "G005",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_G005.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "G007",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_G007.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "G011",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_G011.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "G012",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_G012.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_pole",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_CTRL_pole.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_gap",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/PUYL5573_frame_000165_CTRL_gap.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "P01",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_P01.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "P02",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_P02.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "G001",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_G001.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "G002",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_G002.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "G003",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_G003.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "G004",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_G004.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "G006",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_G006.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "G015",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_G015.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "G016",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_G016.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "G018",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_G018.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_pole",
+    "kind": "pole",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_CTRL_pole.jpg",
+    "raw": "YES",
+    "label": "YES"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_gap",
+    "kind": "gap",
+    "path": "results/wire_span_continuity_20261108_v1/review_inputs/KZIV5445_frame_000488_CTRL_gap.jpg",
+    "raw": "YES",
+    "label": "YES"
+  }
+]

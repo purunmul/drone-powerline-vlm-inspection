@@ -1,0 +1,53 @@
+{
+  "candidate_id": "P06",
+  "identity": {
+    "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"tree with bare branches\",\n  \"evidence\": \"bare branches and tree trunk\"\n}\n```",
+    "seconds": 0.9744696244597435,
+    "image_tokens": 962,
+    "prompt_tokens": 1117,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P06/original_context.jpg",
+        "sha256": "c00b906961da36ec02e918714fa3fbeb81764abb66a48a7364e3999fedb75b78"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P06/marked_context.jpg",
+        "sha256": "c564ef98b7f584ed1634e7151bc13fbcbcfe1b819e31656d0f517f6dfed4ffd5"
+      }
+    ]
+  },
+  "geometry": {
+    "raw": "```json\n{\n  \"shape\": \"thin_strand\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+    "seconds": 0.7802867032587528,
+    "image_tokens": 962,
+    "prompt_tokens": 1117,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P06/original_context.jpg",
+        "sha256": "c00b906961da36ec02e918714fa3fbeb81764abb66a48a7364e3999fedb75b78"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P06/marked_context.jpg",
+        "sha256": "c564ef98b7f584ed1634e7151bc13fbcbcfe1b819e31656d0f517f6dfed4ffd5"
+      }
+    ]
+  },
+  "identity_parsed": {
+    "category": "vegetation",
+    "description": "tree with bare branches",
+    "evidence": "bare branches and tree trunk"
+  },
+  "geometry_parsed": {
+    "shape": "thin_strand",
+    "fit": "tight",
+    "evidence": "short visible evidence"
+  },
+  "parse_errors": [
+    null,
+    null
+  ],
+  "decision": "reject",
+  "next_action": "none"
+}

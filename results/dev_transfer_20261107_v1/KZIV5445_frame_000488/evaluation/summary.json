@@ -1,0 +1,439 @@
+{
+  "image": "KZIV5445_frame_000488",
+  "status": "DEVELOPMENT_TRANSFER_EVALUATED",
+  "reference_fragments": 21,
+  "reference_union_pixels": 24711,
+  "border_points_clipped": 10,
+  "raw_candidate_count": 21,
+  "organized_candidate_count": 21,
+  "near_duplicate_count": 0,
+  "organized_union_equals_raw": true,
+  "raw_union_pixels_removed_by_duplicate_filter": 0,
+  "whole_image_candidates": 1,
+  "vlm_counts": {
+    "keep": 10,
+    "reject": 8,
+    "uncertain": 3
+  },
+  "conservative_counts": {
+    "keep": 10,
+    "uncertain": 11
+  },
+  "empty_control_pass": true,
+  "source_masks_unchanged": true,
+  "conditions": [
+    {
+      "condition": "A_all_candidates",
+      "candidate_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "graph_path_count": 7335,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.2725123576187406,
+          "centerline_recall": 0.428392213993768,
+          "centerline_f1": 0.3331185925992049,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 10144,
+          "covered_reference_pixels": 10586,
+          "image": "KZIV5445_frame_000488",
+          "condition": "A_all_candidates",
+          "mask_pixels": 633871
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.3118955512572534,
+          "centerline_recall": 0.52600056654931,
+          "centerline_f1": 0.3915932612147486,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 11610,
+          "covered_reference_pixels": 12998,
+          "image": "KZIV5445_frame_000488",
+          "condition": "A_all_candidates",
+          "mask_pixels": 633871
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.3680689877498388,
+          "centerline_recall": 0.6478491360123022,
+          "centerline_f1": 0.469433845364659,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 13701,
+          "covered_reference_pixels": 16009,
+          "image": "KZIV5445_frame_000488",
+          "condition": "A_all_candidates",
+          "mask_pixels": 633871
+        }
+      ]
+    },
+    {
+      "condition": "B_vlm_keep_only",
+      "candidate_ids": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P10",
+        "P12",
+        "P13",
+        "P17",
+        "P19"
+      ],
+      "graph_path_count": 1174,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.6066764850270004,
+          "centerline_recall": 0.2720246044271782,
+          "centerline_f1": 0.37562473254073847,
+          "pred_centerline_pixels": 10185,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 6179,
+          "covered_reference_pixels": 6722,
+          "image": "KZIV5445_frame_000488",
+          "condition": "B_vlm_keep_only",
+          "mask_pixels": 84538
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.6458517427589593,
+          "centerline_recall": 0.31289709036461494,
+          "centerline_f1": 0.4215601086215813,
+          "pred_centerline_pixels": 10185,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 6578,
+          "covered_reference_pixels": 7732,
+          "image": "KZIV5445_frame_000488",
+          "condition": "B_vlm_keep_only",
+          "mask_pixels": 84538
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.6957290132547864,
+          "centerline_recall": 0.3644935453846465,
+          "centerline_f1": 0.47836887189728405,
+          "pred_centerline_pixels": 10185,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 7086,
+          "covered_reference_pixels": 9007,
+          "image": "KZIV5445_frame_000488",
+          "condition": "B_vlm_keep_only",
+          "mask_pixels": 84538
+        }
+      ]
+    },
+    {
+      "condition": "C_remove_vehicle_only",
+      "candidate_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "graph_path_count": 7335,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.2725123576187406,
+          "centerline_recall": 0.428392213993768,
+          "centerline_f1": 0.3331185925992049,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 10144,
+          "covered_reference_pixels": 10586,
+          "image": "KZIV5445_frame_000488",
+          "condition": "C_remove_vehicle_only",
+          "mask_pixels": 633871
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.3118955512572534,
+          "centerline_recall": 0.52600056654931,
+          "centerline_f1": 0.3915932612147486,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 11610,
+          "covered_reference_pixels": 12998,
+          "image": "KZIV5445_frame_000488",
+          "condition": "C_remove_vehicle_only",
+          "mask_pixels": 633871
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.3680689877498388,
+          "centerline_recall": 0.6478491360123022,
+          "centerline_f1": 0.469433845364659,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 13701,
+          "covered_reference_pixels": 16009,
+          "image": "KZIV5445_frame_000488",
+          "condition": "C_remove_vehicle_only",
+          "mask_pixels": 633871
+        }
+      ]
+    },
+    {
+      "condition": "Z_raw_tile_union",
+      "candidate_ids": null,
+      "graph_path_count": 7335,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.2725123576187406,
+          "centerline_recall": 0.428392213993768,
+          "centerline_f1": 0.3331185925992049,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 10144,
+          "covered_reference_pixels": 10586,
+          "image": "KZIV5445_frame_000488",
+          "condition": "Z_raw_tile_union",
+          "mask_pixels": 633871
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.3118955512572534,
+          "centerline_recall": 0.52600056654931,
+          "centerline_f1": 0.3915932612147486,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 11610,
+          "covered_reference_pixels": 12998,
+          "image": "KZIV5445_frame_000488",
+          "condition": "Z_raw_tile_union",
+          "mask_pixels": 633871
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.3680689877498388,
+          "centerline_recall": 0.6478491360123022,
+          "centerline_f1": 0.469433845364659,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 13701,
+          "covered_reference_pixels": 16009,
+          "image": "KZIV5445_frame_000488",
+          "condition": "Z_raw_tile_union",
+          "mask_pixels": 633871
+        }
+      ]
+    },
+    {
+      "condition": "W_whole_image",
+      "candidate_ids": null,
+      "graph_path_count": 546,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.04899278786371549,
+          "centerline_recall": 0.008134029379628505,
+          "centerline_f1": 0.013951723379786226,
+          "pred_centerline_pixels": 4021,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 197,
+          "covered_reference_pixels": 201,
+          "image": "KZIV5445_frame_000488",
+          "condition": "W_whole_image",
+          "mask_pixels": 51520
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.09127082815220094,
+          "centerline_recall": 0.01679414026142204,
+          "centerline_f1": 0.02836839934838641,
+          "pred_centerline_pixels": 4021,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 367,
+          "covered_reference_pixels": 415,
+          "image": "KZIV5445_frame_000488",
+          "condition": "W_whole_image",
+          "mask_pixels": 51520
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.19597115145486196,
+          "centerline_recall": 0.04236979482821415,
+          "centerline_f1": 0.0696754595371091,
+          "pred_centerline_pixels": 4021,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 788,
+          "covered_reference_pixels": 1047,
+          "image": "KZIV5445_frame_000488",
+          "condition": "W_whole_image",
+          "mask_pixels": 51520
+        }
+      ]
+    }
+  ],
+  "candidate_diagnostics": [
+    {
+      "id": "P01",
+      "mask_pixels": 11877,
+      "skeleton_pixels": 1390,
+      "skeleton_support_at5": 0.8985611510791367
+    },
+    {
+      "id": "P02",
+      "mask_pixels": 10640,
+      "skeleton_pixels": 930,
+      "skeleton_support_at5": 0.9397849462365592
+    },
+    {
+      "id": "P03",
+      "mask_pixels": 22950,
+      "skeleton_pixels": 3092,
+      "skeleton_support_at5": 0.5863518758085382
+    },
+    {
+      "id": "P04",
+      "mask_pixels": 25033,
+      "skeleton_pixels": 2252,
+      "skeleton_support_at5": 0.9009769094138543
+    },
+    {
+      "id": "P05",
+      "mask_pixels": 3875,
+      "skeleton_pixels": 455,
+      "skeleton_support_at5": 0.9164835164835164
+    },
+    {
+      "id": "P06",
+      "mask_pixels": 12512,
+      "skeleton_pixels": 1825,
+      "skeleton_support_at5": 0.20821917808219179
+    },
+    {
+      "id": "P07",
+      "mask_pixels": 1568,
+      "skeleton_pixels": 94,
+      "skeleton_support_at5": 1.0
+    },
+    {
+      "id": "P08",
+      "mask_pixels": 118475,
+      "skeleton_pixels": 4055,
+      "skeleton_support_at5": 0.0
+    },
+    {
+      "id": "P09",
+      "mask_pixels": 15515,
+      "skeleton_pixels": 2476,
+      "skeleton_support_at5": 0.4079159935379645
+    },
+    {
+      "id": "P10",
+      "mask_pixels": 15156,
+      "skeleton_pixels": 2173,
+      "skeleton_support_at5": 0.40450989415554534
+    },
+    {
+      "id": "P11",
+      "mask_pixels": 6632,
+      "skeleton_pixels": 910,
+      "skeleton_support_at5": 0.7461538461538462
+    },
+    {
+      "id": "P12",
+      "mask_pixels": 16276,
+      "skeleton_pixels": 2292,
+      "skeleton_support_at5": 0.8481675392670157
+    },
+    {
+      "id": "P13",
+      "mask_pixels": 5362,
+      "skeleton_pixels": 767,
+      "skeleton_support_at5": 0.9856584093872229
+    },
+    {
+      "id": "P14",
+      "mask_pixels": 226723,
+      "skeleton_pixels": 3232,
+      "skeleton_support_at5": 0.0
+    },
+    {
+      "id": "P15",
+      "mask_pixels": 110129,
+      "skeleton_pixels": 9714,
+      "skeleton_support_at5": 0.01266213712168005
+    },
+    {
+      "id": "P16",
+      "mask_pixels": 12487,
+      "skeleton_pixels": 702,
+      "skeleton_support_at5": 0.2692307692307692
+    },
+    {
+      "id": "P17",
+      "mask_pixels": 11569,
+      "skeleton_pixels": 1279,
+      "skeleton_support_at5": 0.9241594996090696
+    },
+    {
+      "id": "P18",
+      "mask_pixels": 3875,
+      "skeleton_pixels": 479,
+      "skeleton_support_at5": 1.0
+    },
+    {
+      "id": "P19",
+      "mask_pixels": 7099,
+      "skeleton_pixels": 881,
+      "skeleton_support_at5": 0.8240635641316686
+    },
+    {
+      "id": "P20",
+      "mask_pixels": 25193,
+      "skeleton_pixels": 2331,
+      "skeleton_support_at5": 0.888030888030888
+    },
+    {
+      "id": "P21",
+      "mask_pixels": 48548,
+      "skeleton_pixels": 5007,
+      "skeleton_support_at5": 0.6353105652087078
+    }
+  ]
+}

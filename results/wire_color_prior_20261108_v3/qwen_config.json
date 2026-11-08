@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "max_model_len": 2048,
+    "gpu_memory_utilization": 0.65,
+    "limit_mm_per_prompt": {
+      "image": 1,
+      "video": 0
+    },
+    "max_num_seqs": 2,
+    "max_num_batched_tokens": 2048,
+    "enforce_eager": true,
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 200704
+    },
+    "dtype": "float16"
+  },
+  "options": {
+    "temperature": 0,
+    "max_tokens": 12
+  },
+  "plain": "Compare the two panels. The right panel marks one short path with two cyan circles. Decide whether the path between those markers is an overhead electrical wire. Use the original left panel to check the object. Answer with exactly one word. WIRE means clear overhead wire. BACKGROUND means a clearly different object. UNSURE means the marked path cannot be identified. EMPTY means there are no cyan circles.",
+  "prior": "Use this background information before judging: Korean conductor identification colors include brown, black, gray, blue and green-yellow. They can look lighter, darker or less saturated in a photo, and on bare wire color marking can be at ends. Treat this as a weak hint. Compare the two panels. The right panel marks one short path with two cyan circles. Decide whether the path between those markers is an overhead electrical wire. Use the original left panel to check the object. Answer with exactly one word. WIRE means clear overhead wire. BACKGROUND means a clearly different object. UNSURE means the marked path cannot be identified. EMPTY means there are no cyan circles."
+}

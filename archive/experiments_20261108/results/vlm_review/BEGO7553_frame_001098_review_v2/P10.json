@@ -1,0 +1,53 @@
+{
+  "candidate_id": "P10",
+  "identity": {
+    "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"specific visible object\",\n  \"evidence\": \"orange flowers and green plants\"\n}\n```",
+    "seconds": 0.9635915197432041,
+    "image_tokens": 990,
+    "prompt_tokens": 1145,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P10/original_context.jpg",
+        "sha256": "6590f68576c01f01091f67c159b24f4a41a77e82f4541fe61dde39484d3bcc0a"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P10/marked_context.jpg",
+        "sha256": "f20342ae3e37830afea2673ca73f25626cb5e50b986adbf7d33d0366ca272570"
+      }
+    ]
+  },
+  "geometry": {
+    "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+    "seconds": 0.7383796274662018,
+    "image_tokens": 990,
+    "prompt_tokens": 1145,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P10/original_context.jpg",
+        "sha256": "6590f68576c01f01091f67c159b24f4a41a77e82f4541fe61dde39484d3bcc0a"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P10/marked_context.jpg",
+        "sha256": "f20342ae3e37830afea2673ca73f25626cb5e50b986adbf7d33d0366ca272570"
+      }
+    ]
+  },
+  "identity_parsed": {
+    "category": "vegetation",
+    "description": "specific visible object",
+    "evidence": "orange flowers and green plants"
+  },
+  "geometry_parsed": {
+    "shape": "mixed",
+    "fit": "tight",
+    "evidence": "short visible evidence"
+  },
+  "parse_errors": [
+    null,
+    null
+  ],
+  "decision": "reject",
+  "next_action": "none"
+}

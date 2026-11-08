@@ -1,0 +1,15 @@
+{
+  "half_width_px": 24,
+  "strip_height_px": 49,
+  "segment_end_margin_px": 24,
+  "input_prompt_run": "results/sam_auto_points_20261108_v1",
+  "original_box_projection": "axis-aligned envelope of intersection of rotated original box with strip",
+  "rgb_sampling": "bilinear from the original tile; black border outside the tile",
+  "mask_sampling": "nearest-neighbor inverse projection into original tile",
+  "selection": "single SAM2.1 mask per prompt; all saved points within 3 original pixels of foreground",
+  "model": "sam2.1_hiera_small",
+  "checkpoint_sha256": "6d1aa6f30de5c92224f8172114de081d104bbd23dd9dc5c58996f0cad5dc4d38",
+  "reference_used": false,
+  "manual_points": false,
+  "vlm_used": false
+}

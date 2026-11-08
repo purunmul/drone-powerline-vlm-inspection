@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A long, thin, metallic object with a pointed tip, resembling a sword or spear, is visible against a uniform gray background.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "A long, thin, metallic object with a pointed tip, resembling a sword or spear, is visible against a uniform gray background."
+  },
+  "parse_error": null,
+  "seconds": 1.3286047913134098,
+  "image_tokens": 99,
+  "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P06_isolated.jpg",
+  "input_sha256": "9355a952fe129b41b5e631e489371516c784c70420bd05356211b513fd5aae29",
+  "finish_reason": "stop",
+  "candidate_id": "P06",
+  "decision": "keep",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.399999618530273,
+  "mask_area_original_pixels": 1650
+}

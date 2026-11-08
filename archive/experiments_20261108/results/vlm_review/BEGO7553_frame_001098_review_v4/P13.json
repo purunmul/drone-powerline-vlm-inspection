@@ -1,0 +1,22 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vehicle\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"white car with black windows and wheels\"\n}\n```",
+  "parsed": {
+    "category": "vehicle",
+    "visibility": "clear",
+    "evidence": "white car with black windows and wheels"
+  },
+  "parse_error": null,
+  "seconds": 0.8582910783588886,
+  "image_tokens": 187,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P13_isolated.jpg",
+  "input_sha256": "bc8d2df9c595eb058008b9ab611268b535f0ec2aed418510d8e0df462bb662d0",
+  "finish_reason": "stop",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "candidate_id": "P13",
+  "decision": "reject",
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 120.0,
+  "mask_area_original_pixels": 40651,
+  "next_action": "none"
+}

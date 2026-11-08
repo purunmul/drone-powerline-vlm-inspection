@@ -1,0 +1,10 @@
+SAM_READY 1.2572670504450798
+/home/work/123-0125/.venv-langsam/lib/python3.12/site-packages/torchvision/transforms/functional.py:154: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  img = torch.from_numpy(pic.transpose((2, 0, 1))).contiguous()
+SAM_CASE PUYL5573_P15 97763 4114 4 0
+SAM_CASE KZIV5445_P03 7137 3546 4 0
+SAM_CASE KZIV5445_P21 25941 3135 4 0
+EVAL_CASE PUYL5573_P15 {'local_before': [0.2732, 0.4954, 0.3522], 'local_after': [0.8594, 0.2168, 0.3462], 'global_strict_keep': [0.6956, 0.1975, 0.3076], 'global_add_original_crop': [0.4694, 0.2818, 0.3522], 'global_add_repaired_crop': [0.7135, 0.2336, 0.3519]}
+EVAL_CASE KZIV5445_P03 {'local_before': [0.8616, 0.5911, 0.7012], 'local_after': [0.9739, 0.4594, 0.6244], 'global_strict_keep': [0.6861, 0.3145, 0.4313], 'global_add_original_crop': [0.699, 0.3578, 0.4733], 'global_add_repaired_crop': [0.7027, 0.3487, 0.4661]}
+EVAL_CASE KZIV5445_P21 {'local_before': [0.732, 0.5818, 0.6484], 'local_after': [0.8892, 0.3003, 0.4489], 'global_strict_keep': [0.6861, 0.3145, 0.4313], 'global_add_original_crop': [0.693, 0.3554, 0.4699], 'global_add_repaired_crop': [0.6967, 0.328, 0.446]}
+MIXED_REPAIR_DIAGNOSTIC_COMPLETE

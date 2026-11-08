@@ -1,0 +1,22 @@
+{
+  "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A vertical pole with a dark color is visible against a uniform gray background.\"\n}\n```",
+  "parsed": {
+    "category": "pole",
+    "visibility": "clear",
+    "evidence": "A vertical pole with a dark color is visible against a uniform gray background."
+  },
+  "parse_error": null,
+  "seconds": 1.0537182837724686,
+  "image_tokens": 672,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P02_isolated.jpg",
+  "input_sha256": "3926bd2b7ff65c9f955a5ab4dea620e2976ce1aff069aa0b9ba8f7e0be15a60d",
+  "finish_reason": "stop",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "candidate_id": "P02",
+  "decision": "reject",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.0,
+  "mask_area_original_pixels": 7916,
+  "next_action": "none"
+}

@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"unclear\",\n  \"visibility\": \"unclear\",\n  \"evidence\": \"A thin, light-colored line or object is present on a uniform gray background.\"\n}\n```",
+  "parsed": {
+    "category": "unclear",
+    "visibility": "unclear",
+    "evidence": "A thin, light-colored line or object is present on a uniform gray background."
+  },
+  "parse_error": null,
+  "seconds": 1.0823469422757626,
+  "image_tokens": 99,
+  "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P04_isolated.jpg",
+  "input_sha256": "2c11408851b610a6afe7241872b73b94c9e3853d4ef7eb514fa16a364bfb53c0",
+  "finish_reason": "stop",
+  "candidate_id": "P04",
+  "decision": "uncertain",
+  "decision_proposal": "uncertain",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 12.787599563598633,
+  "mask_area_original_pixels": 2699
+}

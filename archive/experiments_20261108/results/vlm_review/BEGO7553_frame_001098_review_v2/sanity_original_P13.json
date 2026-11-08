@@ -1,0 +1,13 @@
+{
+  "raw": "The main object in the photograph is a white Range Rover parked on a paved surface.",
+  "seconds": 3.6501150652766228,
+  "image_tokens": 187,
+  "prompt_tokens": 228,
+  "finish_reason": "stop",
+  "inputs": [
+    {
+      "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P13/original_context.jpg",
+      "sha256": "4b685b033a3900a82cc7436a5cc61910dfc3dd7636bb1496fbc6e737125d273f"
+    }
+  ]
+}

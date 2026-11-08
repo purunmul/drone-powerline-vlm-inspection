@@ -1,0 +1,358 @@
+{
+  "status": "REVIEW_COMPLETE",
+  "counts": {
+    "uncertain": 2,
+    "reject": 8,
+    "keep": 3
+  },
+  "candidate_count": 13,
+  "valid_json_count": 13,
+  "inference_seconds_total": 13.885830543935299,
+  "model_load_seconds": 12.188053764402866,
+  "ground_truth_used": false,
+  "accuracy_evaluated": false,
+  "source_masks_unchanged": true,
+  "empty_control_pass": false,
+  "changes": [
+    {
+      "id": "P01",
+      "v1": "keep",
+      "v2": "uncertain",
+      "v3": "uncertain"
+    },
+    {
+      "id": "P02",
+      "v1": "keep",
+      "v2": "reject",
+      "v3": "reject"
+    },
+    {
+      "id": "P03",
+      "v1": "keep",
+      "v2": "uncertain",
+      "v3": "reject"
+    },
+    {
+      "id": "P04",
+      "v1": "keep",
+      "v2": "uncertain",
+      "v3": "reject"
+    },
+    {
+      "id": "P05",
+      "v1": "keep",
+      "v2": "uncertain",
+      "v3": "reject"
+    },
+    {
+      "id": "P06",
+      "v1": "keep",
+      "v2": "reject",
+      "v3": "reject"
+    },
+    {
+      "id": "P07",
+      "v1": "keep",
+      "v2": "reject",
+      "v3": "keep"
+    },
+    {
+      "id": "P08",
+      "v1": "keep",
+      "v2": "reject",
+      "v3": "reject"
+    },
+    {
+      "id": "P09",
+      "v1": "keep",
+      "v2": "reject",
+      "v3": "keep"
+    },
+    {
+      "id": "P10",
+      "v1": "keep",
+      "v2": "reject",
+      "v3": "reject"
+    },
+    {
+      "id": "P11",
+      "v1": "keep",
+      "v2": "reject",
+      "v3": "uncertain"
+    },
+    {
+      "id": "P12",
+      "v1": "keep",
+      "v2": "reject",
+      "v3": "keep"
+    },
+    {
+      "id": "P13",
+      "v1": "keep",
+      "v2": "reject",
+      "v3": "reject"
+    }
+  ],
+  "results": [
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The wires are clearly visible and running parallel to the road.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The wires are clearly visible and running parallel to the road."
+      },
+      "parse_error": null,
+      "seconds": 1.2930863350629807,
+      "image_tokens": 992,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P01_isolated.jpg",
+      "input_sha256": "172e3360a03c9784b6942a9c80182eea5244c17279181eb2a55355839059b2f5",
+      "finish_reason": "stop",
+      "candidate_id": "P01",
+      "decision": "uncertain",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 111.05117797851562,
+      "mask_area_original_pixels": 203464,
+      "next_action": "resegment"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The green poles are part of the road infrastructure.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The green poles are part of the road infrastructure."
+      },
+      "parse_error": null,
+      "seconds": 1.1268972605466843,
+      "image_tokens": 999,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P02_isolated.jpg",
+      "input_sha256": "7f89219c02da3ee978b745c5ba5cb5a171a1be10957cf894b58da845fc2f921b",
+      "finish_reason": "stop",
+      "candidate_id": "P02",
+      "decision": "reject",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.0,
+      "mask_area_original_pixels": 7916,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"There are orange flowers in the bottom right corner of the image.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "There are orange flowers in the bottom right corner of the image."
+      },
+      "parse_error": null,
+      "seconds": 1.0698420330882072,
+      "image_tokens": 975,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P03_isolated.jpg",
+      "input_sha256": "c5961fc3f6fa28a55725857a3b1d029a35a2647ff3a021b2db81c084b5c63c27",
+      "finish_reason": "stop",
+      "candidate_id": "P03",
+      "decision": "reject",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.0,
+      "mask_area_original_pixels": 7546,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vehicle\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict a car's rearview mirror.\"\n}\n```",
+      "parsed": {
+        "category": "vehicle",
+        "visibility": "clear",
+        "evidence": "The isolated pixels depict a car's rearview mirror."
+      },
+      "parse_error": null,
+      "seconds": 0.9597614705562592,
+      "image_tokens": 630,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P04_isolated.jpg",
+      "input_sha256": "bb52d8a5d47c8b67bbd2146aec26e10edb301fa0fa91c78b8e95ad9b6d46c97a",
+      "finish_reason": "stop",
+      "candidate_id": "P04",
+      "decision": "reject",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 9.993799209594727,
+      "mask_area_original_pixels": 6411,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The pole is visible with its top and some of its structure.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "The pole is visible with its top and some of its structure."
+      },
+      "parse_error": null,
+      "seconds": 1.052527081221342,
+      "image_tokens": 986,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P05_isolated.jpg",
+      "input_sha256": "94c58a90c52de1bbade129241285739ff07d4dd095129732bbd66fc21e502852",
+      "finish_reason": "stop",
+      "candidate_id": "P05",
+      "decision": "reject",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 204.1767578125,
+      "mask_area_original_pixels": 334637,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vehicle\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict a white van with a visible license plate.\"\n}\n```",
+      "parsed": {
+        "category": "vehicle",
+        "visibility": "clear",
+        "evidence": "The isolated pixels depict a white van with a visible license plate."
+      },
+      "parse_error": null,
+      "seconds": 1.055738389492035,
+      "image_tokens": 1008,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P06_isolated.jpg",
+      "input_sha256": "cd82881319c970b2bd8be5acc13267e041bcef0a6be91f102dfaab81c492759d",
+      "finish_reason": "stop",
+      "candidate_id": "P06",
+      "decision": "reject",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.0,
+      "mask_area_original_pixels": 5304,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict a long, thin object with a metallic sheen.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The isolated pixels depict a long, thin object with a metallic sheen."
+      },
+      "parse_error": null,
+      "seconds": 1.0927717462182045,
+      "image_tokens": 150,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P07_isolated.jpg",
+      "input_sha256": "d5a02f6c3020742c6ed66aceca06e5372dbbaf173e894f85954f5c7b4aaf69a5",
+      "finish_reason": "stop",
+      "candidate_id": "P07",
+      "decision": "keep",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 10.0,
+      "mask_area_original_pixels": 2175,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vehicle\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The white car has a visible license plate.\"\n}\n```",
+      "parsed": {
+        "category": "vehicle",
+        "visibility": "clear",
+        "evidence": "The white car has a visible license plate."
+      },
+      "parse_error": null,
+      "seconds": 0.9653983004391193,
+      "image_tokens": 949,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P08_isolated.jpg",
+      "input_sha256": "b21d6b97b9414c6bca3d142a1582e102cf23a06dc7799d7f18a80857a8b53b81",
+      "finish_reason": "stop",
+      "candidate_id": "P08",
+      "decision": "reject",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 14.0,
+      "mask_area_original_pixels": 13637,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict a long, thin, metallic object with a pointed end, resembling a fishing rod.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The isolated pixels depict a long, thin, metallic object with a pointed end, resembling a fishing rod."
+      },
+      "parse_error": null,
+      "seconds": 1.2816818617284298,
+      "image_tokens": 806,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P09_isolated.jpg",
+      "input_sha256": "7cb7c16532573d188ac1bc646e796ae1b320d08b6239e6e63223d800eb85c786",
+      "finish_reason": "stop",
+      "candidate_id": "P09",
+      "decision": "keep",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 9.993799209594727,
+      "mask_area_original_pixels": 5467,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vehicle\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict the rear part of a white car.\"\n}\n```",
+      "parsed": {
+        "category": "vehicle",
+        "visibility": "clear",
+        "evidence": "The isolated pixels depict the rear part of a white car."
+      },
+      "parse_error": null,
+      "seconds": 1.0263828225433826,
+      "image_tokens": 990,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P10_isolated.jpg",
+      "input_sha256": "d57d4e6d470e68ee0c1514fc66313ba1b5ecadc68e9e00152bb0cc177e085db0",
+      "finish_reason": "stop",
+      "candidate_id": "P10",
+      "decision": "reject",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 67.5318374633789,
+      "mask_area_original_pixels": 86549,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The wires are running parallel to each other.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The wires are running parallel to each other."
+      },
+      "parse_error": null,
+      "seconds": 1.0188961178064346,
+      "image_tokens": 986,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P11_isolated.jpg",
+      "input_sha256": "588952958ea77279b1d13290c4b49a04340c411aaf1a3d186e0ee6b6026d11ba",
+      "finish_reason": "stop",
+      "candidate_id": "P11",
+      "decision": "uncertain",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 36.393798828125,
+      "mask_area_original_pixels": 28835,
+      "next_action": "resegment"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict a blue wire or cable.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The isolated pixels depict a blue wire or cable."
+      },
+      "parse_error": null,
+      "seconds": 0.9831716418266296,
+      "image_tokens": 414,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P12_isolated.jpg",
+      "input_sha256": "aec974e317b3a4336489af38ab7688ef1cb21c593bb62eaaa16897c6c440c89a",
+      "finish_reason": "stop",
+      "candidate_id": "P12",
+      "decision": "keep",
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.787599563598633,
+      "mask_area_original_pixels": 4069,
+      "next_action": "none"
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vehicle\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict a white SUV with a sunroof.\"\n}\n```",
+      "parsed": {
+        "category": "vehicle",
+        "visibility": "clear",
+        "evidence": "The isolated pixels depict a white SUV with a sunroof."
+      },
+      "parse_error": null,
+      "seconds": 0.9596754834055901,
+      "image_tokens": 408,
+      "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P13_isolated.jpg",
+      "input_sha256": "c57e8ce6df9e4859ff74384c123d81105e8a9dd436508dcdbe56c8386680df53",
+      "finish_reason": "stop",
+      "candidate_id": "P13",
+      "decision": "reject",
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 120.0,
+      "mask_area_original_pixels": 40651,
+      "next_action": "none"
+    }
+  ]
+}

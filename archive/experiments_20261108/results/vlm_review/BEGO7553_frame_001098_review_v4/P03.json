@@ -1,0 +1,22 @@
+{
+  "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A vertical line of light color against a uniform gray background.\"\n}\n```",
+  "parsed": {
+    "category": "pole",
+    "visibility": "clear",
+    "evidence": "A vertical line of light color against a uniform gray background."
+  },
+  "parse_error": null,
+  "seconds": 0.9925261028110981,
+  "image_tokens": 768,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P03_isolated.jpg",
+  "input_sha256": "952df732d0d82c318b068e023475dc609f0cba568c7c0a62cc7ee80311e93dff",
+  "finish_reason": "stop",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "candidate_id": "P03",
+  "decision": "reject",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.0,
+  "mask_area_original_pixels": 7546,
+  "next_action": "none"
+}

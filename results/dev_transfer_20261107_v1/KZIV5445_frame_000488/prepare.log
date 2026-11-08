@@ -1,0 +1,17 @@
+{
+  "status": "CANDIDATES_PREPARED",
+  "stage": 3,
+  "source_result": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/tiles/result.json",
+  "image": "/home/work/123-0125/data/initial_8/images/KZIV5445_frame_000488.jpg",
+  "image_sha256": "fbaa0cc2d29d0e67510fc1d6ca0936eb254ae728a0639535b4fed4460b934c69",
+  "raw_count": 21,
+  "organized_count": 21,
+  "near_duplicate_count": 0,
+  "duplicate_rule": "mask IoU >= 0.85 for every group member; highest detector-score representative; engineering initial setting",
+  "semantic_rejections": 0,
+  "ground_truth_used": false,
+  "vlm_run": false,
+  "partial_overlaps_may_remain": true,
+  "candidate_ids_are_not_physical_wire_ids": true,
+  "all_raw_predictions_preserved": true
+}

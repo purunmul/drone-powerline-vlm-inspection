@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "max_model_len": 2048,
+    "gpu_memory_utilization": 0.27,
+    "limit_mm_per_prompt": {
+      "image": 1,
+      "video": 0
+    },
+    "max_num_seqs": 4,
+    "max_num_batched_tokens": 2048,
+    "enforce_eager": true,
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 802816
+    },
+    "quantization": "bitsandbytes",
+    "load_format": "bitsandbytes"
+  },
+  "sampling": {
+    "temperature": 0,
+    "max_tokens": 160
+  },
+  "prompt": "Review ONLY candidate {target} in the upper-left TARGET panel of this aerial utility inspection board. The target is the visible pixels on gray OR the region inside the cyan contour. The upper-right and lower panels, when present, give context only. A target header by itself is not a visible selection. If there are no marked or isolated pixels, set target_present false and decision recheck. Power wires are elongated cables and may be faint, curved, parallel, or cross a car, road, pole, building or tree. Use keep when the marked selection follows a recognizable wire. Use background only when the selected shape clearly follows non-wire structures and has no plausible selected wire portion. Use recheck when the selection is unclear, too small, or mixes possible wire with background. A nearby object outside the selection is not evidence. Return one JSON object only: target_id (copy {target}), target_present (true/false), decision (keep/background/recheck), category (wire/mixed/unclear/vehicle/road_or_ground/pole_hardware/building/vegetation/other_background), reason (at most 18 words about the selected shape).",
+  "methods": [
+    "gray",
+    "indexed_context"
+  ],
+  "control_rule": "per photo and method, target_present=false and decision=recheck required for automatic exclusions",
+  "selection_rule": "exclude only valid background decision with present target and explicit background category, under passing control",
+  "reference_used": false,
+  "training": false,
+  "source_checkpoint_unchanged": true,
+  "quantization": "vLLM bitsandbytes on load, 4-bit",
+  "versions": {
+    "vllm": "0.11.0",
+    "bitsandbytes": "0.48.2",
+    "torch": "2.8.0"
+  }
+}

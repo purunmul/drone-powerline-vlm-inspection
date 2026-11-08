@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A long, thin, white pole with a yellow stripe running along its length.\"\n}\n```",
+  "parsed": {
+    "category": "pole",
+    "visibility": "clear",
+    "evidence": "A long, thin, white pole with a yellow stripe running along its length."
+  },
+  "parse_error": null,
+  "seconds": 1.0391960516571999,
+  "image_tokens": 396,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P11_isolated.jpg",
+  "input_sha256": "cd53d2c2945c333494dbf7c6845e0181dbb61a3bda45059434443c5d3d133e71",
+  "finish_reason": "stop",
+  "candidate_id": "P11",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 9.993799209594727,
+  "mask_area_original_pixels": 6632
+}

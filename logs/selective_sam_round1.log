@@ -1,0 +1,8 @@
+SAM_LOADED 1.3063176423311234
+/home/work/123-0125/.venv-langsam/lib/python3.12/site-packages/torchvision/transforms/functional.py:154: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  img = torch.from_numpy(pic.transpose((2, 0, 1))).contiguous()
+P01_R1 AREA 21675 2781 PROMPT_HITS 4 / 4 SCORES [0.8203125, 0.83984375, 0.75]
+P05_R1 AREA 89595 2753 PROMPT_HITS 3 / 4 SCORES [0.8046875, 0.8046875, 0.68359375]
+P10_R1 AREA 71864 6000 PROMPT_HITS 2 / 3 SCORES [0.3046875, 0.3671875, 0.2734375]
+P11_R1 AREA 27472 12173 PROMPT_HITS 3 / 3 SCORES [0.5, 0.546875, 0.470703125]
+SELECTIVE_SAM_COMPLETE 4 SECONDS 0.6400633603334427

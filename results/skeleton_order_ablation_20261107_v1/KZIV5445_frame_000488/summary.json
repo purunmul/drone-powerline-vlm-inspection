@@ -1,0 +1,244 @@
+{
+  "image": "KZIV5445_frame_000488",
+  "candidate_count": 21,
+  "keep_count": 10,
+  "frozen_keep_ids": [
+    "P01",
+    "P02",
+    "P04",
+    "P05",
+    "P06",
+    "P10",
+    "P12",
+    "P13",
+    "P17",
+    "P19"
+  ],
+  "previous_results_reproduced_exactly": true,
+  "new_keep_centerline_is_subset_of_new_all_centerline": true,
+  "exclusion_comparison": [
+    {
+      "method": "union_then_skeleton",
+      "tolerance_pixels": 3,
+      "reference_pixels_lost_after_keep_only": 4152,
+      "reference_pixels_gained_after_keep_only": 288
+    },
+    {
+      "method": "union_then_skeleton",
+      "tolerance_pixels": 5,
+      "reference_pixels_lost_after_keep_only": 5535,
+      "reference_pixels_gained_after_keep_only": 269
+    },
+    {
+      "method": "union_then_skeleton",
+      "tolerance_pixels": 10,
+      "reference_pixels_lost_after_keep_only": 7147,
+      "reference_pixels_gained_after_keep_only": 145
+    },
+    {
+      "method": "skeleton_then_union",
+      "tolerance_pixels": 3,
+      "reference_pixels_lost_after_keep_only": 4328,
+      "reference_pixels_gained_after_keep_only": 0
+    },
+    {
+      "method": "skeleton_then_union",
+      "tolerance_pixels": 5,
+      "reference_pixels_lost_after_keep_only": 5675,
+      "reference_pixels_gained_after_keep_only": 0
+    },
+    {
+      "method": "skeleton_then_union",
+      "tolerance_pixels": 10,
+      "reference_pixels_lost_after_keep_only": 7162,
+      "reference_pixels_gained_after_keep_only": 0
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "A_all_candidates",
+      "method": "union_then_skeleton",
+      "graph_path_count": 7335,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.2725123576187406,
+          "centerline_recall": 0.428392213993768,
+          "centerline_f1": 0.3331185925992049,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 10144,
+          "covered_reference_pixels": 10586,
+          "image": "KZIV5445_frame_000488",
+          "condition": "A_all_candidates",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.3118955512572534,
+          "centerline_recall": 0.52600056654931,
+          "centerline_f1": 0.3915932612147486,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 11610,
+          "covered_reference_pixels": 12998,
+          "image": "KZIV5445_frame_000488",
+          "condition": "A_all_candidates",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.3680689877498388,
+          "centerline_recall": 0.6478491360123022,
+          "centerline_f1": 0.469433845364659,
+          "pred_centerline_pixels": 37224,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 13701,
+          "covered_reference_pixels": 16009,
+          "image": "KZIV5445_frame_000488",
+          "condition": "A_all_candidates",
+          "method": "union_then_skeleton"
+        }
+      ]
+    },
+    {
+      "condition": "A_all_candidates",
+      "method": "skeleton_then_union",
+      "graph_path_count": 22991,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.3361238010954579,
+          "centerline_recall": 0.4491521994253571,
+          "centerline_f1": 0.38450365079566556,
+          "pred_centerline_pixels": 41809,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 14053,
+          "covered_reference_pixels": 11099,
+          "image": "KZIV5445_frame_000488",
+          "condition": "A_all_candidates",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.3761869453945323,
+          "centerline_recall": 0.544130144470074,
+          "centerline_f1": 0.44483506652125004,
+          "pred_centerline_pixels": 41809,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 15728,
+          "covered_reference_pixels": 13446,
+          "image": "KZIV5445_frame_000488",
+          "condition": "A_all_candidates",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.42935731541055755,
+          "centerline_recall": 0.6548905345797418,
+          "centerline_f1": 0.5186674648558602,
+          "pred_centerline_pixels": 41809,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 17951,
+          "covered_reference_pixels": 16183,
+          "image": "KZIV5445_frame_000488",
+          "condition": "A_all_candidates",
+          "method": "skeleton_then_union"
+        }
+      ]
+    },
+    {
+      "condition": "B_vlm_keep_only",
+      "method": "union_then_skeleton",
+      "graph_path_count": 1174,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.6066764850270004,
+          "centerline_recall": 0.2720246044271782,
+          "centerline_f1": 0.37562473254073847,
+          "pred_centerline_pixels": 10185,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 6179,
+          "covered_reference_pixels": 6722,
+          "image": "KZIV5445_frame_000488",
+          "condition": "B_vlm_keep_only",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.6458517427589593,
+          "centerline_recall": 0.31289709036461494,
+          "centerline_f1": 0.4215601086215813,
+          "pred_centerline_pixels": 10185,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 6578,
+          "covered_reference_pixels": 7732,
+          "image": "KZIV5445_frame_000488",
+          "condition": "B_vlm_keep_only",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.6957290132547864,
+          "centerline_recall": 0.3644935453846465,
+          "centerline_f1": 0.47836887189728405,
+          "pred_centerline_pixels": 10185,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 7086,
+          "covered_reference_pixels": 9007,
+          "image": "KZIV5445_frame_000488",
+          "condition": "B_vlm_keep_only",
+          "method": "union_then_skeleton"
+        }
+      ]
+    },
+    {
+      "condition": "B_vlm_keep_only",
+      "method": "skeleton_then_union",
+      "graph_path_count": 7661,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.6431455004205214,
+          "centerline_recall": 0.2740075270122617,
+          "centerline_f1": 0.38429074060316726,
+          "pred_centerline_pixels": 11890,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 7647,
+          "covered_reference_pixels": 6771,
+          "image": "KZIV5445_frame_000488",
+          "condition": "B_vlm_keep_only",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.6861227922624054,
+          "centerline_recall": 0.31447533487111,
+          "centerline_f1": 0.43127942978975764,
+          "pred_centerline_pixels": 11890,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 8158,
+          "covered_reference_pixels": 7771,
+          "image": "KZIV5445_frame_000488",
+          "condition": "B_vlm_keep_only",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.732968881412952,
+          "centerline_recall": 0.3650600946946704,
+          "centerline_f1": 0.4873781932520375,
+          "pred_centerline_pixels": 11890,
+          "reference_union_pixels": 24711,
+          "matched_pred_pixels": 8715,
+          "covered_reference_pixels": 9021,
+          "image": "KZIV5445_frame_000488",
+          "condition": "B_vlm_keep_only",
+          "method": "skeleton_then_union"
+        }
+      ]
+    }
+  ],
+  "processing_seconds_including_io": 14.201200488954782
+}

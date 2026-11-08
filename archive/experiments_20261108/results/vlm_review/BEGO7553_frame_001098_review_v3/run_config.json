@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "max_model_len": 4096,
+    "gpu_memory_utilization": 0.8,
+    "limit_mm_per_prompt": {
+      "image": 1,
+      "video": 0
+    },
+    "max_num_seqs": 1,
+    "max_num_batched_tokens": 4096,
+    "enforce_eager": true,
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 802816
+    }
+  },
+  "prompt": "The LEFT panel is a context photograph. The RIGHT panel contains ONLY the selected object's original pixels; everything else is replaced by solid gray. Identify what the isolated pixels in the RIGHT panel actually depict. Ignore objects visible only on the LEFT. If the right panel is empty or too ambiguous, say unclear. Return one JSON object with three fields: category, visibility, evidence. category must be exactly one of vehicle, road_or_ground, wire_or_cable, pole, building_edge, vegetation, other, unclear. visibility must be clear or unclear. evidence must state a specific visible detail of the RIGHT panel in a short sentence. Do not assume a detector's target class.",
+  "sampling": {
+    "temperature": 0,
+    "max_tokens": 160
+  },
+  "ground_truth_used": false,
+  "versions": {
+    "vllm": "0.11.0",
+    "torch": "2.8.0",
+    "transformers": "4.57.1",
+    "Pillow": "13.0.0",
+    "numpy": "2.2.6"
+  },
+  "broad_mask_rule": "2 * 95th percentile of pixel distance to mask exterior >24 original-image pixels AND mask area >4096; initial engineering flag only, not validated accuracy",
+  "changes_from_v2": [
+    "one paired canvas instead of multiple images",
+    "actual masked foreground on gray",
+    "short neutral prompt without example answer strings",
+    "computed broad-mask flag replaces VLM geometry vote",
+    "one image max_pixels 802816 vs two images max_pixels 401408 each"
+  ],
+  "confounded_changes": true
+}

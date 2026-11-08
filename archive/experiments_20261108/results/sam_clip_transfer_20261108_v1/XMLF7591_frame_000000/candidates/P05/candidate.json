@@ -1,0 +1,31 @@
+{
+  "id": "P05",
+  "representative_raw_id": "C0008",
+  "equivalent_raw_ids": [
+    "C0008"
+  ],
+  "source_tile": "T13",
+  "mask_bounds_original": [
+    1767,
+    1136,
+    1838,
+    2160
+  ],
+  "context_xyxy_original": [
+    1614,
+    983,
+    1991,
+    2160
+  ],
+  "context_origin_xy": [
+    1614,
+    983
+  ],
+  "mask_area_pixels": 63281,
+  "detector_score": 0.38769033551216125,
+  "sam_mask_score": 0.9609375,
+  "original_context": "P05/original_context.jpg",
+  "marked_context": "P05/marked_context.jpg",
+  "mask": "P05/mask_original.png",
+  "semantic_decision": "NOT_REVIEWED"
+}

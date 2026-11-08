@@ -1,0 +1,14 @@
+{
+  "status": "MODEL_LOAD_OK",
+  "scope": "model loading only; no detection accuracy measured",
+  "sam_type": "sam2.1_hiera_small",
+  "grounding_dino": "IDEA-Research/grounding-dino-base",
+  "torch": "2.4.1+cu124",
+  "cuda_runtime": "12.4",
+  "sam_device": "cuda:0",
+  "gdino_device": "cuda:0",
+  "download_and_load_seconds": 199.32605013623834,
+  "gpu_allocated_gib": 1.0445690155029297,
+  "gpu_peak_allocated_gib": 1.0445690155029297,
+  "sam_cuda_extension": "unavailable: cannot import name '_C' from 'sam2' (/home/work/123-0125/.venv-langsam/lib/python3.12/site-packages/sam2/__init__.py)"
+}

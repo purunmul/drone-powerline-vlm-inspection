@@ -1,0 +1,22 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin object with a metallic sheen, resembling a wire or cable.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "The image shows a long, thin object with a metallic sheen, resembling a wire or cable."
+  },
+  "parse_error": null,
+  "seconds": 1.2042978033423424,
+  "image_tokens": 60,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P07_isolated.jpg",
+  "input_sha256": "4b139508ad1f5679234c68713675412029a0e228c430c592a18b6d1465237443",
+  "finish_reason": "stop",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "candidate_id": "P07",
+  "decision": "keep",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 10.0,
+  "mask_area_original_pixels": 2175,
+  "next_action": "none"
+}

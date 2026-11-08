@@ -1,0 +1,31 @@
+{
+  "status": "OUTPUT_AND_INPUT_INTEGRITY_VERIFIED",
+  "count": 13,
+  "counts": {
+    "keep": 13
+  },
+  "input_image_hashes_checked": 39,
+  "inference_seconds_total": 33.58947332948446,
+  "model_load_seconds_including_download": 1354.3168630339205,
+  "model_revisions": {
+    ".cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/refs/main": "66285546d2b821cf421d4f5eb2576359d3770cd3"
+  },
+  "ground_truth_used": false,
+  "accuracy_evaluated": false,
+  "human_visual_observations": [
+    {
+      "candidate_id": "P01",
+      "issue": "road-sized overbroad mask was kept"
+    },
+    {
+      "candidate_id": "P05",
+      "issue": "road-sized overbroad mask was kept"
+    },
+    {
+      "candidate_id": "P13",
+      "issue": "clearly visible car mask was kept"
+    }
+  ],
+  "conclusion": "Execution completed but the initial VLM reviewer failed to filter obvious non-wire or overbroad masks. Do not automatically finalize these masks.",
+  "command": "env -u PYTHONPATH -u PYTHONHOME PYTHONNOUSERSITE=1 HF_HOME=/home/work/123-0125/.cache/huggingface HF_HUB_DISABLE_XET=1 .venv-vlm/bin/python -u review_langsam_candidates_v1.py"
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S01",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S02",
+    "raw": "BACKGROUND",
+    "label": "background"
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S03",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S04",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S05",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S06",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S07",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S08",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL",
+    "raw": "BACKGROUND",
+    "label": "background"
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S01",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S02",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S03",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S04",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S05",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S06",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S07",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S08",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S01",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S02",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S03",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S04",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S05",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S06",
+    "raw": "BACKGROUND",
+    "label": "background"
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S07",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S08",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S01",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S02",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S03",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S04",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S05",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S06",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S07",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S08",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S01",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S02",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S03",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S04",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S05",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S06",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S07",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S08",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S01",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S02",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S03",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S04",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S05",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S06",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S07",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S08",
+    "raw": "WIRE",
+    "label": "wire"
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL",
+    "raw": "WIRE",
+    "label": "wire"
+  }
+]

@@ -1,0 +1,7 @@
+baseline 32.49 48.62 38.92 23.99
+rules 76.47 25.21 37.90 15.92
+3b 76.47 25.21 37.90 15.92
+BEGO7553_frame_001098 {'rules': (0, 1, None, None), '3b': (0, 1, 0, {'pole': 'YES', 'gap': None})}
+PUYL5573_frame_000165 {'rules': (4, 4, None, None), '3b': (4, 4, 0, {'pole': 'YES', 'gap': 'YES'})}
+KZIV5445_frame_000488 {'rules': (7, 1, None, None), '3b': (7, 1, 0, {'pole': 'YES', 'gap': 'YES'})}
+VERIFIED results/wire_span_continuity_20261108_v1_partial.zip SELECTED baseline

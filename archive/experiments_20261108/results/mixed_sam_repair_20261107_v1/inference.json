@@ -1,0 +1,201 @@
+{
+  "cases": [
+    {
+      "image": "PUYL5573_frame_000165",
+      "candidate": "P15",
+      "key": "PUYL5573_P15",
+      "roi_original_xyxy": [
+        1753,
+        1045,
+        2473,
+        1363
+      ],
+      "prompt_box_original_xyxy": [
+        1758,
+        1062,
+        2463,
+        1351
+      ],
+      "positive_original_xy": [
+        [
+          1813,
+          1089
+        ],
+        [
+          1983,
+          1161
+        ],
+        [
+          2173,
+          1237
+        ],
+        [
+          2403,
+          1323
+        ]
+      ],
+      "negative_original_xy": [
+        [
+          1993,
+          1188
+        ],
+        [
+          2113,
+          1110
+        ],
+        [
+          1948,
+          1214
+        ]
+      ],
+      "source_mask_sha256": "ba8c9cd742ed99b6444ea91eca05c426dda485a41b684505d2c5cd395ac460bf",
+      "source_image_sha256": "0a34a5743b2275e03dd30aa3899dd6f9825985e9039e163f6972cc5cc5ae156c",
+      "before_area": 97763,
+      "after_area": 4114,
+      "positive_hits": 4,
+      "negative_hits": 0,
+      "positive_count": 4,
+      "negative_count": 3,
+      "all_prompt_constraints_met": true,
+      "selected_index": 0,
+      "scores": [
+        0.76171875,
+        0.76171875,
+        0.5625
+      ],
+      "inference_seconds": 0.5890203379094601
+    },
+    {
+      "image": "KZIV5445_frame_000488",
+      "candidate": "P03",
+      "key": "KZIV5445_P03",
+      "roi_original_xyxy": [
+        2287,
+        440,
+        2607,
+        900
+      ],
+      "prompt_box_original_xyxy": [
+        2292,
+        445,
+        2602,
+        895
+      ],
+      "positive_original_xy": [
+        [
+          2569,
+          490
+        ],
+        [
+          2498,
+          600
+        ],
+        [
+          2418,
+          720
+        ],
+        [
+          2326,
+          850
+        ]
+      ],
+      "negative_original_xy": [
+        [
+          2397,
+          600
+        ],
+        [
+          2442,
+          775
+        ],
+        [
+          2380,
+          720
+        ]
+      ],
+      "source_mask_sha256": "95268e15886db8b37ada91c23e9dc5c8f92a764d31174ba38b9e0148a25faa91",
+      "source_image_sha256": "fbaa0cc2d29d0e67510fc1d6ca0936eb254ae728a0639535b4fed4460b934c69",
+      "before_area": 7137,
+      "after_area": 3546,
+      "positive_hits": 4,
+      "negative_hits": 0,
+      "positive_count": 4,
+      "negative_count": 3,
+      "all_prompt_constraints_met": true,
+      "selected_index": 0,
+      "scores": [
+        0.75390625,
+        0.62109375,
+        0.2080078125
+      ],
+      "inference_seconds": 0.040999237447977066
+    },
+    {
+      "image": "KZIV5445_frame_000488",
+      "candidate": "P21",
+      "key": "KZIV5445_P21",
+      "roi_original_xyxy": [
+        1463,
+        1326,
+        1863,
+        1825
+      ],
+      "prompt_box_original_xyxy": [
+        1470,
+        1330,
+        1855,
+        1820
+      ],
+      "positive_original_xy": [
+        [
+          1825,
+          1365
+        ],
+        [
+          1748,
+          1465
+        ],
+        [
+          1634,
+          1615
+        ],
+        [
+          1518,
+          1765
+        ]
+      ],
+      "negative_original_xy": [
+        [
+          1658,
+          1615
+        ],
+        [
+          1768,
+          1515
+        ],
+        [
+          1508,
+          1645
+        ]
+      ],
+      "source_mask_sha256": "f70ed3903e738776476d68372e90bc7f05fd715b877c123754a4090a3e09fcc8",
+      "source_image_sha256": "fbaa0cc2d29d0e67510fc1d6ca0936eb254ae728a0639535b4fed4460b934c69",
+      "before_area": 25941,
+      "after_area": 3135,
+      "positive_hits": 4,
+      "negative_hits": 0,
+      "positive_count": 4,
+      "negative_count": 3,
+      "all_prompt_constraints_met": true,
+      "selected_index": 0,
+      "scores": [
+        0.01544189453125,
+        0.01165771484375,
+        0.00885009765625
+      ],
+      "inference_seconds": 0.025838181376457214
+    }
+  ],
+  "model_load_seconds": 1.2572670504450798,
+  "peak_allocated_gib": 0.5417666435241699
+}

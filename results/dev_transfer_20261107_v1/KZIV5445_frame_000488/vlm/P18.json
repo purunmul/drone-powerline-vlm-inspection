@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A long, thin, dark-colored pole with a pointed tip.\"\n}\n```",
+  "parsed": {
+    "category": "pole",
+    "visibility": "clear",
+    "evidence": "A long, thin, dark-colored pole with a pointed tip."
+  },
+  "parse_error": null,
+  "seconds": 0.977048646658659,
+  "image_tokens": 330,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P18_isolated.jpg",
+  "input_sha256": "fe18833e6d71664572942c3079e44dbf966b6b7d8abd4958663efdca97b7f3a0",
+  "finish_reason": "stop",
+  "candidate_id": "P18",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 7.19379997253418,
+  "mask_area_original_pixels": 3875
+}

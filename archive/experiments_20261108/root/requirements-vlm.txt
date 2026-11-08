@@ -1,0 +1,4 @@
+vllm==0.11.0
+transformers==4.57.1
+pillow
+requests

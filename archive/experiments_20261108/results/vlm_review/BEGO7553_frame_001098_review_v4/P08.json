@@ -1,0 +1,22 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a long, thin, metallic wire or cable running horizontally across the image.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "a long, thin, metallic wire or cable running horizontally across the image."
+  },
+  "parse_error": null,
+  "seconds": 1.143710482865572,
+  "image_tokens": 816,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P08_isolated.jpg",
+  "input_sha256": "fc40e4d81a8f362496589414b96a514fdb89bb227f11250b3537aafd4027aeae",
+  "finish_reason": "stop",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "candidate_id": "P08",
+  "decision": "keep",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 14.0,
+  "mask_area_original_pixels": 13637,
+  "next_action": "none"
+}

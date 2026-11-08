@@ -1,0 +1,28 @@
+One or both local paths not provided. Loading from Hugging Face Hub: IDEA-Research/grounding-dino-base
+Predicting 1 masks
+/home/work/123-0125/.venv-langsam/lib/python3.12/site-packages/torchvision/transforms/functional.py:154: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  img = torch.from_numpy(pic.transpose((2, 0, 1))).contiguous()
+Predicted 1 masks
+{
+  "status": "INFERENCE_COMPLETE",
+  "original_size": [
+    3840,
+    2160
+  ],
+  "prompt": "power line.",
+  "candidate_count": 2,
+  "mask_shape": [
+    2,
+    2160,
+    3840
+  ],
+  "model_load_seconds": 3.356888819485903,
+  "inference_seconds": 0.9670774228870869,
+  "gpu_peak_allocated_gib": 2.658250331878662,
+  "detector_resize_config": {
+    "longest_edge": 1333,
+    "shortest_edge": 800
+  },
+  "output_directory": "/home/work/123-0125/results/sam_clip_transfer_20261108_v1/THXP6074_frame_001180/whole",
+  "accuracy_evaluated": false
+}

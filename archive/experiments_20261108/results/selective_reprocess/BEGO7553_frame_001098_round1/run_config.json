@@ -1,0 +1,188 @@
+{
+  "stage": 5,
+  "round": 1,
+  "source_candidates": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/candidates.json",
+  "image": "/home/work/123-0125/data/initial_8/images/BEGO7553_frame_001098.jpg",
+  "image_sha256": "2e86555126152244292d50e1e0af9408ad7f07ee8ce6a70f177123ab68dfd92e",
+  "sam_type": "sam2.1_hiera_small",
+  "checkpoint": ".cache/torch/hub/checkpoints/sam2.1_hiera_small.pt",
+  "checkpoint_sha256": "6d1aa6f30de5c92224f8172114de081d104bbd23dd9dc5c58996f0cad5dc4d38",
+  "prompt_source": "assistant selected points and boxes by inspecting original pixels; no XML or reference labels read",
+  "human_assisted": true,
+  "partial_region_repair": true,
+  "target": "one visible strand segment per parent region, not exhaustive wire recovery",
+  "selection": "highest SAM predicted mask score among three outputs; all alternatives retained",
+  "multimask_output": true,
+  "prompts_original_xy": [
+    {
+      "parent_id": "P01",
+      "crop": [
+        1480,
+        520,
+        1660,
+        1177
+      ],
+      "box": [
+        1525,
+        550,
+        1620,
+        1150
+      ],
+      "positive": [
+        [
+          1541,
+          600
+        ],
+        [
+          1553,
+          700
+        ],
+        [
+          1578,
+          900
+        ],
+        [
+          1602,
+          1100
+        ]
+      ],
+      "negative": [
+        [
+          1500,
+          800
+        ],
+        [
+          1630,
+          900
+        ]
+      ]
+    },
+    {
+      "parent_id": "P05",
+      "crop": [
+        1600,
+        520,
+        1800,
+        1177
+      ],
+      "box": [
+        1635,
+        550,
+        1763,
+        1150
+      ],
+      "positive": [
+        [
+          1655,
+          600
+        ],
+        [
+          1673,
+          700
+        ],
+        [
+          1713,
+          900
+        ],
+        [
+          1743,
+          1100
+        ]
+      ],
+      "negative": [
+        [
+          1620,
+          850
+        ],
+        [
+          1630,
+          1050
+        ]
+      ]
+    },
+    {
+      "parent_id": "P10",
+      "crop": [
+        1860,
+        1136,
+        2080,
+        1800
+      ],
+      "box": [
+        1890,
+        1180,
+        2040,
+        1760
+      ],
+      "positive": [
+        [
+          1919,
+          1250
+        ],
+        [
+          1954,
+          1400
+        ],
+        [
+          2020,
+          1700
+        ]
+      ],
+      "negative": [
+        [
+          1875,
+          1300
+        ],
+        [
+          2065,
+          1450
+        ]
+      ]
+    },
+    {
+      "parent_id": "P11",
+      "crop": [
+        1880,
+        1136,
+        2120,
+        1800
+      ],
+      "box": [
+        1925,
+        1180,
+        2065,
+        1760
+      ],
+      "positive": [
+        [
+          1948,
+          1250
+        ],
+        [
+          1982,
+          1400
+        ],
+        [
+          2044,
+          1700
+        ]
+      ],
+      "negative": [
+        [
+          1895,
+          1350
+        ],
+        [
+          2100,
+          1500
+        ]
+      ]
+    }
+  ],
+  "versions": {
+    "torch": "2.4.1+cu124",
+    "torchvision": "0.19.1+cu124",
+    "numpy": "1.26.4",
+    "Pillow": "11.3.0"
+  }
+}

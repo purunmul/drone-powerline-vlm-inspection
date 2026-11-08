@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a white cable with a blue connector\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "a white cable with a blue connector"
+  },
+  "parse_error": null,
+  "seconds": 0.9136957935988903,
+  "image_tokens": 135,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P16_isolated.jpg",
+  "input_sha256": "547291d0604fd6c6c7f04979240eddc43f878625eefd013a6417e846b3f00266",
+  "finish_reason": "stop",
+  "candidate_id": "P16",
+  "decision": "uncertain",
+  "decision_proposal": "uncertain",
+  "control_gate_pass": true,
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 53.15658950805664,
+  "mask_area_original_pixels": 12487
+}

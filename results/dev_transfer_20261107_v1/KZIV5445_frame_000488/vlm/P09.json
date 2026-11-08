@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a cluster of green, leafy objects, likely plants or trees, against a uniform gray background.\"\n}\n```",
+  "parsed": {
+    "category": "vegetation",
+    "visibility": "clear",
+    "evidence": "The image shows a cluster of green, leafy objects, likely plants or trees, against a uniform gray background."
+  },
+  "parse_error": null,
+  "seconds": 1.2681624069809914,
+  "image_tokens": 975,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P09_isolated.jpg",
+  "input_sha256": "66d431234bd0b47c6622374d9512898fbbe3a8e9e54995098b7f64501c0f9a9c",
+  "finish_reason": "stop",
+  "candidate_id": "P09",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 10.0,
+  "mask_area_original_pixels": 15515
+}

@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, metallic object with a pointed tip, which appears to be a wire or cable.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "The image shows a long, thin, metallic object with a pointed tip, which appears to be a wire or cable."
+  },
+  "parse_error": null,
+  "seconds": 1.3291172310709953,
+  "image_tokens": 192,
+  "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P02_isolated.jpg",
+  "input_sha256": "91cbc31073e8ff3466fd7b0db33691f4b2910d8e3d26b079dd5750e4ec017309",
+  "finish_reason": "stop",
+  "candidate_id": "P02",
+  "decision": "keep",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 7.19379997253418,
+  "mask_area_original_pixels": 2836
+}

@@ -1,0 +1,20 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vehicle\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict the rear part of a white car.\"\n}\n```",
+  "parsed": {
+    "category": "vehicle",
+    "visibility": "clear",
+    "evidence": "The isolated pixels depict the rear part of a white car."
+  },
+  "parse_error": null,
+  "seconds": 1.0263828225433826,
+  "image_tokens": 990,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P10_isolated.jpg",
+  "input_sha256": "d57d4e6d470e68ee0c1514fc66313ba1b5ecadc68e9e00152bb0cc177e085db0",
+  "finish_reason": "stop",
+  "candidate_id": "P10",
+  "decision": "reject",
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 67.5318374633789,
+  "mask_area_original_pixels": 86549,
+  "next_action": "none"
+}

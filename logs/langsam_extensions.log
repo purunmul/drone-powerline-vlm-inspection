@@ -1,0 +1,16 @@
+Using Python 3.12.3 environment at: .venv-langsam
+   Updating https://github.com/facebookresearch/segment-anything-2 (c2ec8e14a185632b0a5d8b161928ceb50197eddc)
+    Updated https://github.com/facebookresearch/segment-anything-2 (c2ec8e14a185632b0a5d8b161928ceb50197eddc)
+Resolved 1 package in 27.37s
+   Building sam-2 @ git+https://github.com/facebookresearch/segment-anything-2@c2ec8e14a185632b0a5d8b161928ceb50197eddc
+      Built sam-2 @ git+https://github.com/facebookresearch/segment-anything-2@c2ec8e14a185632b0a5d8b161928ceb50197eddc
+Prepared 1 package in 2m 26s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 7ms
+ ~ sam-2==1.0 (from git+https://github.com/facebookresearch/segment-anything-2@c2ec8e14a185632b0a5d8b161928ceb50197eddc)
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ImportError: /home/work/123-0125/.venv-langsam/lib/python3.12/site-packages/sam2/_C.so: undefined symbol: _ZN3c106detail23torchInternalAssertFailEPKcS2_jS2_RKSs

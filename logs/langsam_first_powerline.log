@@ -1,0 +1,24 @@
+One or both local paths not provided. Loading from Hugging Face Hub: IDEA-Research/grounding-dino-base
+{
+  "status": "INFERENCE_COMPLETE",
+  "original_size": [
+    3840,
+    2160
+  ],
+  "prompt": "power line.",
+  "candidate_count": 0,
+  "mask_shape": [
+    0,
+    2160,
+    3840
+  ],
+  "model_load_seconds": 5.493280719965696,
+  "inference_seconds": 0.712083738297224,
+  "gpu_peak_allocated_gib": 2.658250331878662,
+  "detector_resize_config": {
+    "longest_edge": 1333,
+    "shortest_edge": 800
+  },
+  "output_directory": "/home/work/123-0125/results/langsam_baseline/BEGO7553_frame_001098_full_v1",
+  "accuracy_evaluated": false
+}

@@ -1,0 +1,123 @@
+{
+  "macro": {
+    "baseline": {
+      "centerline_precision": 0.3248501767374283,
+      "centerline_recall": 0.4861703531322111,
+      "centerline_f1": 0.3892185973067084
+    },
+    "expanded_standard": {
+      "centerline_precision": 0.32254883879997515,
+      "centerline_recall": 0.48985447421863065,
+      "centerline_f1": 0.3883652973363428
+    },
+    "photo_qwen": {
+      "centerline_precision": 0.3248501767374283,
+      "centerline_recall": 0.4861703531322111,
+      "centerline_f1": 0.3892185973067084
+    },
+    "standard_and_photo_qwen": {
+      "centerline_precision": 0.32254883879997515,
+      "centerline_recall": 0.48985447421863065,
+      "centerline_f1": 0.3883652973363428
+    }
+  },
+  "audit": {
+    "BEGO7553_frame_001098": {
+      "photo": {
+        "control": null,
+        "usable": false,
+        "anchors": [],
+        "profiles": []
+      },
+      "standard": {
+        "control": null,
+        "usable": false,
+        "anchors": [],
+        "profiles": []
+      },
+      "mask_area": 746661,
+      "removed_mask_pixels": {
+        "baseline": 0,
+        "expanded_standard": 64153,
+        "photo_qwen": 0,
+        "standard_and_photo_qwen": 64153
+      }
+    },
+    "PUYL5573_frame_000165": {
+      "photo": {
+        "control": null,
+        "usable": false,
+        "anchors": [],
+        "profiles": []
+      },
+      "standard": {
+        "control": null,
+        "usable": false,
+        "anchors": [],
+        "profiles": []
+      },
+      "mask_area": 1629476,
+      "removed_mask_pixels": {
+        "baseline": 0,
+        "expanded_standard": 989966,
+        "photo_qwen": 0,
+        "standard_and_photo_qwen": 989966
+      }
+    },
+    "KZIV5445_frame_000488": {
+      "photo": {
+        "control": null,
+        "usable": false,
+        "anchors": [],
+        "profiles": []
+      },
+      "standard": {
+        "control": null,
+        "usable": false,
+        "anchors": [],
+        "profiles": []
+      },
+      "mask_area": 711494,
+      "removed_mask_pixels": {
+        "baseline": 0,
+        "expanded_standard": 64857,
+        "photo_qwen": 0,
+        "standard_and_photo_qwen": 64857
+      }
+    }
+  },
+  "palette_srgb": {
+    "brown": [
+      111,
+      77,
+      56
+    ],
+    "black": [
+      42,
+      42,
+      42
+    ],
+    "gray": [
+      133,
+      133,
+      133
+    ],
+    "blue": [
+      51,
+      96,
+      153
+    ],
+    "green": [
+      58,
+      123,
+      70
+    ],
+    "yellow": [
+      194,
+      165,
+      63
+    ]
+  },
+  "tolerance": 5,
+  "stage": "first LangSAM masks; no zoom"
+}

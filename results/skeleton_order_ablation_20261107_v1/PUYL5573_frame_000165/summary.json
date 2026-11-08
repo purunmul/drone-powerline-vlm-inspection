@@ -1,0 +1,241 @@
+{
+  "image": "PUYL5573_frame_000165",
+  "candidate_count": 17,
+  "keep_count": 7,
+  "frozen_keep_ids": [
+    "P02",
+    "P03",
+    "P06",
+    "P12",
+    "P13",
+    "P14",
+    "P16"
+  ],
+  "previous_results_reproduced_exactly": true,
+  "new_keep_centerline_is_subset_of_new_all_centerline": true,
+  "exclusion_comparison": [
+    {
+      "method": "union_then_skeleton",
+      "tolerance_pixels": 3,
+      "reference_pixels_lost_after_keep_only": 3851,
+      "reference_pixels_gained_after_keep_only": 1863
+    },
+    {
+      "method": "union_then_skeleton",
+      "tolerance_pixels": 5,
+      "reference_pixels_lost_after_keep_only": 4743,
+      "reference_pixels_gained_after_keep_only": 1777
+    },
+    {
+      "method": "union_then_skeleton",
+      "tolerance_pixels": 10,
+      "reference_pixels_lost_after_keep_only": 6046,
+      "reference_pixels_gained_after_keep_only": 1669
+    },
+    {
+      "method": "skeleton_then_union",
+      "tolerance_pixels": 3,
+      "reference_pixels_lost_after_keep_only": 4013,
+      "reference_pixels_gained_after_keep_only": 0
+    },
+    {
+      "method": "skeleton_then_union",
+      "tolerance_pixels": 5,
+      "reference_pixels_lost_after_keep_only": 4785,
+      "reference_pixels_gained_after_keep_only": 0
+    },
+    {
+      "method": "skeleton_then_union",
+      "tolerance_pixels": 10,
+      "reference_pixels_lost_after_keep_only": 5966,
+      "reference_pixels_gained_after_keep_only": 0
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "A_all_candidates",
+      "method": "union_then_skeleton",
+      "graph_path_count": 8205,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.13446287746581545,
+          "centerline_recall": 0.2620187216739379,
+          "centerline_f1": 0.1777222011948841,
+          "pred_centerline_pixels": 45269,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 6087,
+          "covered_reference_pixels": 6186,
+          "image": "PUYL5573_frame_000165",
+          "condition": "A_all_candidates",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.17583776977622656,
+          "centerline_recall": 0.3229276970646787,
+          "centerline_f1": 0.22769373513559008,
+          "pred_centerline_pixels": 45269,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 7960,
+          "covered_reference_pixels": 7624,
+          "image": "PUYL5573_frame_000165",
+          "condition": "A_all_candidates",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.2588305462899556,
+          "centerline_recall": 0.4193739675547461,
+          "centerline_f1": 0.3201004738427223,
+          "pred_centerline_pixels": 45269,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 11717,
+          "covered_reference_pixels": 9901,
+          "image": "PUYL5573_frame_000165",
+          "condition": "A_all_candidates",
+          "method": "union_then_skeleton"
+        }
+      ]
+    },
+    {
+      "condition": "A_all_candidates",
+      "method": "skeleton_then_union",
+      "graph_path_count": 14456,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.20523211406263261,
+          "centerline_recall": 0.34918886865178533,
+          "centerline_f1": 0.25852113089110607,
+          "pred_centerline_pixels": 47132,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 9673,
+          "covered_reference_pixels": 8244,
+          "image": "PUYL5573_frame_000165",
+          "condition": "A_all_candidates",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.2452686073156242,
+          "centerline_recall": 0.4001440128764454,
+          "centerline_f1": 0.30412409579064154,
+          "pred_centerline_pixels": 47132,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 11560,
+          "covered_reference_pixels": 9447,
+          "image": "PUYL5573_frame_000165",
+          "condition": "A_all_candidates",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.32691165238054826,
+          "centerline_recall": 0.48667880892879833,
+          "centerline_f1": 0.3911082569711117,
+          "pred_centerline_pixels": 47132,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 15408,
+          "covered_reference_pixels": 11490,
+          "image": "PUYL5573_frame_000165",
+          "condition": "A_all_candidates",
+          "method": "skeleton_then_union"
+        }
+      ]
+    },
+    {
+      "condition": "B_vlm_keep_only",
+      "method": "union_then_skeleton",
+      "graph_path_count": 1348,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.6106141920095408,
+          "centerline_recall": 0.17781354568173155,
+          "centerline_f1": 0.2754227669430813,
+          "pred_centerline_pixels": 6708,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 4096,
+          "covered_reference_pixels": 4198,
+          "image": "PUYL5573_frame_000165",
+          "condition": "B_vlm_keep_only",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.6757602862254025,
+          "centerline_recall": 0.19729764073022998,
+          "centerline_f1": 0.30542282718024566,
+          "pred_centerline_pixels": 6708,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 4533,
+          "covered_reference_pixels": 4658,
+          "image": "PUYL5573_frame_000165",
+          "condition": "B_vlm_keep_only",
+          "method": "union_then_skeleton"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.812015503875969,
+          "centerline_recall": 0.23397856749544665,
+          "centerline_f1": 0.363279734715683,
+          "pred_centerline_pixels": 6708,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 5447,
+          "covered_reference_pixels": 5524,
+          "image": "PUYL5573_frame_000165",
+          "condition": "B_vlm_keep_only",
+          "method": "union_then_skeleton"
+        }
+      ]
+    },
+    {
+      "condition": "B_vlm_keep_only",
+      "method": "skeleton_then_union",
+      "graph_path_count": 3843,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.6314312441534145,
+          "centerline_recall": 0.17921131771781948,
+          "centerline_f1": 0.27918500862260515,
+          "pred_centerline_pixels": 7483,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 4725,
+          "covered_reference_pixels": 4231,
+          "image": "PUYL5573_frame_000165",
+          "condition": "B_vlm_keep_only",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.6955766403848723,
+          "centerline_recall": 0.1974670676436952,
+          "centerline_f1": 0.3076075185647241,
+          "pred_centerline_pixels": 7483,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 5205,
+          "covered_reference_pixels": 4662,
+          "image": "PUYL5573_frame_000165",
+          "condition": "B_vlm_keep_only",
+          "method": "skeleton_then_union"
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.8313510624081251,
+          "centerline_recall": 0.23397856749544665,
+          "centerline_f1": 0.3651796124091237,
+          "pred_centerline_pixels": 7483,
+          "reference_union_pixels": 23609,
+          "matched_pred_pixels": 6221,
+          "covered_reference_pixels": 5524,
+          "image": "PUYL5573_frame_000165",
+          "condition": "B_vlm_keep_only",
+          "method": "skeleton_then_union"
+        }
+      ]
+    }
+  ],
+  "processing_seconds_including_io": 19.94128393009305
+}

@@ -1,0 +1,33 @@
+# Python 가상환경
+.venv/
+.venv-*/
+
+# 캐시
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 개인 설정 및 인증정보
+.vscode/
+.env
+.env.*
+*.pem
+*.key
+
+# 대용량 모델 파일
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# 중복 압축파일
+archive/**/*.zip
+results/**/*.zip
+
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+__pycache__/

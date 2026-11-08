@@ -1,0 +1,44 @@
+{
+  "candidate_id": "P11",
+  "raw_response": "```json\n{\n  \"candidate_id\": \"P11\",\n  \"decision\": \"keep\",\n  \"target_type\": \"overhead_wire\",\n  \"mask_quality\": \"follows_wire\",\n  \"reason\": \"The red candidate predominantly follows a visibly supported overhead wire and is usable as a wire mask.\",\n  \"next_action\": \"none\"\n}\n```",
+  "parsed": {
+    "candidate_id": "P11",
+    "decision": "keep",
+    "target_type": "overhead_wire",
+    "mask_quality": "follows_wire",
+    "reason": "The red candidate predominantly follows a visibly supported overhead wire and is usable as a wire mask.",
+    "next_action": "none"
+  },
+  "parse_error": null,
+  "decision": "keep",
+  "inference_seconds": 1.8597599491477013,
+  "input_images": [
+    {
+      "path": "results/vlm_review/BEGO7553_frame_001098_review_v1_final/scene_context.jpg",
+      "size": [
+        672,
+        378
+      ],
+      "sha256": "80630f0735ba0ab78e904525379138d47f9ca7d1b34524593ae4fa0147a4614a"
+    },
+    {
+      "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/original_context.jpg",
+      "size": [
+        416,
+        945
+      ],
+      "sha256": "6701ef40baf9f3b0b26bb419a915d0fc65f5c5724ea74fdb4e4921a018c14b2e"
+    },
+    {
+      "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/marked_context.jpg",
+      "size": [
+        416,
+        945
+      ],
+      "sha256": "6120a83329bb177cd57054ec938c76803d418195907e0a96c9c7fb9ebacd8f37"
+    }
+  ],
+  "prompt_tokens": 1711,
+  "output_tokens": 75,
+  "finish_reason": "stop"
+}

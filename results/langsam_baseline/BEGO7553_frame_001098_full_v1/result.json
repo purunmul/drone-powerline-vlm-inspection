@@ -1,0 +1,43 @@
+{
+  "status": "INFERENCE_COMPLETE",
+  "started_at_utc": "2026-11-06T05:40:54.817336+00:00",
+  "image": "/home/work/123-0125/data/initial_8/images/BEGO7553_frame_001098.jpg",
+  "sha256": "2e86555126152244292d50e1e0af9408ad7f07ee8ce6a70f177123ab68dfd92e",
+  "prompt": "power line.",
+  "box_threshold": 0.3,
+  "text_threshold": 0.25,
+  "sam_type": "sam2.1_hiera_small",
+  "grounding_dino": "IDEA-Research/grounding-dino-base",
+  "mode": "whole_image_baseline",
+  "ground_truth_used_for_inference": false,
+  "versions": {
+    "torch": "2.4.1+cu124",
+    "torchvision": "0.19.1+cu124",
+    "transformers": "4.44.2",
+    "lang-sam": "0.2.1",
+    "sam-2": "1.0"
+  },
+  "langsam_commit": "918043ed4666eea04da88aa179eb8d27ef4b1a1d",
+  "original_size": [
+    3840,
+    2160
+  ],
+  "model_load_seconds": 5.493280719965696,
+  "detector_resize_config": {
+    "longest_edge": 1333,
+    "shortest_edge": 800
+  },
+  "inference_seconds": 0.712083738297224,
+  "gpu_peak_allocated_gib": 2.658250331878662,
+  "gpu_peak_reserved_gib": 3.244140625,
+  "candidate_count": 0,
+  "candidates": [],
+  "labels": [],
+  "mask_shape": [
+    0,
+    2160,
+    3840
+  ],
+  "output_directory": "/home/work/123-0125/results/langsam_baseline/BEGO7553_frame_001098_full_v1",
+  "accuracy_evaluated": false
+}

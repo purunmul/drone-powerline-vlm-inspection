@@ -1,0 +1,22 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a long, thin, metallic object with a pointed end\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "a long, thin, metallic object with a pointed end"
+  },
+  "parse_error": null,
+  "seconds": 1.0589594468474388,
+  "image_tokens": 630,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P06_isolated.jpg",
+  "input_sha256": "6975c7ceb0301fac6bc75109b41d128acb862036f718f20da62c022547f32a67",
+  "finish_reason": "stop",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "candidate_id": "P06",
+  "decision": "keep",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.0,
+  "mask_area_original_pixels": 5304,
+  "next_action": "none"
+}

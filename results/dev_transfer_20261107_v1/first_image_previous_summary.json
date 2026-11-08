@@ -1,0 +1,771 @@
+{
+  "status": "DIAGNOSTIC_EVALUATION_COMPLETE",
+  "reference_fragments": 27,
+  "reference_union_pixels": 22828,
+  "conditions": [
+    {
+      "condition": "A_all_candidates",
+      "candidate_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13"
+      ],
+      "interpretation": "All 13 original candidate masks",
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.31980295566502465,
+          "centerline_recall": 0.31141580515156825,
+          "centerline_f1": 0.31555365939832175,
+          "pred_centerline_pixels": 20300,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 6492,
+          "covered_reference_pixels": 7109,
+          "condition": "A_all_candidates",
+          "mask_pixels": 515044,
+          "mask_fraction_within_reference_band": 0.19231754956858055,
+          "reference_coverage_by_mask": 0.7471526195899773
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.3751231527093596,
+          "centerline_recall": 0.3996407920098125,
+          "centerline_f1": 0.3869940383049851,
+          "pred_centerline_pixels": 20300,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 7615,
+          "covered_reference_pixels": 9123,
+          "condition": "A_all_candidates",
+          "mask_pixels": 515044,
+          "mask_fraction_within_reference_band": 0.26068258245897435,
+          "reference_coverage_by_mask": 0.7636674259681093
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.47665024630541875,
+          "centerline_recall": 0.5572980550201507,
+          "centerline_f1": 0.5138288923156558,
+          "pred_centerline_pixels": 20300,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 9676,
+          "covered_reference_pixels": 12722,
+          "condition": "A_all_candidates",
+          "mask_pixels": 515044,
+          "mask_fraction_within_reference_band": 0.37481263736690457,
+          "reference_coverage_by_mask": 0.7923164534781847
+        }
+      ],
+      "graph_path_count": 2614,
+      "seconds": 4.2155218757689
+    },
+    {
+      "condition": "B_vlm_keep_only",
+      "candidate_ids": [
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P12"
+      ],
+      "interpretation": "Diagnostic strict acceptance: uncertain candidates omitted; not an approved deployment",
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.5450263230811859,
+          "centerline_recall": 0.0896267741370247,
+          "centerline_f1": 0.15393906173827412,
+          "pred_centerline_pixels": 3609,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 1967,
+          "covered_reference_pixels": 2046,
+          "condition": "B_vlm_keep_only",
+          "mask_pixels": 27122,
+          "mask_fraction_within_reference_band": 0.41663594130226383,
+          "reference_coverage_by_mask": 0.09514631154722271
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.5782765308949848,
+          "centerline_recall": 0.09707376905554582,
+          "centerline_f1": 0.1662410823374296,
+          "pred_centerline_pixels": 3609,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2087,
+          "covered_reference_pixels": 2216,
+          "condition": "B_vlm_keep_only",
+          "mask_pixels": 27122,
+          "mask_fraction_within_reference_band": 0.5365386033478357,
+          "reference_coverage_by_mask": 0.10040301384264938
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.6328622887226378,
+          "centerline_recall": 0.10855090240056071,
+          "centerline_f1": 0.18531575471985692,
+          "pred_centerline_pixels": 3609,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2284,
+          "covered_reference_pixels": 2478,
+          "condition": "B_vlm_keep_only",
+          "mask_pixels": 27122,
+          "mask_fraction_within_reference_band": 0.621156256913207,
+          "reference_coverage_by_mask": 0.1102155247941125
+        }
+      ],
+      "graph_path_count": 317,
+      "seconds": 2.1621990017592907
+    },
+    {
+      "condition": "C_remove_vehicle_only",
+      "candidate_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12"
+      ],
+      "interpretation": "Conservative policy: retain uncertain originals; remove only rejected vehicle",
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.3254787927403991,
+          "centerline_recall": 0.31141580515156825,
+          "centerline_f1": 0.3182920396451683,
+          "pred_centerline_pixels": 19946,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 6492,
+          "covered_reference_pixels": 7109,
+          "condition": "C_remove_vehicle_only",
+          "mask_pixels": 474393,
+          "mask_fraction_within_reference_band": 0.20879734734703084,
+          "reference_coverage_by_mask": 0.7471526195899773
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.38178080818209165,
+          "centerline_recall": 0.3996407920098125,
+          "centerline_f1": 0.3905066983522531,
+          "pred_centerline_pixels": 19946,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 7615,
+          "covered_reference_pixels": 9123,
+          "condition": "C_remove_vehicle_only",
+          "mask_pixels": 474393,
+          "mask_fraction_within_reference_band": 0.2830206179264871,
+          "reference_coverage_by_mask": 0.7636674259681093
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.48510979645041613,
+          "centerline_recall": 0.5572980550201507,
+          "centerline_f1": 0.5187043548293375,
+          "pred_centerline_pixels": 19946,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 9676,
+          "covered_reference_pixels": 12722,
+          "condition": "C_remove_vehicle_only",
+          "mask_pixels": 474393,
+          "mask_fraction_within_reference_band": 0.40693054071202567,
+          "reference_coverage_by_mask": 0.7923164534781847
+        }
+      ],
+      "graph_path_count": 2599,
+      "seconds": 4.126181796193123
+    },
+    {
+      "condition": "D_visual_segments_only",
+      "candidate_ids": [
+        "P02",
+        "P03",
+        "P09"
+      ],
+      "interpretation": "Non-independent assistant visual selection frozen in prior review; not automatic",
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.9888457807953444,
+          "centerline_recall": 0.08971438584194849,
+          "centerline_f1": 0.16450392784863474,
+          "pred_centerline_pixels": 2062,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2039,
+          "covered_reference_pixels": 2048,
+          "condition": "D_visual_segments_only",
+          "mask_pixels": 16050,
+          "mask_fraction_within_reference_band": 0.8199376947040499,
+          "reference_coverage_by_mask": 0.0900648326616436
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.989815712900097,
+          "centerline_recall": 0.0900648326616436,
+          "centerline_f1": 0.16510638498786773,
+          "pred_centerline_pixels": 2062,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2041,
+          "covered_reference_pixels": 2056,
+          "condition": "D_visual_segments_only",
+          "mask_pixels": 16050,
+          "mask_fraction_within_reference_band": 0.9770093457943925,
+          "reference_coverage_by_mask": 0.09032766777641493
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.989815712900097,
+          "centerline_recall": 0.0908095321534957,
+          "centerline_f1": 0.1663568424263101,
+          "pred_centerline_pixels": 2062,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 2041,
+          "covered_reference_pixels": 2073,
+          "condition": "D_visual_segments_only",
+          "mask_pixels": 16050,
+          "mask_fraction_within_reference_band": 0.9968847352024922,
+          "reference_coverage_by_mask": 0.09098475556334326
+        }
+      ],
+      "graph_path_count": 6,
+      "seconds": 2.051223546266556
+    },
+    {
+      "condition": "E_hypothetical_manual_partial_repair",
+      "candidate_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13"
+      ],
+      "interpretation": "Hypothetical human-assisted replacement inside four parent crops only; four repairs were not approved; outside crops retained",
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.42143212332173047,
+          "centerline_recall": 0.4032328719116874,
+          "centerline_f1": 0.4121316810707173,
+          "pred_centerline_pixels": 20110,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 8475,
+          "covered_reference_pixels": 9205,
+          "condition": "E_hypothetical_manual_partial_repair",
+          "mask_pixels": 420172,
+          "mask_fraction_within_reference_band": 0.20372847310149178,
+          "reference_coverage_by_mask": 0.7167075521289644
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.46976628543013427,
+          "centerline_recall": 0.48234624145785876,
+          "centerline_f1": 0.47597315599125833,
+          "pred_centerline_pixels": 20110,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 9447,
+          "covered_reference_pixels": 11011,
+          "condition": "E_hypothetical_manual_partial_repair",
+          "mask_pixels": 420172,
+          "mask_fraction_within_reference_band": 0.26696924116790266,
+          "reference_coverage_by_mask": 0.7388733134746802
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.5566384883142715,
+          "centerline_recall": 0.6148589451550727,
+          "centerline_f1": 0.5843020120736497,
+          "pred_centerline_pixels": 20110,
+          "reference_union_pixels": 22828,
+          "matched_pred_pixels": 11194,
+          "covered_reference_pixels": 14036,
+          "condition": "E_hypothetical_manual_partial_repair",
+          "mask_pixels": 420172,
+          "mask_fraction_within_reference_band": 0.3733732852260503,
+          "reference_coverage_by_mask": 0.7771596285263711
+        }
+      ],
+      "graph_path_count": 2964,
+      "seconds": 4.218472875654697
+    }
+  ],
+  "candidate_diagnostics": [
+    {
+      "id": "P01",
+      "mask_pixels": 203464,
+      "skeleton_pixels": 11722,
+      "skeleton_support_at5": 0.21660126258317694,
+      "mask_fraction_within_reference_band5": 0.2765157472575001
+    },
+    {
+      "id": "P02",
+      "mask_pixels": 7916,
+      "skeleton_pixels": 1031,
+      "skeleton_support_at5": 0.9893307468477207,
+      "mask_fraction_within_reference_band5": 0.9921677614957048
+    },
+    {
+      "id": "P03",
+      "mask_pixels": 7546,
+      "skeleton_pixels": 1021,
+      "skeleton_support_at5": 1.0,
+      "mask_fraction_within_reference_band5": 1.0
+    },
+    {
+      "id": "P04",
+      "mask_pixels": 6411,
+      "skeleton_pixels": 1006,
+      "skeleton_support_at5": 0.6679920477137177,
+      "mask_fraction_within_reference_band5": 0.6465450007799095
+    },
+    {
+      "id": "P05",
+      "mask_pixels": 334637,
+      "skeleton_pixels": 7906,
+      "skeleton_support_at5": 0.18454338477105994,
+      "mask_fraction_within_reference_band5": 0.19149107839240728
+    },
+    {
+      "id": "P06",
+      "mask_pixels": 5304,
+      "skeleton_pixels": 770,
+      "skeleton_support_at5": 0.9805194805194806,
+      "mask_fraction_within_reference_band5": 0.9147812971342383
+    },
+    {
+      "id": "P07",
+      "mask_pixels": 2175,
+      "skeleton_pixels": 215,
+      "skeleton_support_at5": 0.0,
+      "mask_fraction_within_reference_band5": 0.0
+    },
+    {
+      "id": "P08",
+      "mask_pixels": 13637,
+      "skeleton_pixels": 1956,
+      "skeleton_support_at5": 0.6124744376278118,
+      "mask_fraction_within_reference_band5": 0.5784996700153993
+    },
+    {
+      "id": "P09",
+      "mask_pixels": 5467,
+      "skeleton_pixels": 661,
+      "skeleton_support_at5": 0.9848714069591528,
+      "mask_fraction_within_reference_band5": 0.9438448875068594
+    },
+    {
+      "id": "P10",
+      "mask_pixels": 86549,
+      "skeleton_pixels": 5767,
+      "skeleton_support_at5": 0.38876365528004164,
+      "mask_fraction_within_reference_band5": 0.45830685507631513
+    },
+    {
+      "id": "P11",
+      "mask_pixels": 28835,
+      "skeleton_pixels": 1250,
+      "skeleton_support_at5": 0.8224,
+      "mask_fraction_within_reference_band5": 0.9059476330847928
+    },
+    {
+      "id": "P12",
+      "mask_pixels": 4069,
+      "skeleton_pixels": 532,
+      "skeleton_support_at5": 0.0,
+      "mask_fraction_within_reference_band5": 0.0
+    },
+    {
+      "id": "P13",
+      "mask_pixels": 40651,
+      "skeleton_pixels": 354,
+      "skeleton_support_at5": 0.0,
+      "mask_fraction_within_reference_band5": 0.0
+    }
+  ],
+  "matched_crop_comparisons": [
+    {
+      "id": "P01_R1",
+      "variant": "old",
+      "scope_xyxy": [
+        1480,
+        520,
+        1660,
+        1177
+      ],
+      "reference_scope": "all annotated line fragments inside this crop, not only the single prompted strand",
+      "mask_pixels": 21675,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.10260972716488731,
+          "centerline_recall": 0.203125,
+          "centerline_f1": 0.13634434677174903,
+          "pred_centerline_pixels": 1686,
+          "reference_union_pixels": 896,
+          "matched_pred_pixels": 173,
+          "covered_reference_pixels": 182
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.13167259786476868,
+          "centerline_recall": 0.27566964285714285,
+          "centerline_f1": 0.17821936641347907,
+          "pred_centerline_pixels": 1686,
+          "reference_union_pixels": 896,
+          "matched_pred_pixels": 222,
+          "covered_reference_pixels": 247
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.19691577698695137,
+          "centerline_recall": 0.38058035714285715,
+          "centerline_f1": 0.2595420897342727,
+          "pred_centerline_pixels": 1686,
+          "reference_union_pixels": 896,
+          "matched_pred_pixels": 332,
+          "covered_reference_pixels": 341
+        }
+      ]
+    },
+    {
+      "id": "P01_R1",
+      "variant": "repair",
+      "scope_xyxy": [
+        1480,
+        520,
+        1660,
+        1177
+      ],
+      "reference_scope": "all annotated line fragments inside this crop, not only the single prompted strand",
+      "mask_pixels": 2781,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.9971181556195965,
+          "centerline_recall": 0.7901785714285714,
+          "centerline_f1": 0.8816682622747852,
+          "pred_centerline_pixels": 694,
+          "reference_union_pixels": 896,
+          "matched_pred_pixels": 692,
+          "covered_reference_pixels": 708
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.9985590778097982,
+          "centerline_recall": 0.8013392857142857,
+          "centerline_f1": 0.8891442254427191,
+          "pred_centerline_pixels": 694,
+          "reference_union_pixels": 896,
+          "matched_pred_pixels": 693,
+          "covered_reference_pixels": 718
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 1.0,
+          "centerline_recall": 0.8169642857142857,
+          "centerline_f1": 0.8992628992628993,
+          "pred_centerline_pixels": 694,
+          "reference_union_pixels": 896,
+          "matched_pred_pixels": 694,
+          "covered_reference_pixels": 732
+        }
+      ]
+    },
+    {
+      "id": "P05_R1",
+      "variant": "old",
+      "scope_xyxy": [
+        1600,
+        520,
+        1800,
+        1177
+      ],
+      "reference_scope": "all annotated line fragments inside this crop, not only the single prompted strand",
+      "mask_pixels": 89595,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.1793103448275862,
+          "centerline_recall": 0.13967310549777118,
+          "centerline_f1": 0.15702904137753793,
+          "pred_centerline_pixels": 1885,
+          "reference_union_pixels": 3365,
+          "matched_pred_pixels": 338,
+          "covered_reference_pixels": 470
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.24190981432360742,
+          "centerline_recall": 0.21931649331352154,
+          "centerline_f1": 0.23005978322173115,
+          "pred_centerline_pixels": 1885,
+          "reference_union_pixels": 3365,
+          "matched_pred_pixels": 456,
+          "covered_reference_pixels": 738
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.38249336870026523,
+          "centerline_recall": 0.38781575037147104,
+          "centerline_f1": 0.3851361722768103,
+          "pred_centerline_pixels": 1885,
+          "reference_union_pixels": 3365,
+          "matched_pred_pixels": 721,
+          "covered_reference_pixels": 1305
+        }
+      ]
+    },
+    {
+      "id": "P05_R1",
+      "variant": "repair",
+      "scope_xyxy": [
+        1600,
+        520,
+        1800,
+        1177
+      ],
+      "reference_scope": "all annotated line fragments inside this crop, not only the single prompted strand",
+      "mask_pixels": 2753,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.9984871406959153,
+          "centerline_recall": 0.199702823179792,
+          "centerline_f1": 0.33283653997685636,
+          "pred_centerline_pixels": 661,
+          "reference_union_pixels": 3365,
+          "matched_pred_pixels": 660,
+          "covered_reference_pixels": 672
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.9984871406959153,
+          "centerline_recall": 0.20356612184249628,
+          "centerline_f1": 0.33818493951232104,
+          "pred_centerline_pixels": 661,
+          "reference_union_pixels": 3365,
+          "matched_pred_pixels": 660,
+          "covered_reference_pixels": 685
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 1.0,
+          "centerline_recall": 0.20802377414561665,
+          "centerline_f1": 0.3444034440344404,
+          "pred_centerline_pixels": 661,
+          "reference_union_pixels": 3365,
+          "matched_pred_pixels": 661,
+          "covered_reference_pixels": 700
+        }
+      ]
+    },
+    {
+      "id": "P10_R1",
+      "variant": "old",
+      "scope_xyxy": [
+        1860,
+        1136,
+        2080,
+        1800
+      ],
+      "reference_scope": "all annotated line fragments inside this crop, not only the single prompted strand",
+      "mask_pixels": 71864,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.33868169991326974,
+          "centerline_recall": 0.36538882803943046,
+          "centerline_f1": 0.3515287304229423,
+          "pred_centerline_pixels": 4612,
+          "reference_union_pixels": 4565,
+          "matched_pred_pixels": 1562,
+          "covered_reference_pixels": 1668
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.41673894189071986,
+          "centerline_recall": 0.5259583789704272,
+          "centerline_f1": 0.46502166385806215,
+          "pred_centerline_pixels": 4612,
+          "reference_union_pixels": 4565,
+          "matched_pred_pixels": 1922,
+          "covered_reference_pixels": 2401
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.5385949696444059,
+          "centerline_recall": 0.8078860898138006,
+          "centerline_f1": 0.6463119268747611,
+          "pred_centerline_pixels": 4612,
+          "reference_union_pixels": 4565,
+          "matched_pred_pixels": 2484,
+          "covered_reference_pixels": 3688
+        }
+      ]
+    },
+    {
+      "id": "P10_R1",
+      "variant": "repair",
+      "scope_xyxy": [
+        1860,
+        1136,
+        2080,
+        1800
+      ],
+      "reference_scope": "all annotated line fragments inside this crop, not only the single prompted strand",
+      "mask_pixels": 6000,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 1.0,
+          "centerline_recall": 0.4768893756845564,
+          "centerline_f1": 0.6458024325126075,
+          "pred_centerline_pixels": 1697,
+          "reference_union_pixels": 4565,
+          "matched_pred_pixels": 1697,
+          "covered_reference_pixels": 2177
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 1.0,
+          "centerline_recall": 0.535815991237678,
+          "centerline_f1": 0.6977606618171445,
+          "pred_centerline_pixels": 1697,
+          "reference_union_pixels": 4565,
+          "matched_pred_pixels": 1697,
+          "covered_reference_pixels": 2446
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 1.0,
+          "centerline_recall": 0.7182913472070098,
+          "centerline_f1": 0.8360530341662417,
+          "pred_centerline_pixels": 1697,
+          "reference_union_pixels": 4565,
+          "matched_pred_pixels": 1697,
+          "covered_reference_pixels": 3279
+        }
+      ]
+    },
+    {
+      "id": "P11_R1",
+      "variant": "old",
+      "scope_xyxy": [
+        1880,
+        1136,
+        2120,
+        1800
+      ],
+      "reference_scope": "all annotated line fragments inside this crop, not only the single prompted strand",
+      "mask_pixels": 27472,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.7362068965517241,
+          "centerline_recall": 0.22470404288586107,
+          "centerline_f1": 0.344316334149447,
+          "pred_centerline_pixels": 1160,
+          "reference_union_pixels": 4477,
+          "matched_pred_pixels": 854,
+          "covered_reference_pixels": 1006
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 0.8146551724137931,
+          "centerline_recall": 0.3428635246817065,
+          "centerline_f1": 0.48261085460623343,
+          "pred_centerline_pixels": 1160,
+          "reference_union_pixels": 4477,
+          "matched_pred_pixels": 945,
+          "covered_reference_pixels": 1535
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 0.8844827586206897,
+          "centerline_recall": 0.6189412553048916,
+          "centerline_f1": 0.728261440346158,
+          "pred_centerline_pixels": 1160,
+          "reference_union_pixels": 4477,
+          "matched_pred_pixels": 1026,
+          "covered_reference_pixels": 2771
+        }
+      ]
+    },
+    {
+      "id": "P11_R1",
+      "variant": "repair",
+      "scope_xyxy": [
+        1880,
+        1136,
+        2120,
+        1800
+      ],
+      "reference_scope": "all annotated line fragments inside this crop, not only the single prompted strand",
+      "mask_pixels": 12173,
+      "metrics": [
+        {
+          "tolerance_pixels": 3,
+          "centerline_precision": 0.9782608695652174,
+          "centerline_recall": 0.4605762787580969,
+          "centerline_f1": 0.626288738074427,
+          "pred_centerline_pixels": 2116,
+          "reference_union_pixels": 4477,
+          "matched_pred_pixels": 2070,
+          "covered_reference_pixels": 2062
+        },
+        {
+          "tolerance_pixels": 5,
+          "centerline_precision": 1.0,
+          "centerline_recall": 0.5572928300201028,
+          "centerline_f1": 0.7157200229489387,
+          "pred_centerline_pixels": 2116,
+          "reference_union_pixels": 4477,
+          "matched_pred_pixels": 2116,
+          "covered_reference_pixels": 2495
+        },
+        {
+          "tolerance_pixels": 10,
+          "centerline_precision": 1.0,
+          "centerline_recall": 0.6669644851463034,
+          "centerline_f1": 0.8002143909955782,
+          "pred_centerline_pixels": 2116,
+          "reference_union_pixels": 4477,
+          "matched_pred_pixels": 2116,
+          "covered_reference_pixels": 2986
+        }
+      ]
+    }
+  ],
+  "source_masks_unchanged": true,
+  "accuracy_is_development_diagnostic_not_heldout": true,
+  "limitations": [
+    "single development image repeatedly inspected during tuning",
+    "annotation centerlines are not full segmentation masks",
+    "rasterization and tolerance affect scores",
+    "skeleton topology is provisional, no wire identity or electrical connectivity recovered",
+    "manual four-crop repairs target one strand and can reduce coverage of other reference lines",
+    "hypothetical repair condition is not an accepted production result",
+    "reference disagreement may include annotation omission or registration error"
+  ]
+}

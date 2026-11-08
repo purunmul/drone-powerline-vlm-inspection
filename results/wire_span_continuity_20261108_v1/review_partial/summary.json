@@ -1,0 +1,205 @@
+{
+  "macro": {
+    "baseline": {
+      "centerline_precision": 0.3248501767374283,
+      "centerline_recall": 0.4861703531322111,
+      "centerline_f1": 0.3892185973067084,
+      "longest_run_mean": 0.23985131060198103
+    },
+    "rules": {
+      "centerline_precision": 0.7647065127620664,
+      "centerline_recall": 0.2521273309404812,
+      "centerline_f1": 0.3789678286660969,
+      "longest_run_mean": 0.15920803601372813
+    },
+    "3b": {
+      "centerline_precision": 0.7647065127620664,
+      "centerline_recall": 0.2521273309404812,
+      "centerline_f1": 0.3789678286660969,
+      "longest_run_mean": 0.15920803601372813
+    }
+  },
+  "audit": {
+    "BEGO7553_frame_001098": {
+      "link_candidates": 3,
+      "fragments": 81,
+      "pole_candidates": 5,
+      "rules": {
+        "active_poles": [
+          "P01",
+          "P02",
+          "P03",
+          "P04"
+        ],
+        "with_contact": [
+          "P01"
+        ],
+        "bridges": [],
+        "blocked_at_pole": []
+      },
+      "3b": {
+        "active_poles": [
+          "P01",
+          "P02",
+          "P03",
+          "P04"
+        ],
+        "with_contact": [
+          "P01"
+        ],
+        "bridges": [],
+        "blocked_at_pole": [],
+        "review": {
+          "controls": {
+            "pole": "YES",
+            "gap": null
+          },
+          "passed": {
+            "pole": false,
+            "gap": false
+          },
+          "usable_choices": 0,
+          "labels": {
+            "YES": 8,
+            "None": 2
+          }
+        },
+        "changed_pixels_vs_rules": 0
+      }
+    },
+    "PUYL5573_frame_000165": {
+      "link_candidates": 12,
+      "fragments": 142,
+      "pole_candidates": 8,
+      "rules": {
+        "active_poles": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07"
+        ],
+        "with_contact": [
+          "P01",
+          "P02",
+          "P05",
+          "P06"
+        ],
+        "bridges": [
+          "G001",
+          "G002",
+          "G003",
+          "G004"
+        ],
+        "blocked_at_pole": []
+      },
+      "3b": {
+        "active_poles": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07"
+        ],
+        "with_contact": [
+          "P01",
+          "P02",
+          "P05",
+          "P06"
+        ],
+        "bridges": [
+          "G001",
+          "G002",
+          "G003",
+          "G004"
+        ],
+        "blocked_at_pole": [],
+        "review": {
+          "controls": {
+            "pole": "YES",
+            "gap": "YES"
+          },
+          "passed": {
+            "pole": false,
+            "gap": false
+          },
+          "usable_choices": 0,
+          "labels": {
+            "YES": 18
+          }
+        },
+        "changed_pixels_vs_rules": 0
+      }
+    },
+    "KZIV5445_frame_000488": {
+      "link_candidates": 22,
+      "fragments": 154,
+      "pole_candidates": 2,
+      "rules": {
+        "active_poles": [
+          "P01"
+        ],
+        "with_contact": [
+          "P01"
+        ],
+        "bridges": [
+          "G001",
+          "G002",
+          "G003",
+          "G004",
+          "G006",
+          "G008",
+          "G009"
+        ],
+        "blocked_at_pole": []
+      },
+      "3b": {
+        "active_poles": [
+          "P01"
+        ],
+        "with_contact": [
+          "P01"
+        ],
+        "bridges": [
+          "G001",
+          "G002",
+          "G003",
+          "G004",
+          "G006",
+          "G008",
+          "G009"
+        ],
+        "blocked_at_pole": [],
+        "review": {
+          "controls": {
+            "pole": "YES",
+            "gap": "YES"
+          },
+          "passed": {
+            "pole": false,
+            "gap": false
+          },
+          "usable_choices": 0,
+          "labels": {
+            "YES": 12
+          }
+        },
+        "changed_pixels_vs_rules": 0
+      }
+    }
+  },
+  "selected": "baseline",
+  "tolerance_px": 5,
+  "stage": "first LangSAM candidates",
+  "partial": true,
+  "rule": {
+    "max_gap": 24,
+    "max_lateral": 5,
+    "max_turn": 23,
+    "min_fragment": 22
+  }
+}

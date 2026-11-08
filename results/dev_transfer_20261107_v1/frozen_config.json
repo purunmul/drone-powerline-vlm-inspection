@@ -1,0 +1,36 @@
+{
+  "images": [
+    "PUYL5573_frame_000165",
+    "KZIV5445_frame_000488"
+  ],
+  "selection": "positions 2 and 3 of initial_8 fixed development list; different source videos and folders; no difficulty selection",
+  "data_split": "development_only",
+  "heldout_160_used": false,
+  "prompt": "power line.",
+  "box_threshold": 0.3,
+  "text_threshold": 0.25,
+  "tile_size": 1024,
+  "minimum_overlap": 256,
+  "duplicate_iou": 0.85,
+  "review": "same foreground-only v4 prompt and v4_1 policy",
+  "tolerances_pixels": [
+    3,
+    5,
+    10
+  ],
+  "human_assisted_repair_in_this_run": false,
+  "annotation_access": "evaluation stage only; never passed to detector/VLM or used for candidate selection",
+  "source_hashes": {
+    "run_langsam_baseline.py": "3b1923b2a8fbe48165f433b42b8b233fa4cda5302ac20fd7f82ba4c8733ca129",
+    "run_langsam_tiled.py": "8ecaf95a7286c3c54f45d58eb4d28fd01d28b7938f0dc72c24a5e4f34e018b82",
+    "prepare_langsam_candidates.py": "b738cd6d6aafc20219a410e83dfb3c49d8f8a7694bf642e0fc1a5c1ca71dd59a",
+    "review_langsam_candidates_v4.py": "333af944d9b72c581f6c178ef60c540e263ca807ebd16b08af42ea8ff9d5698a",
+    "conservative_review_policy_v1.py": "d048238f9616ef19b4e44e683675ce09efca0d81f64c00031e1901b6ca1b2f6b",
+    "evaluate_first_image_v1.py": "2d1280d7e1faab2756fea39ba0d30c91537c2c17a07e90ac97157b043f4556f3",
+    "run_langsam.sh": "c082796d103f99ce2e05ec8786c2193768b0cda8e31ae1ef26d9573fb8995413"
+  },
+  "image_hashes": {
+    "PUYL5573_frame_000165": "0a34a5743b2275e03dd30aa3899dd6f9825985e9039e163f6972cc5cc5ae156c",
+    "KZIV5445_frame_000488": "fbaa0cc2d29d0e67510fc1d6ca0936eb254ae728a0639535b4fed4460b934c69"
+  }
+}

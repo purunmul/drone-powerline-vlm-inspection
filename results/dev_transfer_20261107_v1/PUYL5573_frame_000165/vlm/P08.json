@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a green plant with long, thin leaves and a stem.\"\n}\n```",
+  "parsed": {
+    "category": "vegetation",
+    "visibility": "clear",
+    "evidence": "The image shows a green plant with long, thin leaves and a stem."
+  },
+  "parse_error": null,
+  "seconds": 1.0345655381679535,
+  "image_tokens": 120,
+  "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P08_isolated.jpg",
+  "input_sha256": "5135566bb743a61dddadbb0771b7ce73f64ad080b6f1c8e7f27a773696739e79",
+  "finish_reason": "stop",
+  "candidate_id": "P08",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 12.79379940032959,
+  "mask_area_original_pixels": 3836
+}

@@ -1,0 +1,222 @@
+{
+  "status": "CONSERVATIVE_POLICY_APPLIED",
+  "empty_control_pass": true,
+  "counts": {
+    "keep": 10,
+    "uncertain": 11
+  },
+  "results": [
+    {
+      "candidate_id": "P01",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P02",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P03",
+      "model_v4_decision": "reject",
+      "model_category": "vegetation",
+      "decision": "uncertain",
+      "next_action": "inspect_context",
+      "policy_reason": "nonvehicle_class_needs_context",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P04",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P05",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P06",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P07",
+      "model_v4_decision": "uncertain",
+      "model_category": "unclear",
+      "decision": "uncertain",
+      "next_action": "inspect_crop",
+      "policy_reason": "insufficient_evidence",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P08",
+      "model_v4_decision": "reject",
+      "model_category": "vegetation",
+      "decision": "uncertain",
+      "next_action": "resegment",
+      "policy_reason": "broad_mask",
+      "broad_mask_flag": true,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P09",
+      "model_v4_decision": "reject",
+      "model_category": "vegetation",
+      "decision": "uncertain",
+      "next_action": "inspect_context",
+      "policy_reason": "nonvehicle_class_needs_context",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P10",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P11",
+      "model_v4_decision": "reject",
+      "model_category": "pole",
+      "decision": "uncertain",
+      "next_action": "inspect_context",
+      "policy_reason": "nonvehicle_class_needs_context",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P12",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P13",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P14",
+      "model_v4_decision": "reject",
+      "model_category": "road_or_ground",
+      "decision": "uncertain",
+      "next_action": "resegment",
+      "policy_reason": "broad_mask",
+      "broad_mask_flag": true,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P15",
+      "model_v4_decision": "reject",
+      "model_category": "building_edge",
+      "decision": "uncertain",
+      "next_action": "resegment",
+      "policy_reason": "broad_mask",
+      "broad_mask_flag": true,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P16",
+      "model_v4_decision": "uncertain",
+      "model_category": "wire_or_cable",
+      "decision": "uncertain",
+      "next_action": "resegment",
+      "policy_reason": "broad_mask",
+      "broad_mask_flag": true,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P17",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P18",
+      "model_v4_decision": "reject",
+      "model_category": "pole",
+      "decision": "uncertain",
+      "next_action": "inspect_context",
+      "policy_reason": "nonvehicle_class_needs_context",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P19",
+      "model_v4_decision": "keep",
+      "model_category": "wire_or_cable",
+      "decision": "keep",
+      "next_action": "none",
+      "policy_reason": "provisional_wire_candidate",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P20",
+      "model_v4_decision": "reject",
+      "model_category": "vegetation",
+      "decision": "uncertain",
+      "next_action": "inspect_context",
+      "policy_reason": "nonvehicle_class_needs_context",
+      "broad_mask_flag": false,
+      "finalized": false
+    },
+    {
+      "candidate_id": "P21",
+      "model_v4_decision": "uncertain",
+      "model_category": "wire_or_cable",
+      "decision": "uncertain",
+      "next_action": "resegment",
+      "policy_reason": "broad_mask",
+      "broad_mask_flag": true,
+      "finalized": false
+    }
+  ],
+  "ground_truth_used": false,
+  "source_masks_modified": false
+}

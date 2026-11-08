@@ -1,0 +1,275 @@
+[
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C01",
+    "options": {
+      "A": {
+        "yx": [
+          1039,
+          1732
+        ],
+        "pole": "P01",
+        "path": 15,
+        "side": 1
+      },
+      "B": {
+        "yx": [
+          1048,
+          1681
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_C01.jpg"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_EMPTY",
+    "options": {},
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_CTRL_EMPTY.jpg"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_WRONG",
+    "options": {
+      "A": {
+        "yx": [
+          1048,
+          1681
+        ]
+      },
+      "B": {
+        "yx": [
+          1051,
+          1659
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_CTRL_WRONG.jpg"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C02",
+    "options": {
+      "B": {
+        "yx": [
+          768,
+          1684
+        ],
+        "pole": "P01",
+        "path": 9,
+        "side": 1
+      },
+      "A": {
+        "yx": [
+          754,
+          1757
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_C02.jpg"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C03",
+    "options": {
+      "A": {
+        "yx": [
+          916,
+          1713
+        ],
+        "pole": "P01",
+        "path": 13,
+        "side": 1
+      },
+      "B": {
+        "yx": [
+          911,
+          1765
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_C03.jpg"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C04",
+    "options": {
+      "B": {
+        "yx": [
+          898,
+          1845
+        ],
+        "pole": "P01",
+        "path": 18,
+        "side": 0
+      },
+      "A": {
+        "yx": [
+          895,
+          1897
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_C04.jpg"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C01",
+    "options": {
+      "A": {
+        "yx": [
+          1357,
+          2502
+        ],
+        "pole": "P01",
+        "path": 113,
+        "side": 0
+      },
+      "B": {
+        "yx": [
+          1307,
+          2518
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_C01.jpg"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_EMPTY",
+    "options": {},
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_CTRL_EMPTY.jpg"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_WRONG",
+    "options": {
+      "A": {
+        "yx": [
+          1307,
+          2518
+        ]
+      },
+      "B": {
+        "yx": [
+          1407,
+          2486
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_CTRL_WRONG.jpg"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C02",
+    "options": {
+      "B": {
+        "yx": [
+          427,
+          929
+        ],
+        "pole": "P02",
+        "path": 145,
+        "side": 0
+      },
+      "A": {
+        "yx": [
+          419,
+          980
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_C02.jpg"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C03",
+    "options": {
+      "A": {
+        "yx": [
+          690,
+          1022
+        ],
+        "pole": "P02",
+        "path": 140,
+        "side": 0
+      },
+      "B": {
+        "yx": [
+          650,
+          1055
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_C03.jpg"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C04",
+    "options": {
+      "B": {
+        "yx": [
+          1408,
+          1745
+        ],
+        "pole": "P05",
+        "path": 27,
+        "side": 0
+      },
+      "A": {
+        "yx": [
+          1450,
+          1775
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_C04.jpg"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "C01",
+    "options": {
+      "A": {
+        "yx": [
+          1224,
+          1934
+        ],
+        "pole": "P01",
+        "path": 148,
+        "side": 0
+      },
+      "B": {
+        "yx": [
+          1198,
+          1889
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/KZIV5445_frame_000488_C01.jpg"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_EMPTY",
+    "options": {},
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/KZIV5445_frame_000488_CTRL_EMPTY.jpg"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_WRONG",
+    "options": {
+      "A": {
+        "yx": [
+          1198,
+          1889
+        ]
+      },
+      "B": {
+        "yx": [
+          1260,
+          1998
+        ]
+      }
+    },
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/KZIV5445_frame_000488_CTRL_WRONG.jpg"
+  }
+]

@@ -1,0 +1,9 @@
+﻿id,split,initial_8,folder,image,annotation_xml,source_video,split_group,score_enabled,width,height,line_count
+frame_4_mini/BEGO7553_frame_001098.jpg,development,True,frame_4_mini,frame_4_mini/images_mini/BEGO7553_frame_001098.jpg,frame_4_mini/merged_annotations_mini.xml,BEGO7553,BEGO7553,True,3840,2160,27
+frame_3/PUYL5573_frame_000165.jpg,development,True,frame_3,frame_3/images/PUYL5573_frame_000165.jpg,frame_3/merged_annotations.xml,PUYL5573,PUYL5573,True,3840,2160,23
+frame_2/KZIV5445_frame_000488.jpg,development,True,frame_2,frame_2/images/KZIV5445_frame_000488.jpg,frame_2/merged_annotations.xml,KZIV5445,KZIV5445,True,3840,2160,21
+frame_1/OXKI6658_frame_000000.jpg,development,True,frame_1,frame_1/images/OXKI6658_frame_000000.jpg,frame_1/merged_annotations.xml,OXKI6658,OXKI6658,True,3840,2160,20
+frame_1/XQQS5690_frame_000000.jpg,development,True,frame_1,frame_1/images/XQQS5690_frame_000000.jpg,frame_1/merged_annotations.xml,XQQS5690,XQQS5690,True,3840,2160,21
+frame_2/XJEF6654_frame_000510.jpg,development,True,frame_2,frame_2/images/XJEF6654_frame_000510.jpg,frame_2/merged_annotations.xml,XJEF6654,XJEF6654,True,3840,2160,11
+frame_3/THXP6074_frame_001180.jpg,development,True,frame_3,frame_3/images/THXP6074_frame_001180.jpg,frame_3/merged_annotations.xml,THXP6074,THXP6074,True,3840,2160,15
+frame_1/XMLF7591_frame_000000.jpg,development,True,frame_1,frame_1/images/XMLF7591_frame_000000.jpg,frame_1/merged_annotations.xml,XMLF7591,XMLF7591,True,3840,2160,9

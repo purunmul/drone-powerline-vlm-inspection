@@ -1,0 +1,397 @@
+{
+  "macro": {
+    "baseline": {
+      "centerline_precision": 0.3248501767374283,
+      "centerline_recall": 0.4861703531322111,
+      "centerline_f1": 0.3892185973067084
+    },
+    "expanded_standard": {
+      "centerline_precision": 0.32254883879997515,
+      "centerline_recall": 0.48985447421863065,
+      "centerline_f1": 0.3883652973363428
+    },
+    "photo_auto": {
+      "centerline_precision": 0.50114252339625,
+      "centerline_recall": 0.4279906242780165,
+      "centerline_f1": 0.45347959498700313
+    },
+    "standard_and_photo_auto": {
+      "centerline_precision": 0.32657119055864764,
+      "centerline_recall": 0.5013965704259493,
+      "centerline_f1": 0.3949158817982803
+    },
+    "photo_qwen": {
+      "centerline_precision": 0.3248501767374283,
+      "centerline_recall": 0.4861703531322111,
+      "centerline_f1": 0.3892185973067084
+    },
+    "standard_and_photo_qwen": {
+      "centerline_precision": 0.32254883879997515,
+      "centerline_recall": 0.48985447421863065,
+      "centerline_f1": 0.3883652973363428
+    }
+  },
+  "audit": {
+    "BEGO7553_frame_001098": {
+      "photo": {
+        "control": "background",
+        "usable": false,
+        "anchors": [
+          "S01",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "profiles": []
+      },
+      "standard": {
+        "control": "wire",
+        "usable": false,
+        "anchors": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "profiles": []
+      },
+      "automatic": {
+        "anchors": [
+          "S01",
+          "S02",
+          "S08",
+          "S07"
+        ],
+        "usable": true,
+        "support": {
+          "S01": 1.0,
+          "S02": 1.0,
+          "S03": 1.0,
+          "S04": 1.0,
+          "S05": 0.59375,
+          "S06": 0.7333333333333333,
+          "S07": 0.8571428571428571,
+          "S08": 1.0
+        },
+        "profiles": [
+          {
+            "center": [
+              14.324951171875,
+              3.65625,
+              -8.453125
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "center": [
+              13.616943359375,
+              3.1875,
+              -4.1015625
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "center": [
+              17.291259765625,
+              1.734375,
+              -3.046875
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "center": [
+              19.42138671875,
+              4.109375,
+              4.8125
+            ],
+            "radius": [
+              16.546228408813477,
+              9.0,
+              9.0
+            ]
+          }
+        ]
+      },
+      "mask_area": 746661,
+      "removed_mask_pixels": {
+        "baseline": 0,
+        "expanded_standard": 64153,
+        "photo_auto": 584086,
+        "standard_and_photo_auto": 64153,
+        "photo_qwen": 0,
+        "standard_and_photo_qwen": 64153
+      }
+    },
+    "PUYL5573_frame_000165": {
+      "photo": {
+        "control": "wire",
+        "usable": false,
+        "anchors": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "profiles": []
+      },
+      "standard": {
+        "control": "wire",
+        "usable": false,
+        "anchors": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "profiles": []
+      },
+      "automatic": {
+        "anchors": [
+          "S01",
+          "S02",
+          "S05",
+          "S03"
+        ],
+        "usable": true,
+        "support": {
+          "S01": 1.0,
+          "S02": 1.0,
+          "S03": 0.9777777777777777,
+          "S04": 0.9777777777777777,
+          "S05": 1.0,
+          "S06": 1.0,
+          "S07": 0.9230769230769231,
+          "S08": 1.0
+        },
+        "profiles": [
+          {
+            "center": [
+              71.453857421875,
+              29.8125,
+              -0.21875
+            ],
+            "radius": [
+              22.152130126953125,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "center": [
+              97.57080078125,
+              -6.296875,
+              8.046875
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.382078170776367
+            ]
+          },
+          {
+            "center": [
+              75.372314453125,
+              27.015625,
+              0.640625
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "center": [
+              84.100341796875,
+              2.625,
+              12.078125
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.0
+            ]
+          }
+        ]
+      },
+      "mask_area": 1629476,
+      "removed_mask_pixels": {
+        "baseline": 0,
+        "expanded_standard": 989966,
+        "photo_auto": 1529467,
+        "standard_and_photo_auto": 924758,
+        "photo_qwen": 0,
+        "standard_and_photo_qwen": 989966
+      }
+    },
+    "KZIV5445_frame_000488": {
+      "photo": {
+        "control": "wire",
+        "usable": false,
+        "anchors": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S07",
+          "S08"
+        ],
+        "profiles": []
+      },
+      "standard": {
+        "control": "wire",
+        "usable": false,
+        "anchors": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "profiles": []
+      },
+      "automatic": {
+        "anchors": [
+          "S01",
+          "S05",
+          "S06",
+          "S02"
+        ],
+        "usable": true,
+        "support": {
+          "S01": 1.0,
+          "S02": 0.9574468085106383,
+          "S04": 1.0,
+          "S05": 1.0,
+          "S06": 1.0,
+          "S07": 0.8709677419354839,
+          "S08": 0.7333333333333333
+        },
+        "profiles": [
+          {
+            "center": [
+              18.05419921875,
+              -0.46875,
+              6.40625
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "center": [
+              87.213134765625,
+              1.578125,
+              -2.1875
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "center": [
+              89.007568359375,
+              2.671875,
+              -5.0
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "center": [
+              16.265869140625,
+              3.25,
+              -0.359375
+            ],
+            "radius": [
+              16.0,
+              9.0,
+              9.0
+            ]
+          }
+        ]
+      },
+      "mask_area": 711494,
+      "removed_mask_pixels": {
+        "baseline": 0,
+        "expanded_standard": 64857,
+        "photo_auto": 476629,
+        "standard_and_photo_auto": 47956,
+        "photo_qwen": 0,
+        "standard_and_photo_qwen": 64857
+      }
+    }
+  },
+  "palette_srgb": {
+    "brown": [
+      111,
+      77,
+      56
+    ],
+    "black": [
+      42,
+      42,
+      42
+    ],
+    "gray": [
+      133,
+      133,
+      133
+    ],
+    "blue": [
+      51,
+      96,
+      153
+    ],
+    "green": [
+      58,
+      123,
+      70
+    ],
+    "yellow": [
+      194,
+      165,
+      63
+    ]
+  },
+  "tolerance": 5,
+  "stage": "first LangSAM masks; no zoom"
+}

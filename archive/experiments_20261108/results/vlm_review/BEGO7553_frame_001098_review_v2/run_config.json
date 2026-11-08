@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+  "settings": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "max_model_len": 4096,
+    "gpu_memory_utilization": 0.8,
+    "limit_mm_per_prompt": {
+      "image": 3,
+      "video": 0
+    },
+    "max_num_seqs": 1,
+    "max_num_batched_tokens": 4096,
+    "enforce_eager": true,
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 401408
+    }
+  },
+  "sampling": {
+    "temperature": 0,
+    "max_tokens": 192
+  },
+  "identity_prompt": "Two matching crops are provided: first original, second with a translucent red region. Identify the actual object or surface UNDER THE RED REGION. Ignore unhighlighted objects and the ID label. Choose the best visible category, without assuming the detector is correct. Return JSON only: {\"category\":\"vehicle|road_or_ground|wire_or_cable|pole|building_edge|vegetation|other|unclear\", \"description\":\"specific visible object\", \"evidence\":\"short visible evidence\"}. Use one category value, not the list. A wire is a suspended narrow strand. A road is a broad ground surface. Use unclear when the highlighted object cannot be resolved.",
+  "geometry_prompt": "Two matching crops are provided: original then translucent red region. Describe only the red region's geometry and how closely it covers the visible object underneath. Do not decide its object class. Return JSON only: {\"shape\":\"thin_strand|broad_surface|mixed|unclear\", \"fit\":\"tight|loose|unclear\", \"evidence\":\"short visible evidence\"}. Choose one value per key. thin_strand means a long narrow filament, broad_surface means a filled area with substantial width, mixed means both. tight means the red region closely follows the object's visible extent. If it spreads into surrounding surfaces use loose. If unresolved use unclear.",
+  "versions": {
+    "vllm": "0.11.0",
+    "torch": "2.8.0",
+    "transformers": "4.57.1",
+    "Pillow": "13.0.0"
+  },
+  "source": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/candidates.json",
+  "ground_truth_used": false,
+  "decision_rule": "reject clear non-wire categories; keep only wire_or_cable AND thin_strand AND tight; otherwise uncertain; invalid output uncertain",
+  "changes_from_v1": [
+    "remove full-scene image",
+    "neutral target-identity question",
+    "separate independent geometry question",
+    "deterministic conservative combination",
+    "image_url data encoding instead of image_pil; same image files"
+  ],
+  "confounded_changes": true
+}

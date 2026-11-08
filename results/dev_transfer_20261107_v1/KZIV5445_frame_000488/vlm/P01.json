@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A long, thin, metallic wire or cable running horizontally across the image.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "A long, thin, metallic wire or cable running horizontally across the image."
+  },
+  "parse_error": null,
+  "seconds": 1.1462573073804379,
+  "image_tokens": 1000,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P01_isolated.jpg",
+  "input_sha256": "dd6e20176f299e2438434b41ba52cb4235ff3732c08a8fa60fcf6dab91eef256",
+  "finish_reason": "stop",
+  "candidate_id": "P01",
+  "decision": "keep",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.787599563598633,
+  "mask_area_original_pixels": 11877
+}

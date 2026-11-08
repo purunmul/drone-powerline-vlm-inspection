@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"building_edge\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a section of a building's edge with a blue and white color scheme.\"\n}\n```",
+  "parsed": {
+    "category": "building_edge",
+    "visibility": "clear",
+    "evidence": "a section of a building's edge with a blue and white color scheme."
+  },
+  "parse_error": null,
+  "seconds": 1.1083441823720932,
+  "image_tokens": 1008,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P15_isolated.jpg",
+  "input_sha256": "694b46999fccb8c46194659f8fb976a4cdfe1198bac5c1ac3239275252fa8235",
+  "finish_reason": "stop",
+  "candidate_id": "P15",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 49.544193267822266,
+  "mask_area_original_pixels": 110129
+}

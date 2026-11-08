@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, green object with a small, dark object attached to it, which appears to be a branch or a twig.\"\n}\n```",
+  "parsed": {
+    "category": "vegetation",
+    "visibility": "clear",
+    "evidence": "The image shows a long, thin, green object with a small, dark object attached to it, which appears to be a branch or a twig."
+  },
+  "parse_error": null,
+  "seconds": 1.4542610123753548,
+  "image_tokens": 1024,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P20_isolated.jpg",
+  "input_sha256": "a52801c1a240dfe6013071e0f8fb482f2817a1ea23a975dc70d3b35f0513f081",
+  "finish_reason": "stop",
+  "candidate_id": "P20",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 11.199999809265137,
+  "mask_area_original_pixels": 25193
+}

@@ -1,0 +1,19 @@
+{
+  "status": "INFERENCE_OK",
+  "scope": "existing generic cat test image only; no powerline accuracy measured",
+  "image": "test_image.jpg",
+  "image_size": [
+    512,
+    384
+  ],
+  "prompt": "cat.",
+  "candidate_count": 2,
+  "mask_shape": [
+    2,
+    384,
+    512
+  ],
+  "inference_seconds": 1.5513890385627747,
+  "gpu_peak_allocated_gib": 2.4791526794433594,
+  "sam_cuda_extension": "unavailable; optional postprocessing may be skipped"
+}

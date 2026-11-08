@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"unclear\",\n  \"visibility\": \"unclear\",\n  \"evidence\": \"The image contains only selected foreground pixels in their original colors on a uniform gray background. There is no clear object visible.\"\n}\n```",
+  "parsed": {
+    "category": "unclear",
+    "visibility": "unclear",
+    "evidence": "The image contains only selected foreground pixels in their original colors on a uniform gray background. There is no clear object visible."
+  },
+  "parse_error": null,
+  "seconds": 1.3525827787816525,
+  "image_tokens": 35,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P07_isolated.jpg",
+  "input_sha256": "13b61885577e03bd9232697c64eae1d19716a914c38e234a1244b08b9b5020f2",
+  "finish_reason": "stop",
+  "candidate_id": "P07",
+  "decision": "uncertain",
+  "decision_proposal": "uncertain",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 17.575199127197266,
+  "mask_area_original_pixels": 1568
+}

@@ -1,0 +1,17 @@
+{
+  "status": "CANDIDATES_PREPARED",
+  "stage": 3,
+  "source_result": "results/langsam_baseline/BEGO7553_frame_001098_tiles1024_v1/result.json",
+  "image": "/home/work/123-0125/data/initial_8/images/BEGO7553_frame_001098.jpg",
+  "image_sha256": "2e86555126152244292d50e1e0af9408ad7f07ee8ce6a70f177123ab68dfd92e",
+  "raw_count": 13,
+  "organized_count": 13,
+  "near_duplicate_count": 0,
+  "duplicate_rule": "mask IoU >= 0.85 for every group member; highest detector-score representative; engineering initial setting",
+  "semantic_rejections": 0,
+  "ground_truth_used": false,
+  "vlm_run": false,
+  "partial_overlaps_may_remain": true,
+  "candidate_ids_are_not_physical_wire_ids": true,
+  "all_raw_predictions_preserved": true
+}

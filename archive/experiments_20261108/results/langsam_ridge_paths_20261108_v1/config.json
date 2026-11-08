@@ -1,0 +1,41 @@
+{
+  "images": [
+    "BEGO7553_frame_001098",
+    "PUYL5573_frame_000165",
+    "KZIV5445_frame_000488"
+  ],
+  "angles": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165
+  ],
+  "ridge_half_widths_px": [
+    2,
+    4,
+    6
+  ],
+  "minimum_ridge_graylevels": 5.0,
+  "min_length_px": 44,
+  "max_hough_seeds_per_box": 80,
+  "path_transverse_radius_px": 8,
+  "along_track_step_px": 2,
+  "endpoint_search_margin_px": 24,
+  "sam_proximity_px": 5,
+  "sam_score_bonus": 2.0,
+  "maximum_unsupported_gap_px": 6,
+  "intra_box_path_dedup_radius_px": 2,
+  "whole_image_dedup_radius_px": 2,
+  "paths_must_stay_in_box": true,
+  "inference_inputs": "RGB JPEGs and frozen LangSAM representative boxes/masks",
+  "annotation_access": "evaluation only",
+  "development_only": true
+}

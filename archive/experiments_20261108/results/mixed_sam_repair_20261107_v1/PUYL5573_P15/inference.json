@@ -1,0 +1,65 @@
+{
+  "image": "PUYL5573_frame_000165",
+  "candidate": "P15",
+  "key": "PUYL5573_P15",
+  "roi_original_xyxy": [
+    1753,
+    1045,
+    2473,
+    1363
+  ],
+  "prompt_box_original_xyxy": [
+    1758,
+    1062,
+    2463,
+    1351
+  ],
+  "positive_original_xy": [
+    [
+      1813,
+      1089
+    ],
+    [
+      1983,
+      1161
+    ],
+    [
+      2173,
+      1237
+    ],
+    [
+      2403,
+      1323
+    ]
+  ],
+  "negative_original_xy": [
+    [
+      1993,
+      1188
+    ],
+    [
+      2113,
+      1110
+    ],
+    [
+      1948,
+      1214
+    ]
+  ],
+  "source_mask_sha256": "ba8c9cd742ed99b6444ea91eca05c426dda485a41b684505d2c5cd395ac460bf",
+  "source_image_sha256": "0a34a5743b2275e03dd30aa3899dd6f9825985e9039e163f6972cc5cc5ae156c",
+  "before_area": 97763,
+  "after_area": 4114,
+  "positive_hits": 4,
+  "negative_hits": 0,
+  "positive_count": 4,
+  "negative_count": 3,
+  "all_prompt_constraints_met": true,
+  "selected_index": 0,
+  "scores": [
+    0.76171875,
+    0.76171875,
+    0.5625
+  ],
+  "inference_seconds": 0.5890203379094601
+}

@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a long, thin, metallic object with a pointed tip\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "a long, thin, metallic object with a pointed tip"
+  },
+  "parse_error": null,
+  "seconds": 1.0113854743540287,
+  "image_tokens": 374,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P13_isolated.jpg",
+  "input_sha256": "bc0ff246c39fa0e3b7b731417938b65f021eef7da4ad7df0c8e0df1ee11e4961",
+  "finish_reason": "stop",
+  "candidate_id": "P13",
+  "decision": "keep",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.787599563598633,
+  "mask_area_original_pixels": 5362
+}

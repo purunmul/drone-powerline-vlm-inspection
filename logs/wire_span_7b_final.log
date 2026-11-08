@@ -1,0 +1,176 @@
+INFO 11-08 07:20:00 [__init__.py:216] Automatically detected platform cuda.
+INFO 11-08 07:20:03 [arg_utils.py:504] HF_HUB_OFFLINE is True, replace model_id [Qwen/Qwen2.5-VL-7B-Instruct-AWQ] to model_path [/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718]
+INFO 11-08 07:20:03 [arg_utils.py:504] HF_HUB_OFFLINE is True, replace model_id [/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718] to model_path [/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718]
+INFO 11-08 07:20:03 [utils.py:233] non-default args: {'dtype': 'float16', 'seed': 0, 'max_model_len': 2048, 'gpu_memory_utilization': 0.69, 'max_num_batched_tokens': 2048, 'max_num_seqs': 2, 'disable_log_stats': True, 'quantization': 'awq', 'enforce_eager': True, 'limit_mm_per_prompt': {'image': 1, 'video': 0}, 'mm_processor_kwargs': {'min_pixels': 784, 'max_pixels': 250880}, 'model': '/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718'}
+INFO 11-08 07:20:03 [model.py:547] Resolved architecture: Qwen2_5_VLForConditionalGeneration
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING 11-08 07:20:03 [model.py:1733] Casting torch.bfloat16 to torch.float16.
+INFO 11-08 07:20:03 [model.py:1510] Using max model len 2048
+INFO 11-08 07:20:05 [awq_marlin.py:123] Detected that the model can run with awq_marlin, however you specified quantization=awq explicitly, so forcing awq. Use quantization=awq_marlin for faster inference
+INFO 11-08 07:20:05 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=2048.
+INFO 11-08 07:20:05 [__init__.py:381] Cudagraph is disabled under eager mode
+[1;36m(EngineCore_DP0 pid=34391)[0;0m INFO 11-08 07:20:07 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=34391)[0;0m INFO 11-08 07:20:07 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718', speculative_config=None, tokenizer='/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.float16, max_seq_len=2048, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=awq, enforce_eager=True, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=0, served_model_name=/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":null,"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":0,"use_cudagraph":true,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":0,"local_cache_dir":null}
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=34391)[0;0m INFO 11-08 07:20:07 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=34391)[0;0m WARNING 11-08 07:20:08 [topk_topp_sampler.py:66] FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+[1;36m(EngineCore_DP0 pid=34391)[0;0m INFO 11-08 07:20:11 [gpu_model_runner.py:2602] Starting to load model /home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718...
+[1;36m(EngineCore_DP0 pid=34391)[0;0m INFO 11-08 07:20:12 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=34391)[0;0m INFO 11-08 07:20:12 [__init__.py:381] Cudagraph is disabled under eager mode
+[1;36m(EngineCore_DP0 pid=34391)[0;0m INFO 11-08 07:20:12 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708] EngineCore failed to start.
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708] Traceback (most recent call last):
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 699, in run_engine_core
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     engine_core = EngineCoreProc(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 498, in __init__
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     super().__init__(vllm_config, executor_class, log_stats,
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 83, in __init__
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     self.model_executor = executor_class(vllm_config)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/executor/executor_base.py", line 54, in __init__
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     self._init_executor()
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 55, in _init_executor
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     self.collective_rpc("load_model")
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 83, in collective_rpc
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     return [run_method(self.driver_worker, method, args, kwargs)]
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/utils/__init__.py", line 3122, in run_method
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     return func(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]            ^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 213, in load_model
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     self.model_runner.load_model(eep_scale_up=eep_scale_up)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2635, in load_model
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     self.model = model_loader.load_model(
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]                  ^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/base_loader.py", line 50, in load_model
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     self.load_weights(model, model_config)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/default_loader.py", line 264, in load_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     loaded_weights = model.load_weights(
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]                      ^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/qwen2_5_vl.py", line 1471, in load_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     return loader.load_weights(weights, mapper=self.hf_to_vllm_mapper)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 294, in load_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     autoloaded_weights = set(self._load_module("", self.module, weights))
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 243, in _load_module
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     for child_prefix, child_weights in self._groupby_prefix(weights):
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 132, in _groupby_prefix
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     for prefix, group in itertools.groupby(weights_by_parts,
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 129, in <genexpr>
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     weights_by_parts = ((weight_name.split(".", 1), weight_data)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 291, in <genexpr>
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     weights = ((name, weight) for name, weight in weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 67, in <genexpr>
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     return ((out_name, data) for name, data in weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/default_loader.py", line 246, in get_all_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     yield from self._get_weights_iterator(primary_weights)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/default_loader.py", line 160, in _get_weights_iterator
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     hf_folder, hf_weights_files, use_safetensors = self._prepare_weights(
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]                                                    ^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/default_loader.py", line 150, in _prepare_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708]     raise RuntimeError(
+[1;36m(EngineCore_DP0 pid=34391)[0;0m ERROR 11-08 07:20:14 [core.py:708] RuntimeError: Cannot find any model weights with `/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718`
+[1;36m(EngineCore_DP0 pid=34391)[0;0m Process EngineCore_DP0:
+[1;36m(EngineCore_DP0 pid=34391)[0;0m Traceback (most recent call last):
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     self.run()
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     self._target(*self._args, **self._kwargs)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 712, in run_engine_core
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     raise e
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 699, in run_engine_core
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     engine_core = EngineCoreProc(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 498, in __init__
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     super().__init__(vllm_config, executor_class, log_stats,
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 83, in __init__
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     self.model_executor = executor_class(vllm_config)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/executor/executor_base.py", line 54, in __init__
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     self._init_executor()
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 55, in _init_executor
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     self.collective_rpc("load_model")
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 83, in collective_rpc
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     return [run_method(self.driver_worker, method, args, kwargs)]
+[1;36m(EngineCore_DP0 pid=34391)[0;0m             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/utils/__init__.py", line 3122, in run_method
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     return func(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m            ^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 213, in load_model
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     self.model_runner.load_model(eep_scale_up=eep_scale_up)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2635, in load_model
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     self.model = model_loader.load_model(
+[1;36m(EngineCore_DP0 pid=34391)[0;0m                  ^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/base_loader.py", line 50, in load_model
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     self.load_weights(model, model_config)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/default_loader.py", line 264, in load_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     loaded_weights = model.load_weights(
+[1;36m(EngineCore_DP0 pid=34391)[0;0m                      ^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/qwen2_5_vl.py", line 1471, in load_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     return loader.load_weights(weights, mapper=self.hf_to_vllm_mapper)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 294, in load_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     autoloaded_weights = set(self._load_module("", self.module, weights))
+[1;36m(EngineCore_DP0 pid=34391)[0;0m                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 243, in _load_module
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     for child_prefix, child_weights in self._groupby_prefix(weights):
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 132, in _groupby_prefix
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     for prefix, group in itertools.groupby(weights_by_parts,
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 129, in <genexpr>
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     weights_by_parts = ((weight_name.split(".", 1), weight_data)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 291, in <genexpr>
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     weights = ((name, weight) for name, weight in weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/models/utils.py", line 67, in <genexpr>
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     return ((out_name, data) for name, data in weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/default_loader.py", line 246, in get_all_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     yield from self._get_weights_iterator(primary_weights)
+[1;36m(EngineCore_DP0 pid=34391)[0;0m                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/default_loader.py", line 160, in _get_weights_iterator
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     hf_folder, hf_weights_files, use_safetensors = self._prepare_weights(
+[1;36m(EngineCore_DP0 pid=34391)[0;0m                                                    ^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=34391)[0;0m   File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/model_executor/model_loader/default_loader.py", line 150, in _prepare_weights
+[1;36m(EngineCore_DP0 pid=34391)[0;0m     raise RuntimeError(
+[1;36m(EngineCore_DP0 pid=34391)[0;0m RuntimeError: Cannot find any model weights with `/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct-AWQ/snapshots/536a35794df8831aa814970ee8f89eff577e7718`
+Traceback (most recent call last):
+  File "/home/work/123-0125/pipeline/run_wire_span_continuity_v1.py", line 585, in <module>
+    review(args.stage)
+  File "/home/work/123-0125/pipeline/run_wire_span_continuity_v1.py", line 355, in review
+    llm=LLM(**settings)
+        ^^^^^^^^^^^^^^^
+  File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 297, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 177, in from_engine_args
+    return cls(vllm_config=vllm_config,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 114, in __init__
+    self.engine_core = EngineCoreClient.make_client(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 80, in make_client
+    return SyncMPClient(vllm_config, executor_class, log_stats)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 602, in __init__
+    super().__init__(
+  File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 448, in __init__
+    with launch_core_engines(vllm_config, executor_class,
+  File "/usr/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 732, in launch_core_engines
+    wait_for_engine_startup(
+  File "/home/work/123-0125/.venv-vlm/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 785, in wait_for_engine_startup
+    raise RuntimeError("Engine core initialization failed. "
+RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}

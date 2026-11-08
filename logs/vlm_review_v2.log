@@ -1,0 +1,65 @@
+INFO 11-06 12:57:47 [__init__.py:216] Automatically detected platform cuda.
+INFO 11-06 12:57:50 [arg_utils.py:504] HF_HUB_OFFLINE is True, replace model_id [Qwen/Qwen2.5-VL-3B-Instruct] to model_path [/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3]
+INFO 11-06 12:57:50 [arg_utils.py:504] HF_HUB_OFFLINE is True, replace model_id [/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3] to model_path [/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3]
+INFO 11-06 12:57:50 [utils.py:233] non-default args: {'seed': 0, 'max_model_len': 4096, 'gpu_memory_utilization': 0.8, 'max_num_batched_tokens': 4096, 'max_num_seqs': 1, 'disable_log_stats': True, 'revision': '66285546d2b821cf421d4f5eb2576359d3770cd3', 'enforce_eager': True, 'limit_mm_per_prompt': {'image': 3, 'video': 0}, 'mm_processor_kwargs': {'min_pixels': 784, 'max_pixels': 401408}, 'model': '/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3'}
+INFO 11-06 12:57:50 [model.py:547] Resolved architecture: Qwen2_5_VLForConditionalGeneration
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO 11-06 12:57:50 [model.py:1510] Using max model len 4096
+INFO 11-06 12:57:50 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=4096.
+INFO 11-06 12:57:50 [__init__.py:381] Cudagraph is disabled under eager mode
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:52 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:52 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3', speculative_config=None, tokenizer='/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3', skip_tokenizer_init=False, tokenizer_mode=auto, revision=66285546d2b821cf421d4f5eb2576359d3770cd3, tokenizer_revision=66285546d2b821cf421d4f5eb2576359d3770cd3, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=0, served_model_name=/home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":null,"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":0,"use_cudagraph":true,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":0,"local_cache_dir":null}
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:53 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=12552)[0;0m WARNING 11-06 12:57:53 [topk_topp_sampler.py:66] FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:56 [gpu_model_runner.py:2602] Starting to load model /home/work/123-0125/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3...
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:56 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:56 [__init__.py:381] Cudagraph is disabled under eager mode
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:56 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=12552)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=12552)[0;0m Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.76it/s]
+[1;36m(EngineCore_DP0 pid=12552)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.51it/s]
+[1;36m(EngineCore_DP0 pid=12552)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.54it/s]
+[1;36m(EngineCore_DP0 pid=12552)[0;0m 
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:58 [default_loader.py:267] Loading weights took 1.50 seconds
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:58 [gpu_model_runner.py:2653] Model loading took 7.1555 GiB and 1.700386 seconds
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:57:58 [gpu_model_runner.py:3344] Encoder cache will be initialized with a budget of 4096 tokens, and profiled with 3 image items of the maximum feature size.
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:58:00 [gpu_worker.py:298] Available KV cache memory: 5.10 GiB
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:58:00 [kv_cache_utils.py:1087] GPU KV cache size: 148,672 tokens
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:58:00 [kv_cache_utils.py:1091] Maximum concurrency for 4,096 tokens per request: 36.30x
+[1;36m(EngineCore_DP0 pid=12552)[0;0m WARNING 11-06 12:58:00 [cudagraph_dispatcher.py:106] cudagraph dispatching keys are not initialized. No cudagraph will be used.
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:58:00 [core.py:210] init engine (profile, create kv cache, warmup model) took 2.37 seconds
+[1;36m(EngineCore_DP0 pid=12552)[0;0m INFO 11-06 12:58:01 [__init__.py:381] Cudagraph is disabled under eager mode
+INFO 11-06 12:58:01 [llm.py:306] Supported_tasks: ['generate']
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+INFO 11-06 12:58:02 [chat_utils.py:560] Detected the chat template content format to be 'openai'. You can set `--chat-template-content-format` to override this.
+SANITY The main object in the photograph is a white Range Rover parked on a paved surface.
+V1_CONTROL ```json
+{
+  "candidate_id": "P13",
+  "decision": "keep",
+  "target_type": "overhead_wire",
+  "mask_quality": "follows_wire",
+  "reason": "The red candidate predominantly follows a visibly supported overhead wire and is usable as a wire mask.",
+  "next_action": "none"
+}
+```
+P01 uncertain {'category': 'wire_or_cable', 'description': 'suspended narrow strand', 'evidence': 'red region covers a suspended narrow strand'} {'shape': 'mixed', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P02 reject {'category': 'vegetation', 'description': 'specific visible object', 'evidence': 'flowers and plants along the road'} {'shape': 'mixed', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P03 uncertain {'category': 'wire_or_cable', 'description': 'suspended narrow strand', 'evidence': 'red region highlighting a wire'} {'shape': 'mixed', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P04 uncertain {'category': 'wire_or_cable', 'description': 'suspended narrow strand', 'evidence': 'red region on the wire'} {'shape': 'mixed', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P05 uncertain {'category': 'wire_or_cable', 'description': 'suspended narrow strand', 'evidence': 'red region covers the wire'} {'shape': 'mixed', 'fit': 'tight', 'evidence': 'The red region closely follows the visible extent of the road and the power lines.'}
+P06 reject {'category': 'vegetation', 'description': 'tree with bare branches', 'evidence': 'bare branches and tree trunk'} {'shape': 'thin_strand', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P07 reject {'category': 'vegetation', 'description': 'green plants', 'evidence': 'green plants visible under the red region'} {'shape': 'thin_strand', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P08 reject {'category': 'vegetation', 'description': 'specific visible object', 'evidence': 'a tree with bare branches'} {'shape': 'mixed', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P09 reject {'category': 'vegetation', 'description': 'green leafy plants', 'evidence': 'the red region highlights a row of green leafy plants'} {'shape': 'thin_strand', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P10 reject {'category': 'vegetation', 'description': 'specific visible object', 'evidence': 'orange flowers and green plants'} {'shape': 'mixed', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P11 reject {'category': 'vegetation', 'description': 'specific visible object', 'evidence': 'short visible evidence'} {'shape': 'mixed', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P12 reject {'category': 'building_edge', 'description': 'edge of the building', 'evidence': 'the red region is highlighted along the edge of the building'} {'shape': 'thin_strand', 'fit': 'tight', 'evidence': 'short visible evidence'}
+P13 reject {'category': 'road_or_ground', 'description': 'concrete surface', 'evidence': 'the car is parked on a concrete surface'} {'shape': 'mixed', 'fit': 'tight', 'evidence': 'short visible evidence'}
+REVIEW_V2_COMPLETE {'uncertain': 4, 'reject': 9} VALID_PAIRS 13 SECONDS 22.55193007737398

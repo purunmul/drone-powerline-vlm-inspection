@@ -1,0 +1,18 @@
+{
+  "source": "assistant visual inspection of original image and candidate overlays; no XML",
+  "notes": {
+    "P01": "broad road/background mask",
+    "P02": "thin linear candidate; model pole classification needs context",
+    "P03": "visually wire-like strand; do not auto-reject as pole",
+    "P04": "thin strand with attached equipment; inspect mask extent",
+    "P05": "broad road/background mask",
+    "P06": "thin linear candidate; electrical type unconfirmed",
+    "P07": "horizontal narrow object; inspect scene context",
+    "P08": "thin linear candidate; electrical type unconfirmed",
+    "P09": "thin linear candidate; electrical type unconfirmed",
+    "P10": "broad strip adjacent to wires",
+    "P11": "broad strip adjacent to wires",
+    "P12": "possible building-edge/trim confusion",
+    "P13": "clearly visible vehicle"
+  }
+}

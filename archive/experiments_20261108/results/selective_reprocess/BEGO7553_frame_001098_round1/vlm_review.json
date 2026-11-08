@@ -1,0 +1,129 @@
+{
+  "status": "REVIEW_COMPLETE",
+  "model_config_source": "results/vlm_review/BEGO7553_frame_001098_review_v4/run_config.json",
+  "same_model_prompt_and_policy_as_v4_1": true,
+  "empty_control_pass": true,
+  "control": {
+    "raw": "```json\n{\n  \"category\": \"unclear\",\n  \"visibility\": \"unclear\",\n  \"evidence\": \"The image contains only selected foreground pixels in their original colors on a uniform gray background. There is no clear object visible.\"\n}\n```",
+    "parsed": {
+      "category": "unclear",
+      "visibility": "unclear",
+      "evidence": "The image contains only selected foreground pixels in their original colors on a uniform gray background. There is no clear object visible."
+    },
+    "parse_error": null,
+    "seconds": 4.09378632158041,
+    "image_tokens": 187,
+    "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/empty_target_control.jpg",
+    "input_sha256": "43e9fc810a876d19c0066f4b5caf806e26b335cf19616321960359661243bd7d"
+  },
+  "model_load_seconds": 11.764700304716825,
+  "candidate_inference_seconds_total": 4.512227356433868,
+  "counts": {
+    "uncertain": 4
+  },
+  "results": [
+    {
+      "raw": "```json\n{\n  \"category\": \"unclear\",\n  \"visibility\": \"unclear\",\n  \"evidence\": \"The image contains only selected foreground pixels in their original colors on a uniform gray background. There is no clear object or detail visible.\"\n}\n```",
+      "parsed": {
+        "category": "unclear",
+        "visibility": "unclear",
+        "evidence": "The image contains only selected foreground pixels in their original colors on a uniform gray background. There is no clear object or detail visible."
+      },
+      "parse_error": null,
+      "seconds": 1.3311750032007694,
+      "image_tokens": 138,
+      "input": "results/selective_reprocess/BEGO7553_frame_001098_round1/P01_R1/isolated_target.jpg",
+      "input_sha256": "377f30d0e516f079ea0f064f3dae44cf408c495e46e0a56b130d127244b659ca",
+      "broad_mask_flag": false,
+      "candidate_id": "P01_R1",
+      "parent_id": "P01",
+      "decision": "uncertain",
+      "next_action": "inspect_crop",
+      "policy_reason": "insufficient_evidence",
+      "thickness_proxy_p95": 4.0,
+      "prompt_consistency_pass": true,
+      "positive_prompt_hits": 4,
+      "positive_prompt_count": 4,
+      "negative_prompt_hits": 0,
+      "finalized": false
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A vertical structure with a rectangular cross-section.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "A vertical structure with a rectangular cross-section."
+      },
+      "parse_error": null,
+      "seconds": 0.8840209096670151,
+      "image_tokens": 161,
+      "input": "results/selective_reprocess/BEGO7553_frame_001098_round1/P05_R1/isolated_target.jpg",
+      "input_sha256": "00c49b2713e861a802f159dbdaa18292fe3a368e795718b57bd0089638b3ff01",
+      "broad_mask_flag": false,
+      "candidate_id": "P05_R1",
+      "parent_id": "P05",
+      "decision": "uncertain",
+      "next_action": "inspect_prompt_and_mask",
+      "policy_reason": "prompt_constraints_not_all_satisfied",
+      "thickness_proxy_p95": 4.393799781799316,
+      "prompt_consistency_pass": false,
+      "positive_prompt_hits": 3,
+      "positive_prompt_count": 4,
+      "negative_prompt_hits": 0,
+      "finalized": false
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a vertical pole with a uniform gray background.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "The image shows a vertical pole with a uniform gray background."
+      },
+      "parse_error": null,
+      "seconds": 1.2983136512339115,
+      "image_tokens": 192,
+      "input": "results/selective_reprocess/BEGO7553_frame_001098_round1/P10_R1/isolated_target.jpg",
+      "input_sha256": "21f0f915074f793cb4a02a37170a4894e640e3557dbfbc99248a33e58405cef7",
+      "broad_mask_flag": false,
+      "candidate_id": "P10_R1",
+      "parent_id": "P10",
+      "decision": "uncertain",
+      "next_action": "inspect_prompt_and_mask",
+      "policy_reason": "prompt_constraints_not_all_satisfied",
+      "thickness_proxy_p95": 6.0,
+      "prompt_consistency_pass": false,
+      "positive_prompt_hits": 2,
+      "positive_prompt_count": 3,
+      "negative_prompt_hits": 0,
+      "finalized": false
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a vertical pole with a blue and white striped pattern.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "The image shows a vertical pole with a blue and white striped pattern."
+      },
+      "parse_error": null,
+      "seconds": 0.9987177923321724,
+      "image_tokens": 216,
+      "input": "results/selective_reprocess/BEGO7553_frame_001098_round1/P11_R1/isolated_target.jpg",
+      "input_sha256": "08b27a0a4380502a1f16884eecd48f2dd644f5098feb2a5e59f2a44b47c30677",
+      "broad_mask_flag": false,
+      "candidate_id": "P11_R1",
+      "parent_id": "P11",
+      "decision": "uncertain",
+      "next_action": "inspect_context",
+      "policy_reason": "nonvehicle_class_needs_context",
+      "thickness_proxy_p95": 15.18139934539795,
+      "prompt_consistency_pass": true,
+      "positive_prompt_hits": 3,
+      "positive_prompt_count": 3,
+      "negative_prompt_hits": 0,
+      "finalized": false
+    }
+  ],
+  "ground_truth_used": false,
+  "accuracy_evaluated": false,
+  "source_masks_modified": false
+}

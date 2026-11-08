@@ -1,0 +1,65 @@
+{
+  "image": "KZIV5445_frame_000488",
+  "candidate": "P21",
+  "key": "KZIV5445_P21",
+  "roi_original_xyxy": [
+    1463,
+    1326,
+    1863,
+    1825
+  ],
+  "prompt_box_original_xyxy": [
+    1470,
+    1330,
+    1855,
+    1820
+  ],
+  "positive_original_xy": [
+    [
+      1825,
+      1365
+    ],
+    [
+      1748,
+      1465
+    ],
+    [
+      1634,
+      1615
+    ],
+    [
+      1518,
+      1765
+    ]
+  ],
+  "negative_original_xy": [
+    [
+      1658,
+      1615
+    ],
+    [
+      1768,
+      1515
+    ],
+    [
+      1508,
+      1645
+    ]
+  ],
+  "source_mask_sha256": "f70ed3903e738776476d68372e90bc7f05fd715b877c123754a4090a3e09fcc8",
+  "source_image_sha256": "fbaa0cc2d29d0e67510fc1d6ca0936eb254ae728a0639535b4fed4460b934c69",
+  "before_area": 25941,
+  "after_area": 3135,
+  "positive_hits": 4,
+  "negative_hits": 0,
+  "positive_count": 4,
+  "negative_count": 3,
+  "all_prompt_constraints_met": true,
+  "selected_index": 0,
+  "scores": [
+    0.01544189453125,
+    0.01165771484375,
+    0.00885009765625
+  ],
+  "inference_seconds": 0.025838181376457214
+}

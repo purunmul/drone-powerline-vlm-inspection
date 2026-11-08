@@ -1,0 +1,17 @@
+{
+  "status": "CANDIDATES_PREPARED",
+  "stage": 3,
+  "source_result": "results/sam_clip_transfer_20261108_v1/XMLF7591_frame_000000/tiles/result.json",
+  "image": "/home/work/123-0125/data/initial_8/images/XMLF7591_frame_000000.jpg",
+  "image_sha256": "3e915a2e9b4a0573550a7ae5afdf108a0341bd9a353ef69a46f29d1de8a18dc3",
+  "raw_count": 8,
+  "organized_count": 8,
+  "near_duplicate_count": 0,
+  "duplicate_rule": "mask IoU >= 0.85 for every group member; highest detector-score representative; engineering initial setting",
+  "semantic_rejections": 0,
+  "ground_truth_used": false,
+  "vlm_run": false,
+  "partial_overlaps_may_remain": true,
+  "candidate_ids_are_not_physical_wire_ids": true,
+  "all_raw_predictions_preserved": true
+}

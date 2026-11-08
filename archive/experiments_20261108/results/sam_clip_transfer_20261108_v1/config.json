@@ -1,0 +1,37 @@
+{
+  "images": [
+    "OXKI6658_frame_000000",
+    "XQQS5690_frame_000000",
+    "XJEF6654_frame_000510",
+    "THXP6074_frame_001180",
+    "XMLF7591_frame_000000"
+  ],
+  "image_sha256": {
+    "OXKI6658_frame_000000": "2e2b0e08d9e0465a5cadbf3c97c21413dc85db3469af9c7ef6d42c2b26aae358",
+    "XQQS5690_frame_000000": "a18c82c7db1b3fa5755d037408ece4b7d220a71bbd8efbabb2b1ab8071420f50",
+    "XJEF6654_frame_000510": "34ef26278fdd2e38c56cca4a766b8c58611b1cc7d3e2bcadda34a6cd940e2ee5",
+    "THXP6074_frame_001180": "435b6178169d951f273e0f66cb06d57dda7a35520578df36722c76feea224b72",
+    "XMLF7591_frame_000000": "3e915a2e9b4a0573550a7ae5afdf108a0341bd9a353ef69a46f29d1de8a18dc3"
+  },
+  "source_sha256": {
+    "run_langsam.sh": "c082796d103f99ce2e05ec8786c2193768b0cda8e31ae1ef26d9573fb8995413",
+    "run_langsam_baseline.py": "3b1923b2a8fbe48165f433b42b8b233fa4cda5302ac20fd7f82ba4c8733ca129",
+    "run_langsam_tiled.py": "8ecaf95a7286c3c54f45d58eb4d28fd01d28b7938f0dc72c24a5e4f34e018b82",
+    "prepare_langsam_candidates.py": "b738cd6d6aafc20219a410e83dfb3c49d8f8a7694bf642e0fc1a5c1ca71dd59a",
+    "run_sam_auto_points_20261108_v1.py": "1312e3b5b132d85df62ce1040a24c98e0fcdb5d8694f24995cf24a371d1ace1e",
+    "run_sam_narrow_strip_20261108_v1.py": "2feba79627fd8cf8dfdedc5a36be575e23f7e66fbf3206ee14a9abf0ac35c114",
+    "evaluate_first_image_v1.py": "2d1280d7e1faab2756fea39ba0d30c91537c2c17a07e90ac97157b043f4556f3"
+  },
+  "detection": {
+    "prompt": "power line.",
+    "box_threshold": 0.3,
+    "text_threshold": 0.25,
+    "tile_size": 1024,
+    "minimum_overlap": 256,
+    "duplicate_iou": 0.85
+  },
+  "clip_half_width": 24,
+  "clip_end_margin": 24,
+  "reference_only_in_evaluation": true,
+  "vlm_used": false
+}

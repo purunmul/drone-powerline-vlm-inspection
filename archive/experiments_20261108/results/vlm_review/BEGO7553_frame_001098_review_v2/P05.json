@@ -1,0 +1,53 @@
+{
+  "candidate_id": "P05",
+  "identity": {
+    "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"description\": \"suspended narrow strand\",\n  \"evidence\": \"red region covers the wire\"\n}\n```",
+    "seconds": 1.0197130367159843,
+    "image_tokens": 986,
+    "prompt_tokens": 1141,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P05/original_context.jpg",
+        "sha256": "d82b5993791ee3896d2763d768716d8122c4dce15b3933b999e1a4f3c3e24e15"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P05/marked_context.jpg",
+        "sha256": "dc8fd6f9d1493e0524da1d34ef240899fc257f68d7e2a9ce8bc4ab8f5654bae5"
+      }
+    ]
+  },
+  "geometry": {
+    "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"The red region closely follows the visible extent of the road and the power lines.\"\n}\n```",
+    "seconds": 1.011708501726389,
+    "image_tokens": 986,
+    "prompt_tokens": 1141,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P05/original_context.jpg",
+        "sha256": "d82b5993791ee3896d2763d768716d8122c4dce15b3933b999e1a4f3c3e24e15"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P05/marked_context.jpg",
+        "sha256": "dc8fd6f9d1493e0524da1d34ef240899fc257f68d7e2a9ce8bc4ab8f5654bae5"
+      }
+    ]
+  },
+  "identity_parsed": {
+    "category": "wire_or_cable",
+    "description": "suspended narrow strand",
+    "evidence": "red region covers the wire"
+  },
+  "geometry_parsed": {
+    "shape": "mixed",
+    "fit": "tight",
+    "evidence": "The red region closely follows the visible extent of the road and the power lines."
+  },
+  "parse_errors": [
+    null,
+    null
+  ],
+  "decision": "uncertain",
+  "next_action": "resegment"
+}

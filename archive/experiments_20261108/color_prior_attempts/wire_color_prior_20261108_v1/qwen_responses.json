@@ -1,0 +1,380 @@
+[
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S01",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S02",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S03",
+    "raw": "```json\n{\n  \"label\": \"wire|background|uncertain|no_target\"\n}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S04",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S05",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S06",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S07",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S08",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S01",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S02",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S03",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S04",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S05",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S06",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S07",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S08",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S01",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S02",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S03",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S04",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S05",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S06",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S07",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S08",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "photo",
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S01",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S02",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S03",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S04",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S05",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S06",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S07",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "S08",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S01",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S02",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S03",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S04",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S05",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S06",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S07",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "S08",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S01",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S02",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S03",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S04",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S05",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S06",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S07",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "S08",
+    "raw": "```json\n{\"label\":\"wire|background|uncertain|no_target\"}\n```",
+    "label": null
+  },
+  {
+    "mode": "standard",
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL",
+    "raw": "{\"label\":\"wire|background|uncertain|no_target\"}",
+    "label": null
+  }
+]

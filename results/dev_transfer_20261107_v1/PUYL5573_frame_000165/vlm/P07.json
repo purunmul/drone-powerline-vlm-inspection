@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"building_edge\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a red building edge with a slight curve and a visible seam where the panels meet.\"\n}\n```",
+  "parsed": {
+    "category": "building_edge",
+    "visibility": "clear",
+    "evidence": "The image shows a red building edge with a slight curve and a visible seam where the panels meet."
+  },
+  "parse_error": null,
+  "seconds": 1.2326502539217472,
+  "image_tokens": 1024,
+  "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P07_isolated.jpg",
+  "input_sha256": "b240d176627dd4ee2104faec88612367f050adb4fe4de495a0ba98d9aada48d9",
+  "finish_reason": "stop",
+  "candidate_id": "P07",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 726.0,
+  "mask_area_original_pixels": 991784
+}

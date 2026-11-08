@@ -1,0 +1,22 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a section of a wire or cable with a uniform gray background.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "The image shows a section of a wire or cable with a uniform gray background."
+  },
+  "parse_error": null,
+  "seconds": 1.1571216769516468,
+  "image_tokens": 798,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P10_isolated.jpg",
+  "input_sha256": "e5f56466384688b4d55d8e93caf88eaf193718301655b9037b8982c37932b2cb",
+  "finish_reason": "stop",
+  "decision_proposal": "uncertain",
+  "control_gate_pass": true,
+  "candidate_id": "P10",
+  "decision": "uncertain",
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 67.5318374633789,
+  "mask_area_original_pixels": 86549,
+  "next_action": "resegment"
+}

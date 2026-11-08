@@ -1,0 +1,26 @@
+{
+  "model": "sam2.1_hiera_small",
+  "checkpoint_sha256": "6d1aa6f30de5c92224f8172114de081d104bbd23dd9dc5c58996f0cad5dc4d38",
+  "cv2": "4.10.0",
+  "torch": "2.4.1+cu124",
+  "min_length": 36,
+  "max_segments_per_box": 3,
+  "point_fractions": [
+    0.20000000298023224,
+    0.5,
+    0.800000011920929
+  ],
+  "point_tolerance": 3,
+  "max_area_per_segment_length": 16,
+  "line_detector": "OpenCV LSD_REFINE_STD on grayscale within original detector box",
+  "dedup": "frozen baseline representatives; near-overlapping segments at <7px perpendicular midpoint distance suppressed within each box",
+  "output": "single SAM mask per segment, using original tile and original box plus three positive points",
+  "policies": [
+    "box_only_saved",
+    "points_replace_with_box_fallback",
+    "points_supplement_box"
+  ],
+  "reference_used": false,
+  "manual_points": false,
+  "vlm_used": false
+}

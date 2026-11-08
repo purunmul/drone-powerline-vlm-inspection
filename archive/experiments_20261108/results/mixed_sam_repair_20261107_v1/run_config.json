@@ -1,0 +1,175 @@
+{
+  "model": "sam2.1_hiera_small",
+  "checkpoint_sha256": "6d1aa6f30de5c92224f8172114de081d104bbd23dd9dc5c58996f0cad5dc4d38",
+  "cases_reference_informed": true,
+  "point_source": "assistant visually inspected unannotated original pixels",
+  "human_assisted": true,
+  "reference_used_for_prompting": false,
+  "scope": "one visible strand segment per specified crop",
+  "selection": "highest predicted SAM score among all multimask outputs, before reference evaluation",
+  "point_gate": "all positive points inside and zero negative points inside; this is only a prompt check",
+  "versions": {
+    "torch": "2.4.1+cu124",
+    "torchvision": "0.19.1+cu124",
+    "numpy": "1.26.4",
+    "Pillow": "11.3.0"
+  },
+  "prompts_context_xy": [
+    {
+      "image": "PUYL5573_frame_000165",
+      "candidate": "P15",
+      "origin": [
+        1383,
+        640
+      ],
+      "crop": [
+        370,
+        405,
+        1090,
+        723
+      ],
+      "box": [
+        375,
+        422,
+        1080,
+        711
+      ],
+      "positive": [
+        [
+          430,
+          449
+        ],
+        [
+          600,
+          521
+        ],
+        [
+          790,
+          597
+        ],
+        [
+          1020,
+          683
+        ]
+      ],
+      "negative": [
+        [
+          610,
+          548
+        ],
+        [
+          730,
+          470
+        ],
+        [
+          565,
+          574
+        ]
+      ]
+    },
+    {
+      "image": "KZIV5445_frame_000488",
+      "candidate": "P03",
+      "origin": [
+        2172,
+        0
+      ],
+      "crop": [
+        115,
+        440,
+        435,
+        900
+      ],
+      "box": [
+        120,
+        445,
+        430,
+        895
+      ],
+      "positive": [
+        [
+          397,
+          490
+        ],
+        [
+          326,
+          600
+        ],
+        [
+          246,
+          720
+        ],
+        [
+          154,
+          850
+        ]
+      ],
+      "negative": [
+        [
+          225,
+          600
+        ],
+        [
+          270,
+          775
+        ],
+        [
+          208,
+          720
+        ]
+      ]
+    },
+    {
+      "image": "KZIV5445_frame_000488",
+      "candidate": "P21",
+      "origin": [
+        1383,
+        615
+      ],
+      "crop": [
+        80,
+        711,
+        480,
+        1210
+      ],
+      "box": [
+        87,
+        715,
+        472,
+        1205
+      ],
+      "positive": [
+        [
+          442,
+          750
+        ],
+        [
+          365,
+          850
+        ],
+        [
+          251,
+          1000
+        ],
+        [
+          135,
+          1150
+        ]
+      ],
+      "negative": [
+        [
+          275,
+          1000
+        ],
+        [
+          385,
+          900
+        ],
+        [
+          125,
+          1030
+        ]
+      ]
+    }
+  ]
+}

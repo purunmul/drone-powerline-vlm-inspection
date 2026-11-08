@@ -1,0 +1,92 @@
+[
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C01",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_EMPTY",
+    "raw": "B",
+    "choice": "B"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_WRONG",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C02",
+    "raw": "B",
+    "choice": "B"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C03",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C04",
+    "raw": "B",
+    "choice": "B"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C01",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_EMPTY",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_WRONG",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C02",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C03",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C04",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "C01",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_EMPTY",
+    "raw": "A",
+    "choice": "A"
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_WRONG",
+    "raw": "A",
+    "choice": "A"
+  }
+]

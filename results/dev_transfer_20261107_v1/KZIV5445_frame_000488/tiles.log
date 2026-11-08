@@ -1,0 +1,59 @@
+One or both local paths not provided. Loading from Hugging Face Hub: IDEA-Research/grounding-dino-base
+Predicting 1 masks
+/home/work/123-0125/.venv-langsam/lib/python3.12/site-packages/torchvision/transforms/functional.py:154: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  img = torch.from_numpy(pic.transpose((2, 0, 1))).contiguous()
+Predicted 1 masks
+TILE 1 / 15 candidates 1 seconds 0.714
+Predicting 1 masks
+Predicted 1 masks
+TILE 2 / 15 candidates 1 seconds 0.206
+Predicting 1 masks
+Predicted 1 masks
+TILE 3 / 15 candidates 1 seconds 0.186
+Predicting 1 masks
+Predicted 1 masks
+TILE 4 / 15 candidates 1 seconds 0.189
+Predicting 1 masks
+Predicted 1 masks
+TILE 5 / 15 candidates 2 seconds 0.195
+Predicting 1 masks
+Predicted 1 masks
+TILE 6 / 15 candidates 1 seconds 0.188
+Predicting 1 masks
+Predicted 1 masks
+TILE 7 / 15 candidates 1 seconds 0.187
+Predicting 1 masks
+Predicted 1 masks
+TILE 8 / 15 candidates 1 seconds 0.186
+Predicting 1 masks
+Predicted 1 masks
+TILE 9 / 15 candidates 1 seconds 0.184
+Predicting 1 masks
+Predicted 1 masks
+TILE 10 / 15 candidates 2 seconds 0.192
+Predicting 1 masks
+Predicted 1 masks
+TILE 11 / 15 candidates 2 seconds 0.246
+Predicting 1 masks
+Predicted 1 masks
+TILE 12 / 15 candidates 1 seconds 0.247
+Predicting 1 masks
+Predicted 1 masks
+TILE 13 / 15 candidates 2 seconds 0.191
+Predicting 1 masks
+Predicted 1 masks
+TILE 14 / 15 candidates 2 seconds 0.186
+Predicting 1 masks
+Predicted 1 masks
+TILE 15 / 15 candidates 2 seconds 0.186
+{
+  "status": "INFERENCE_COMPLETE",
+  "tile_count": 15,
+  "tiles_with_candidates": 15,
+  "candidate_count_raw": 21,
+  "union_mask_area_pixels": 633871,
+  "inference_seconds_total": 3.4839067570865154,
+  "gpu_peak_allocated_gib": 2.416248321533203,
+  "output_directory": "/home/work/123-0125/results/dev_transfer_20261107_v1/KZIV5445_frame_000488/tiles",
+  "accuracy_evaluated": false
+}

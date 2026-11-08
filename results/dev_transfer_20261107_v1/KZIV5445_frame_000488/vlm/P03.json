@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"green leaves and branches\"\n}\n```",
+  "parsed": {
+    "category": "vegetation",
+    "visibility": "clear",
+    "evidence": "green leaves and branches"
+  },
+  "parse_error": null,
+  "seconds": 0.9501338787376881,
+  "image_tokens": 980,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P03_isolated.jpg",
+  "input_sha256": "76a0c2409996da6b93644f11dd71b142bb234efc935f9c8b203c49989294cfa9",
+  "finish_reason": "stop",
+  "candidate_id": "P03",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 12.393799781799316,
+  "mask_area_original_pixels": 22950
+}

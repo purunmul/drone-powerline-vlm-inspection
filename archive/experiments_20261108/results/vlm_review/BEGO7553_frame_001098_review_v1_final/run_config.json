@@ -1,0 +1,41 @@
+{
+  "stage": 4,
+  "source_candidates": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/candidates.json",
+  "image_sha256": "2e86555126152244292d50e1e0af9408ad7f07ee8ce6a70f177123ab68dfd92e",
+  "ground_truth_used": false,
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "settings": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "max_model_len": 4096,
+    "gpu_memory_utilization": 0.8,
+    "limit_mm_per_prompt": {
+      "image": 3,
+      "video": 0
+    },
+    "max_num_seqs": 1,
+    "max_num_batched_tokens": 4096,
+    "enforce_eager": true,
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 401408
+    }
+  },
+  "sampling": {
+    "temperature": 0,
+    "max_tokens": 256
+  },
+  "prompt": "You review a proposed overhead power-line segmentation in a drone photograph. Three images are provided in order: (1) a reduced full scene for context, (2) an unmarked original crop, (3) exactly the same crop with the candidate mask in translucent red. Review ONLY the red candidate, not all wires visible in the crop. A detector can mistakenly highlight a road, car, pole, roof edge, or vegetation. Red color and an ID label are not evidence of a wire. Look at the original crop to check the underlying object. Thinness alone does not prove it is an overhead wire. Do not infer electrical safety, voltage, or damage.\nReturn one JSON object only with these keys:\n\"candidate_id\": the supplied ID;\n\"decision\": \"keep\", \"reject\", or \"uncertain\";\n\"target_type\": \"overhead_wire\", \"non_wire\", \"mixed\", or \"unclear\";\n\"mask_quality\": \"follows_wire\", \"overbroad\", \"off_target\", or \"unclear\";\n\"reason\": one short English explanation grounded in visible evidence;\n\"next_action\": \"none\", \"resegment\", or \"inspect_crop\".\nUse keep only if the highlighted region predominantly follows a visibly supported overhead wire and is usable as a wire mask. Reject a clearly non-wire region. If a wire is present but the mask covers a broad road/background area, or the image cannot resolve the target, use uncertain and request resegment or inspect_crop. A partial wire segment can be kept; it need not span the full photograph. Do not merge IDs or invent missing wires.",
+  "versions": {
+    "vllm": "0.11.0",
+    "torch": "2.8.0",
+    "transformers": "4.57.1",
+    "Pillow": "13.0.0"
+  },
+  "python": "3.12.3",
+  "scene_image_size": [
+    672,
+    378
+  ],
+  "candidates_total": 13
+}

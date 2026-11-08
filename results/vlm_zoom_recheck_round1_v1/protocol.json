@@ -1,0 +1,23 @@
+{
+  "images": [
+    "BEGO7553_frame_001098",
+    "PUYL5573_frame_000165",
+    "KZIV5445_frame_000488"
+  ],
+  "grid": [
+    6,
+    4
+  ],
+  "budget_per_method": 4,
+  "padding_px": 64,
+  "fixed": "rank core area covered by existing raw boxes but >24px from baseline centerline",
+  "vlm": "rank reported missing extent, then visible wire certainty, then row-major region ID",
+  "valid_control": "no wire and no missing line on blank pair; no affected image dropped from diagnostic results",
+  "append": "candidate skeletonized inside padded crop and only core pixels added to fixed baseline",
+  "evaluation_tolerances": [
+    3,
+    5,
+    10
+  ],
+  "xml_access": "evaluation only"
+}

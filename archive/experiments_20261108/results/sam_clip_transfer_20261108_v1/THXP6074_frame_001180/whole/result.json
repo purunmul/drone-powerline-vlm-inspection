@@ -1,0 +1,73 @@
+{
+  "status": "INFERENCE_COMPLETE",
+  "started_at_utc": "2026-11-07T16:48:46.918810+00:00",
+  "image": "/home/work/123-0125/data/initial_8/images/THXP6074_frame_001180.jpg",
+  "sha256": "435b6178169d951f273e0f66cb06d57dda7a35520578df36722c76feea224b72",
+  "prompt": "power line.",
+  "box_threshold": 0.3,
+  "text_threshold": 0.25,
+  "sam_type": "sam2.1_hiera_small",
+  "grounding_dino": "IDEA-Research/grounding-dino-base",
+  "mode": "whole_image_baseline",
+  "ground_truth_used_for_inference": false,
+  "versions": {
+    "torch": "2.4.1+cu124",
+    "torchvision": "0.19.1+cu124",
+    "transformers": "4.44.2",
+    "lang-sam": "0.2.1",
+    "sam-2": "1.0"
+  },
+  "langsam_commit": "918043ed4666eea04da88aa179eb8d27ef4b1a1d",
+  "original_size": [
+    3840,
+    2160
+  ],
+  "model_load_seconds": 3.356888819485903,
+  "detector_resize_config": {
+    "longest_edge": 1333,
+    "shortest_edge": 800
+  },
+  "inference_seconds": 0.9670774228870869,
+  "gpu_peak_allocated_gib": 2.658250331878662,
+  "gpu_peak_reserved_gib": 3.25,
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "id": 1,
+      "box_xyxy": [
+        1669.5897216796875,
+        497.857421875,
+        1757.333740234375,
+        2089.008056640625
+      ],
+      "detector_score": 0.31153160333633423,
+      "sam_mask_score": 0.85546875,
+      "mask_area_pixels": 33342,
+      "mask": "masks/001.png"
+    },
+    {
+      "id": 2,
+      "box_xyxy": [
+        2172.719970703125,
+        294.96875,
+        2273.99951171875,
+        829.9869384765625
+      ],
+      "detector_score": 0.3123700022697449,
+      "sam_mask_score": 0.68359375,
+      "mask_area_pixels": 8615,
+      "mask": "masks/002.png"
+    }
+  ],
+  "labels": [
+    "power line",
+    "power line"
+  ],
+  "mask_shape": [
+    2,
+    2160,
+    3840
+  ],
+  "output_directory": "/home/work/123-0125/results/sam_clip_transfer_20261108_v1/THXP6074_frame_001180/whole",
+  "accuracy_evaluated": false
+}

@@ -1,0 +1,53 @@
+{
+  "v4_settings": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "max_model_len": 4096,
+    "gpu_memory_utilization": 0.8,
+    "limit_mm_per_prompt": {
+      "image": 1,
+      "video": 0
+    },
+    "max_num_seqs": 1,
+    "max_num_batched_tokens": 4096,
+    "enforce_eager": true,
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 802816
+    }
+  },
+  "sampling": {
+    "temperature": 0,
+    "max_tokens": 160
+  },
+  "v4_prompt": "This image contains only selected foreground pixels in their original colors on a uniform gray background. Ignore the gray background. Identify the visible foreground object. If no foreground is visible, or if its identity cannot be resolved, use unclear. Return one JSON object with fields category, visibility, evidence. category must be one of vehicle, road_or_ground, wire_or_cable, pole, building_edge, vegetation, other, unclear. visibility must be clear or unclear. evidence must be a short factual description of visible foreground pixels. Do not infer objects outside the selected foreground.",
+  "paired_prompt": "This image has two aligned panels of one crop. The LEFT panel contains only the selected foreground pixels on a uniform gray background. The RIGHT panel may show the original crop as context or may be blank. Use it only to interpret pixels selected in the LEFT panel. Classify the visible selected foreground in the LEFT panel. Objects visible only in the RIGHT panel are outside the selection. If the LEFT panel has no visible foreground or its identity is unresolved, set both category and visibility to unclear. Return one JSON object with category, visibility, evidence. Category must be one of vehicle, road_or_ground, wire_or_cable, pole, building_edge, vegetation, other, unclear. Visibility must be clear or unclear. Evidence must briefly describe what is visible in the selected foreground.",
+  "cases": [
+    [
+      "BEGO7553_frame_001098",
+      "P02"
+    ],
+    [
+      "PUYL5573_frame_000165",
+      "P01"
+    ]
+  ],
+  "selection": "two preselected reference-informed development failure cases",
+  "conditions": [
+    "v4_replay",
+    "paired_no_context",
+    "paired_context",
+    "paired_empty_target"
+  ],
+  "control_gate": "the matched empty target must return unclear category and unclear visibility; case replay must reproduce original category and visibility",
+  "context_effect_comparison": "paired_no_context versus paired_context, identical target, geometry, prompt and sampling",
+  "input_pixels": "exact saved v4 JPEG for replay; decoded target pixels for paired PNGs",
+  "ground_truth_in_inference": false,
+  "versions": {
+    "vllm": "0.11.0",
+    "torch": "2.8.0",
+    "transformers": "4.57.1",
+    "Pillow": "13.0.0"
+  }
+}

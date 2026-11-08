@@ -1,0 +1,20 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict a blue wire or cable.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "The isolated pixels depict a blue wire or cable."
+  },
+  "parse_error": null,
+  "seconds": 0.9831716418266296,
+  "image_tokens": 414,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P12_isolated.jpg",
+  "input_sha256": "aec974e317b3a4336489af38ab7688ef1cb21c593bb62eaaa16897c6c440c89a",
+  "finish_reason": "stop",
+  "candidate_id": "P12",
+  "decision": "keep",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.787599563598633,
+  "mask_area_original_pixels": 4069,
+  "next_action": "none"
+}

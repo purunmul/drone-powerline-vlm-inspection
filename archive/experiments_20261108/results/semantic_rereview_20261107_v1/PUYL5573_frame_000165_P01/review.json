@@ -1,0 +1,71 @@
+{
+  "image": "PUYL5573_frame_000165",
+  "candidate_id": "P01",
+  "original": {
+    "category": "vegetation",
+    "visibility": "clear",
+    "evidence": "The image shows a long, thin, green object that appears to be a plant or a piece of vegetation."
+  },
+  "results": {
+    "v4_replay": {
+      "input": "PUYL5573_frame_000165_P01/v4_replay.jpg",
+      "sha256": "235c5f2b3b551a77b2bc729018d0e96e69eb102f3bf4ddc2a4b3e42a4fbc119f",
+      "image_tokens": 720,
+      "seconds": 1.224565777927637,
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, green object that appears to be a plant or a piece of vegetation.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The image shows a long, thin, green object that appears to be a plant or a piece of vegetation."
+      },
+      "parse_error": null,
+      "finish_reason": "stop"
+    },
+    "paired_no_context": {
+      "input": "PUYL5573_frame_000165_P01/paired_no_context.png",
+      "sha256": "c60f8fca3964a2231cbc50b7f4235a25f552d800508683f719aa868359219918",
+      "image_tokens": 976,
+      "seconds": 1.0655710063874722,
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The selected foreground consists of green leaves and stems, indicating vegetation.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The selected foreground consists of green leaves and stems, indicating vegetation."
+      },
+      "parse_error": null,
+      "finish_reason": "stop"
+    },
+    "paired_context": {
+      "input": "PUYL5573_frame_000165_P01/paired_context.png",
+      "sha256": "2f737d76a910d67a05669b0c3405061266ece3138c1838c594d6dbcff3556c1f",
+      "image_tokens": 976,
+      "seconds": 1.2364869974553585,
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The selected foreground pixels in the LEFT panel show a dense green vegetation, likely a field or garden.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The selected foreground pixels in the LEFT panel show a dense green vegetation, likely a field or garden."
+      },
+      "parse_error": null,
+      "finish_reason": "stop"
+    },
+    "paired_empty_target": {
+      "input": "PUYL5573_frame_000165_P01/paired_empty_target.png",
+      "sha256": "0046139dce824b8cfa971f8706b2b095657b7fc289989e2e0ea36685223bb2bd",
+      "image_tokens": 976,
+      "seconds": 1.1672875732183456,
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The selected foreground pixels show a dense, green vegetation, likely a field or garden.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The selected foreground pixels show a dense, green vegetation, likely a field or garden."
+      },
+      "parse_error": null,
+      "finish_reason": "stop"
+    }
+  },
+  "baseline_replay_match": true,
+  "empty_target_control_pass": false,
+  "eligible_for_diagnostic_addback": false,
+  "source_mask_sha256": "9d669962f5efa9a34cd28d234fada244c9604b22ad6fad70e1f8b45df91d8264"
+}

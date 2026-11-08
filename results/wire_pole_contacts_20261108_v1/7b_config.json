@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "model": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+    "dtype": "float16",
+    "gpu_memory_utilization": 0.69,
+    "max_model_len": 2048,
+    "max_num_batched_tokens": 2048,
+    "max_num_seqs": 1,
+    "enforce_eager": true,
+    "limit_mm_per_prompt": {
+      "image": 1,
+      "video": 0
+    },
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 250880
+    },
+    "quantization": "awq",
+    "revision": "536a35794df8831aa814970ee8f89eff577e7718"
+  },
+  "prompt": "Both panels show the same crop. The right panel marks the last part of candidate wire 1 in cyan and shows lettered candidate connection points. Decide where the marked end of wire 1 visibly attaches to an electrical utility pole. Reply with exactly one of A, B, NONE, UNSURE. Use NONE when no lettered point exists or both points are visibly wrong. Use UNSURE if there is a possible point but the attachment is ambiguous. A nearby pole by itself is insufficient. Check the unmarked original on the left."
+}

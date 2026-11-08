@@ -1,0 +1,20 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vehicle\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The isolated pixels depict a white van with a visible license plate.\"\n}\n```",
+  "parsed": {
+    "category": "vehicle",
+    "visibility": "clear",
+    "evidence": "The isolated pixels depict a white van with a visible license plate."
+  },
+  "parse_error": null,
+  "seconds": 1.055738389492035,
+  "image_tokens": 1008,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P06_isolated.jpg",
+  "input_sha256": "cd82881319c970b2bd8be5acc13267e041bcef0a6be91f102dfaab81c492759d",
+  "finish_reason": "stop",
+  "candidate_id": "P06",
+  "decision": "reject",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.0,
+  "mask_area_original_pixels": 5304,
+  "next_action": "none"
+}

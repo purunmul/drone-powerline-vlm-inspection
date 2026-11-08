@@ -1,0 +1,32 @@
+{
+  "selected": "round1_fixed",
+  "tolerance_pixels": 5,
+  "selection": "highest mean per-image F1 on the three development images",
+  "methods": {
+    "baseline": {
+      "centerline_precision": 0.3248501767374283,
+      "centerline_recall": 0.4861703531322111,
+      "centerline_f1": 0.3892185973067084
+    },
+    "round1_fixed": {
+      "centerline_precision": 0.3331320962368667,
+      "centerline_recall": 0.5144469453689302,
+      "centerline_f1": 0.4028874200120784
+    },
+    "agreement_only": {
+      "centerline_precision": 0.31402020103143163,
+      "centerline_recall": 0.42827693126005745,
+      "centerline_f1": 0.362112973177541
+    },
+    "agreement_plus_novel": {
+      "centerline_precision": 0.3211937523818968,
+      "centerline_recall": 0.4427100792245042,
+      "centerline_f1": 0.372069000362861
+    },
+    "baseline_plus_novel": {
+      "centerline_precision": 0.3308924438983755,
+      "centerline_recall": 0.5004905498210144,
+      "centerline_f1": 0.39812547883214305
+    }
+  }
+}

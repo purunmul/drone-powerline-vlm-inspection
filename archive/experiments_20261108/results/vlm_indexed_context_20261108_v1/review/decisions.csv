@@ -1,0 +1,103 @@
+stem,method,candidate,parsed,proposed,excluded,category,reason,centerline_pixels,centerline_near_reference_pixels_at5,input
+BEGO7553_frame_001098,gray,P01,True,keep,False,wire,The selected shape follows a recognizable wire.,11722,2539,BEGO7553_frame_001098/P01_gray.jpg
+BEGO7553_frame_001098,indexed_context,P01,True,keep,False,wire,The selected shape follows a recognizable wire.,11722,2539,BEGO7553_frame_001098/P01_indexed_context.jpg
+BEGO7553_frame_001098,gray,P02,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",1031,1020,BEGO7553_frame_001098/P02_gray.jpg
+BEGO7553_frame_001098,indexed_context,P02,True,keep,False,wire,The selected shape follows a recognizable wire.,1031,1020,BEGO7553_frame_001098/P02_indexed_context.jpg
+BEGO7553_frame_001098,gray,P03,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",1021,1021,BEGO7553_frame_001098/P03_gray.jpg
+BEGO7553_frame_001098,indexed_context,P03,True,keep,False,wire,The selected shape follows a recognizable wire.,1021,1021,BEGO7553_frame_001098/P03_indexed_context.jpg
+BEGO7553_frame_001098,gray,P04,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",1006,672,BEGO7553_frame_001098/P04_gray.jpg
+BEGO7553_frame_001098,indexed_context,P04,True,keep,False,wire,The selected shape follows a recognizable wire.,1006,672,BEGO7553_frame_001098/P04_indexed_context.jpg
+BEGO7553_frame_001098,gray,P05,True,keep,False,wire,The selected shape follows a recognizable wire.,7906,1459,BEGO7553_frame_001098/P05_gray.jpg
+BEGO7553_frame_001098,indexed_context,P05,True,keep,False,wire,The selected shape follows a recognizable wire and is elongated.,7906,1459,BEGO7553_frame_001098/P05_indexed_context.jpg
+BEGO7553_frame_001098,gray,P06,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",770,755,BEGO7553_frame_001098/P06_gray.jpg
+BEGO7553_frame_001098,indexed_context,P06,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",770,755,BEGO7553_frame_001098/P06_indexed_context.jpg
+BEGO7553_frame_001098,gray,P07,True,keep,False,wire,The target is a visible pixel that follows a recognizable wire.,215,0,BEGO7553_frame_001098/P07_gray.jpg
+BEGO7553_frame_001098,indexed_context,P07,True,keep,False,wire,The selected shape follows a recognizable wire.,215,0,BEGO7553_frame_001098/P07_indexed_context.jpg
+BEGO7553_frame_001098,gray,P08,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",1956,1198,BEGO7553_frame_001098/P08_gray.jpg
+BEGO7553_frame_001098,indexed_context,P08,True,keep,False,wire,The selected shape follows a recognizable wire.,1956,1198,BEGO7553_frame_001098/P08_indexed_context.jpg
+BEGO7553_frame_001098,gray,P09,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",661,651,BEGO7553_frame_001098/P09_gray.jpg
+BEGO7553_frame_001098,indexed_context,P09,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",661,651,BEGO7553_frame_001098/P09_indexed_context.jpg
+BEGO7553_frame_001098,gray,P10,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",5767,2242,BEGO7553_frame_001098/P10_gray.jpg
+BEGO7553_frame_001098,indexed_context,P10,True,keep,False,wire,The selected shape follows a recognizable wire.,5767,2242,BEGO7553_frame_001098/P10_indexed_context.jpg
+BEGO7553_frame_001098,gray,P11,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",1250,1028,BEGO7553_frame_001098/P11_gray.jpg
+BEGO7553_frame_001098,indexed_context,P11,True,keep,False,wire,The selected shape follows a recognizable wire.,1250,1028,BEGO7553_frame_001098/P11_indexed_context.jpg
+BEGO7553_frame_001098,gray,P12,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",532,0,BEGO7553_frame_001098/P12_gray.jpg
+BEGO7553_frame_001098,indexed_context,P12,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",532,0,BEGO7553_frame_001098/P12_indexed_context.jpg
+BEGO7553_frame_001098,gray,P13,True,recheck,False,vehicle,"The image shows a white vehicle with visible pixels, indicating it is a vehicle.",354,0,BEGO7553_frame_001098/P13_gray.jpg
+BEGO7553_frame_001098,indexed_context,P13,True,recheck,False,vehicle,"The target is the visible pixels on the white vehicle, which is clearly identifiable and follows a recognizable wire.",354,0,BEGO7553_frame_001098/P13_indexed_context.jpg
+PUYL5573_frame_000165,gray,P01,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel.",1419,1272,PUYL5573_frame_000165/P01_gray.jpg
+PUYL5573_frame_000165,indexed_context,P01,True,keep,False,wire,The selected shape follows a recognizable wire.,1419,1272,PUYL5573_frame_000165/P01_indexed_context.jpg
+PUYL5573_frame_000165,gray,P02,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",389,350,PUYL5573_frame_000165/P02_gray.jpg
+PUYL5573_frame_000165,indexed_context,P02,True,keep,False,wire,"The target is a visible pixel on the gray background, which is part of an elongated cable.",389,350,PUYL5573_frame_000165/P02_indexed_context.jpg
+PUYL5573_frame_000165,gray,P03,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",697,697,PUYL5573_frame_000165/P03_gray.jpg
+PUYL5573_frame_000165,indexed_context,P03,True,keep,False,wire,"The target is a visible pixel on the gray background, which is part of the elongated cable (power wire).",697,697,PUYL5573_frame_000165/P03_indexed_context.jpg
+PUYL5573_frame_000165,gray,P04,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",180,0,PUYL5573_frame_000165/P04_gray.jpg
+PUYL5573_frame_000165,indexed_context,P04,True,keep,False,wire,"The selected pixels form a straight, elongated cable, which is a power wire.",180,0,PUYL5573_frame_000165/P04_indexed_context.jpg
+PUYL5573_frame_000165,gray,P05,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",1860,1293,PUYL5573_frame_000165/P05_gray.jpg
+PUYL5573_frame_000165,indexed_context,P05,True,keep,False,wire,The selected shape follows a recognizable wire.,1860,1293,PUYL5573_frame_000165/P05_indexed_context.jpg
+PUYL5573_frame_000165,gray,P06,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",175,173,PUYL5573_frame_000165/P06_gray.jpg
+PUYL5573_frame_000165,indexed_context,P06,True,keep,False,wire,The selected shape follows a recognizable wire and is elongated.,175,173,PUYL5573_frame_000165/P06_indexed_context.jpg
+PUYL5573_frame_000165,gray,P07,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",12643,844,PUYL5573_frame_000165/P07_gray.jpg
+PUYL5573_frame_000165,indexed_context,P07,True,keep,False,wire,The selected shape follows a recognizable wire.,12643,844,PUYL5573_frame_000165/P07_indexed_context.jpg
+PUYL5573_frame_000165,gray,P08,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",417,0,PUYL5573_frame_000165/P08_gray.jpg
+PUYL5573_frame_000165,indexed_context,P08,True,keep,False,wire,"The target is a visible pixel on the gray region inside the cyan contour, which follows a recognizable wire.",417,0,PUYL5573_frame_000165/P08_indexed_context.jpg
+PUYL5573_frame_000165,gray,P09,True,keep,False,wire,The selected shape is elongated and follows a recognizable wire.,285,0,PUYL5573_frame_000165/P09_gray.jpg
+PUYL5573_frame_000165,indexed_context,P09,True,keep,False,wire,The selected shape follows a recognizable wire.,285,0,PUYL5573_frame_000165/P09_indexed_context.jpg
+PUYL5573_frame_000165,gray,P10,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",740,37,PUYL5573_frame_000165/P10_gray.jpg
+PUYL5573_frame_000165,indexed_context,P10,True,keep,False,wire,The selected shape follows a recognizable wire.,740,37,PUYL5573_frame_000165/P10_indexed_context.jpg
+PUYL5573_frame_000165,gray,P11,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",5869,0,PUYL5573_frame_000165/P11_gray.jpg
+PUYL5573_frame_000165,indexed_context,P11,True,keep,False,wire,"The target is a visible pixel on the gray area within the cyan contour, which is a power wire.",5869,0,PUYL5573_frame_000165/P11_indexed_context.jpg
+PUYL5573_frame_000165,gray,P12,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",2898,881,PUYL5573_frame_000165/P12_gray.jpg
+PUYL5573_frame_000165,indexed_context,P12,True,keep,False,wire,The selected shape follows a recognizable wire.,2898,881,PUYL5573_frame_000165/P12_indexed_context.jpg
+PUYL5573_frame_000165,gray,P13,True,keep,False,wire,The selected shape follows a recognizable wire.,1023,1009,PUYL5573_frame_000165/P13_gray.jpg
+PUYL5573_frame_000165,indexed_context,P13,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",1023,1009,PUYL5573_frame_000165/P13_indexed_context.jpg
+PUYL5573_frame_000165,gray,P14,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",812,662,PUYL5573_frame_000165/P14_gray.jpg
+PUYL5573_frame_000165,indexed_context,P14,True,keep,False,wire,The selected shape follows a recognizable wire.,812,662,PUYL5573_frame_000165/P14_indexed_context.jpg
+PUYL5573_frame_000165,gray,P15,True,keep,False,wire,The selected shape follows a recognizable wire.,14713,2854,PUYL5573_frame_000165/P15_gray.jpg
+PUYL5573_frame_000165,indexed_context,P15,True,keep,False,wire,The selected shape follows a recognizable wire.,14713,2854,PUYL5573_frame_000165/P15_indexed_context.jpg
+PUYL5573_frame_000165,gray,P16,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",2123,2065,PUYL5573_frame_000165/P16_gray.jpg
+PUYL5573_frame_000165,indexed_context,P16,True,keep,False,wire,The selected shape follows a recognizable wire.,2123,2065,PUYL5573_frame_000165/P16_indexed_context.jpg
+PUYL5573_frame_000165,gray,P17,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",2744,1056,PUYL5573_frame_000165/P17_gray.jpg
+PUYL5573_frame_000165,indexed_context,P17,True,keep,False,wire,The selected shape follows a recognizable wire.,2744,1056,PUYL5573_frame_000165/P17_indexed_context.jpg
+KZIV5445_frame_000488,gray,P01,True,keep,False,wire,The selected shape follows a recognizable wire.,1390,1249,KZIV5445_frame_000488/P01_gray.jpg
+KZIV5445_frame_000488,indexed_context,P01,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",1390,1249,KZIV5445_frame_000488/P01_indexed_context.jpg
+KZIV5445_frame_000488,gray,P02,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",930,874,KZIV5445_frame_000488/P02_gray.jpg
+KZIV5445_frame_000488,indexed_context,P02,True,keep,False,wire,The selected shape follows a recognizable wire.,930,874,KZIV5445_frame_000488/P02_indexed_context.jpg
+KZIV5445_frame_000488,gray,P03,True,keep,False,wire,The selected shape follows a recognizable wire.,3092,1813,KZIV5445_frame_000488/P03_gray.jpg
+KZIV5445_frame_000488,indexed_context,P03,True,keep,False,wire,The selected shape follows a recognizable wire.,3092,1813,KZIV5445_frame_000488/P03_indexed_context.jpg
+KZIV5445_frame_000488,gray,P04,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",2252,2029,KZIV5445_frame_000488/P04_gray.jpg
+KZIV5445_frame_000488,indexed_context,P04,True,keep,False,wire,The selected shape follows a recognizable wire and is elongated.,2252,2029,KZIV5445_frame_000488/P04_indexed_context.jpg
+KZIV5445_frame_000488,gray,P05,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",455,417,KZIV5445_frame_000488/P05_gray.jpg
+KZIV5445_frame_000488,indexed_context,P05,True,keep,False,wire,The selected shape follows a recognizable wire.,455,417,KZIV5445_frame_000488/P05_indexed_context.jpg
+KZIV5445_frame_000488,gray,P06,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",1825,380,KZIV5445_frame_000488/P06_gray.jpg
+KZIV5445_frame_000488,indexed_context,P06,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",1825,380,KZIV5445_frame_000488/P06_indexed_context.jpg
+KZIV5445_frame_000488,gray,P07,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",94,94,KZIV5445_frame_000488/P07_gray.jpg
+KZIV5445_frame_000488,indexed_context,P07,True,keep,False,wire,The selected shape follows a recognizable wire.,94,94,KZIV5445_frame_000488/P07_indexed_context.jpg
+KZIV5445_frame_000488,gray,P08,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",4055,0,KZIV5445_frame_000488/P08_gray.jpg
+KZIV5445_frame_000488,indexed_context,P08,True,keep,False,wire,The selected shape follows a recognizable wire.,4055,0,KZIV5445_frame_000488/P08_indexed_context.jpg
+KZIV5445_frame_000488,gray,P09,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",2476,1010,KZIV5445_frame_000488/P09_gray.jpg
+KZIV5445_frame_000488,indexed_context,P09,True,keep,False,wire,The selected shape follows a recognizable wire.,2476,1010,KZIV5445_frame_000488/P09_indexed_context.jpg
+KZIV5445_frame_000488,gray,P10,True,keep,False,wire,The selected shape follows a recognizable wire.,2173,879,KZIV5445_frame_000488/P10_gray.jpg
+KZIV5445_frame_000488,indexed_context,P10,True,keep,False,wire,The selected shape follows a recognizable wire.,2173,879,KZIV5445_frame_000488/P10_indexed_context.jpg
+KZIV5445_frame_000488,gray,P11,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the power lines.",910,679,KZIV5445_frame_000488/P11_gray.jpg
+KZIV5445_frame_000488,indexed_context,P11,True,keep,False,wire,The selected shape follows a recognizable wire and is elongated.,910,679,KZIV5445_frame_000488/P11_indexed_context.jpg
+KZIV5445_frame_000488,gray,P12,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",2292,1944,KZIV5445_frame_000488/P12_gray.jpg
+KZIV5445_frame_000488,indexed_context,P12,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",2292,1944,KZIV5445_frame_000488/P12_indexed_context.jpg
+KZIV5445_frame_000488,gray,P13,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",767,756,KZIV5445_frame_000488/P13_gray.jpg
+KZIV5445_frame_000488,indexed_context,P13,True,keep,False,wire,The target is a visible pixel on a power wire.,767,756,KZIV5445_frame_000488/P13_indexed_context.jpg
+KZIV5445_frame_000488,gray,P14,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",3232,0,KZIV5445_frame_000488/P14_gray.jpg
+KZIV5445_frame_000488,indexed_context,P14,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",3232,0,KZIV5445_frame_000488/P14_indexed_context.jpg
+KZIV5445_frame_000488,gray,P15,True,keep,False,wire,"The selected shape is an elongated cable, which is a power wire.",9714,123,KZIV5445_frame_000488/P15_gray.jpg
+KZIV5445_frame_000488,indexed_context,P15,True,keep,False,wire,The selected shape follows a recognizable wire.,9714,123,KZIV5445_frame_000488/P15_indexed_context.jpg
+KZIV5445_frame_000488,gray,P16,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",702,189,KZIV5445_frame_000488/P16_gray.jpg
+KZIV5445_frame_000488,indexed_context,P16,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",702,189,KZIV5445_frame_000488/P16_indexed_context.jpg
+KZIV5445_frame_000488,gray,P17,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",1279,1182,KZIV5445_frame_000488/P17_gray.jpg
+KZIV5445_frame_000488,indexed_context,P17,True,keep,False,wire,The selected shape follows a recognizable wire.,1279,1182,KZIV5445_frame_000488/P17_indexed_context.jpg
+KZIV5445_frame_000488,gray,P18,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the ground.",479,479,KZIV5445_frame_000488/P18_gray.jpg
+KZIV5445_frame_000488,indexed_context,P18,True,keep,False,wire,"The target is a visible pixel on the gray background, which corresponds to the cyan contour.",479,479,KZIV5445_frame_000488/P18_indexed_context.jpg
+KZIV5445_frame_000488,gray,P19,True,keep,False,wire,The selected shape follows a recognizable wire.,881,726,KZIV5445_frame_000488/P19_gray.jpg
+KZIV5445_frame_000488,indexed_context,P19,True,keep,False,wire,The selected shape follows a recognizable wire.,881,726,KZIV5445_frame_000488/P19_indexed_context.jpg
+KZIV5445_frame_000488,gray,P20,True,keep,False,wire,"The selected shape follows a recognizable wire, which is elongated and parallel to the other marked wires.",2331,2070,KZIV5445_frame_000488/P20_gray.jpg
+KZIV5445_frame_000488,indexed_context,P20,True,keep,False,wire,"The selected shape follows an elongated cable, which is a power wire.",2331,2070,KZIV5445_frame_000488/P20_indexed_context.jpg
+KZIV5445_frame_000488,gray,P21,True,keep,False,wire,The selected shape follows a recognizable wire.,5007,3181,KZIV5445_frame_000488/P21_gray.jpg
+KZIV5445_frame_000488,indexed_context,P21,True,keep,False,wire,The selected shape follows a recognizable wire.,5007,3181,KZIV5445_frame_000488/P21_indexed_context.jpg

@@ -1,0 +1,23 @@
+{
+  "BEGO7553_frame_001098": {
+    "blank": null,
+    "missed_gt_total": 11089,
+    "fixed": 2625,
+    "vlm": 2501,
+    "top_rank_ties": 18
+  },
+  "PUYL5573_frame_000165": {
+    "blank": null,
+    "missed_gt_total": 14162,
+    "fixed": 2907,
+    "vlm": 1138,
+    "top_rank_ties": 20
+  },
+  "KZIV5445_frame_000488": {
+    "blank": null,
+    "missed_gt_total": 11265,
+    "fixed": 1636,
+    "vlm": 2315,
+    "top_rank_ties": 21
+  }
+}

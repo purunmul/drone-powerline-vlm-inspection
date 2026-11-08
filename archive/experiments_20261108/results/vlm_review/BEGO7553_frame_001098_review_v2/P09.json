@@ -1,0 +1,53 @@
+{
+  "candidate_id": "P09",
+  "identity": {
+    "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"green leafy plants\",\n  \"evidence\": \"the red region highlights a row of green leafy plants\"\n}\n```",
+    "seconds": 1.0654842890799046,
+    "image_tokens": 682,
+    "prompt_tokens": 837,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P09/original_context.jpg",
+        "sha256": "bda778907fa3388d379e284cf787ad4c9c0890fa558a25a371861e4469d2bcf1"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P09/marked_context.jpg",
+        "sha256": "b7834750220f6a62ffffc6debdf5b3a77e5f4e482c5a02a924b252f12c351cb6"
+      }
+    ]
+  },
+  "geometry": {
+    "raw": "```json\n{\n  \"shape\": \"thin_strand\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+    "seconds": 0.7743944674730301,
+    "image_tokens": 682,
+    "prompt_tokens": 837,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P09/original_context.jpg",
+        "sha256": "bda778907fa3388d379e284cf787ad4c9c0890fa558a25a371861e4469d2bcf1"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P09/marked_context.jpg",
+        "sha256": "b7834750220f6a62ffffc6debdf5b3a77e5f4e482c5a02a924b252f12c351cb6"
+      }
+    ]
+  },
+  "identity_parsed": {
+    "category": "vegetation",
+    "description": "green leafy plants",
+    "evidence": "the red region highlights a row of green leafy plants"
+  },
+  "geometry_parsed": {
+    "shape": "thin_strand",
+    "fit": "tight",
+    "evidence": "short visible evidence"
+  },
+  "parse_errors": [
+    null,
+    null
+  ],
+  "decision": "reject",
+  "next_action": "none"
+}

@@ -1,0 +1,20 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"There are orange flowers in the bottom right corner of the image.\"\n}\n```",
+  "parsed": {
+    "category": "vegetation",
+    "visibility": "clear",
+    "evidence": "There are orange flowers in the bottom right corner of the image."
+  },
+  "parse_error": null,
+  "seconds": 1.0698420330882072,
+  "image_tokens": 975,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P03_isolated.jpg",
+  "input_sha256": "c5961fc3f6fa28a55725857a3b1d029a35a2647ff3a021b2db81c084b5c63c27",
+  "finish_reason": "stop",
+  "candidate_id": "P03",
+  "decision": "reject",
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.0,
+  "mask_area_original_pixels": 7546,
+  "next_action": "none"
+}

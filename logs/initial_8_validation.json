@@ -1,0 +1,15 @@
+{
+  "status": "UPLOAD_VERIFIED",
+  "zip_bytes": 26222362,
+  "sha256": "f284aae9008c06c695c477ceb6b35ba1345469b0e7bc73d2a120d7674d1bf158",
+  "image_count": 8,
+  "image_sizes": [
+    [
+      3840,
+      2160
+    ]
+  ],
+  "normalized_label": "powerline",
+  "dataset_directory": "/home/work/123-0125/data/initial_8",
+  "inference_run": false
+}

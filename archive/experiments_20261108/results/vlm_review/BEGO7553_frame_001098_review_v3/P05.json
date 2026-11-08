@@ -1,0 +1,20 @@
+{
+  "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The pole is visible with its top and some of its structure.\"\n}\n```",
+  "parsed": {
+    "category": "pole",
+    "visibility": "clear",
+    "evidence": "The pole is visible with its top and some of its structure."
+  },
+  "parse_error": null,
+  "seconds": 1.052527081221342,
+  "image_tokens": 986,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v3/P05_isolated.jpg",
+  "input_sha256": "94c58a90c52de1bbade129241285739ff07d4dd095129732bbd66fc21e502852",
+  "finish_reason": "stop",
+  "candidate_id": "P05",
+  "decision": "reject",
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 204.1767578125,
+  "mask_area_original_pixels": 334637,
+  "next_action": "none"
+}

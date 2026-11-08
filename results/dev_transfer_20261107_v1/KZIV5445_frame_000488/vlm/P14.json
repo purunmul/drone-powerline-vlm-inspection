@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"road_or_ground\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a road with yellow lines and some text written on it.\"\n}\n```",
+  "parsed": {
+    "category": "road_or_ground",
+    "visibility": "clear",
+    "evidence": "The image shows a road with yellow lines and some text written on it."
+  },
+  "parse_error": null,
+  "seconds": 1.1033326834440231,
+  "image_tokens": 891,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P14_isolated.jpg",
+  "input_sha256": "c0c9245bc2d1b3032cbdb3b785c0cf378ee9204f64572ef7905cf9f440723dd1",
+  "finish_reason": "stop",
+  "candidate_id": "P14",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 258.0,
+  "mask_area_original_pixels": 226723
+}

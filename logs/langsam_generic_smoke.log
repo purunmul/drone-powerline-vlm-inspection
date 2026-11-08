@@ -1,0 +1,36 @@
+One or both local paths not provided. Loading from Hugging Face Hub: IDEA-Research/grounding-dino-base
+Could not load the custom kernel for multi-scale deformable attention: Unknown CUDA arch (10.0) or GPU not supported
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Could not load the custom kernel for multi-scale deformable attention: /home/work/.cache/torch_extensions/py312_cu124/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory
+Predicting 1 masks
+/home/work/123-0125/.venv-langsam/lib/python3.12/site-packages/torchvision/transforms/functional.py:154: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  img = torch.from_numpy(pic.transpose((2, 0, 1))).contiguous()
+Predicted 1 masks
+{
+  "status": "INFERENCE_OK",
+  "scope": "existing generic cat test image only; no powerline accuracy measured",
+  "image": "test_image.jpg",
+  "image_size": [
+    512,
+    384
+  ],
+  "prompt": "cat.",
+  "candidate_count": 2,
+  "mask_shape": [
+    2,
+    384,
+    512
+  ],
+  "inference_seconds": 1.5513890385627747,
+  "gpu_peak_allocated_gib": 2.4791526794433594,
+  "sam_cuda_extension": "unavailable; optional postprocessing may be skipped"
+}

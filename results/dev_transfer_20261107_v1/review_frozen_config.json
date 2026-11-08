@@ -1,0 +1,47 @@
+{
+  "source_config": {
+    "settings": {
+      "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+      "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+      "max_model_len": 4096,
+      "gpu_memory_utilization": 0.8,
+      "limit_mm_per_prompt": {
+        "image": 1,
+        "video": 0
+      },
+      "max_num_seqs": 1,
+      "max_num_batched_tokens": 4096,
+      "enforce_eager": true,
+      "seed": 0,
+      "mm_processor_kwargs": {
+        "min_pixels": 784,
+        "max_pixels": 802816
+      }
+    },
+    "prompt": "This image contains only selected foreground pixels in their original colors on a uniform gray background. Ignore the gray background. Identify the visible foreground object. If no foreground is visible, or if its identity cannot be resolved, use unclear. Return one JSON object with fields category, visibility, evidence. category must be one of vehicle, road_or_ground, wire_or_cable, pole, building_edge, vegetation, other, unclear. visibility must be clear or unclear. evidence must be a short factual description of visible foreground pixels. Do not infer objects outside the selected foreground.",
+    "sampling": {
+      "temperature": 0,
+      "max_tokens": 160
+    },
+    "ground_truth_used": false,
+    "versions": {
+      "vllm": "0.11.0",
+      "torch": "2.8.0",
+      "transformers": "4.57.1",
+      "Pillow": "13.0.0",
+      "numpy": "2.2.6"
+    },
+    "broad_mask_rule": "2 * 95th percentile of pixel distance to mask exterior >24 original-image pixels AND mask area >4096; initial engineering flag only, not validated accuracy",
+    "changes_from_v3": [
+      "foreground only; context panel removed",
+      "neutral prompt describing selected foreground",
+      "empty-target control gates all automatic decisions",
+      "same original masks and model revision"
+    ],
+    "confounded_changes": true
+  },
+  "shared_model_load_for_two_images": true,
+  "empty_control_source": "results/vlm_review/BEGO7553_frame_001098_review_v4/empty_target_control.jpg",
+  "policy_function_source_sha256": "d048238f9616ef19b4e44e683675ce09efca0d81f64c00031e1901b6ca1b2f6b",
+  "no_annotations_loaded": true
+}

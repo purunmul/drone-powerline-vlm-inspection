@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A yellow wire or cable running diagonally across the image.\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "A yellow wire or cable running diagonally across the image."
+  },
+  "parse_error": null,
+  "seconds": 1.0767979174852371,
+  "image_tokens": 1023,
+  "input": "results/dev_transfer_20261107_v1/KZIV5445_frame_000488/vlm/P12_isolated.jpg",
+  "input_sha256": "4fa9290ae24ad9f94c446a4ba210d9490b8f75aacf615c2dd3addc2b9cc843a0",
+  "finish_reason": "stop",
+  "candidate_id": "P12",
+  "decision": "keep",
+  "decision_proposal": "keep",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.399999618530273,
+  "mask_area_original_pixels": 16276
+}

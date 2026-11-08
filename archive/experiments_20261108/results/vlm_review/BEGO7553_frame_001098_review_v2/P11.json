@@ -1,0 +1,53 @@
+{
+  "candidate_id": "P11",
+  "identity": {
+    "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"description\": \"specific visible object\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+    "seconds": 0.8999230191111565,
+    "image_tokens": 1020,
+    "prompt_tokens": 1175,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/original_context.jpg",
+        "sha256": "6701ef40baf9f3b0b26bb419a915d0fc65f5c5724ea74fdb4e4921a018c14b2e"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/marked_context.jpg",
+        "sha256": "6120a83329bb177cd57054ec938c76803d418195907e0a96c9c7fb9ebacd8f37"
+      }
+    ]
+  },
+  "geometry": {
+    "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+    "seconds": 0.7316657826304436,
+    "image_tokens": 1020,
+    "prompt_tokens": 1175,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/original_context.jpg",
+        "sha256": "6701ef40baf9f3b0b26bb419a915d0fc65f5c5724ea74fdb4e4921a018c14b2e"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P11/marked_context.jpg",
+        "sha256": "6120a83329bb177cd57054ec938c76803d418195907e0a96c9c7fb9ebacd8f37"
+      }
+    ]
+  },
+  "identity_parsed": {
+    "category": "vegetation",
+    "description": "specific visible object",
+    "evidence": "short visible evidence"
+  },
+  "geometry_parsed": {
+    "shape": "mixed",
+    "fit": "tight",
+    "evidence": "short visible evidence"
+  },
+  "parse_errors": [
+    null,
+    null
+  ],
+  "decision": "reject",
+  "next_action": "none"
+}

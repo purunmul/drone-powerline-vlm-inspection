@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "max_model_len": 2048,
+    "gpu_memory_utilization": 0.27,
+    "limit_mm_per_prompt": {
+      "image": 1,
+      "video": 0
+    },
+    "max_num_seqs": 4,
+    "max_num_batched_tokens": 2048,
+    "enforce_eager": true,
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 802816
+    },
+    "quantization": "bitsandbytes",
+    "load_format": "bitsandbytes"
+  },
+  "sampling": {
+    "temperature": 0,
+    "max_tokens": 110
+  },
+  "prompt": "Compare two views of the same aerial crop. Left is the original. Right is identical with cyan lines from an existing prediction. A cable may be dark or bright, thin, curved, or parallel to another cable. Cyan alone is not evidence of a real cable. Look for actual overhead wires visible on the LEFT which have missing cyan segments on the RIGHT. Return one JSON object only: region (copy {region}), visibility (none, uncertain, clear), missing (none, short, long), reason (up to 15 words). If the crop is empty or no wire is visible, choose none for both. Use long for a clearly missing cable or substantial segment. Ground markings, roof edges, and branches are background."
+}

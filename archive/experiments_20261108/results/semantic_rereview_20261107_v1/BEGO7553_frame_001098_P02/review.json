@@ -1,0 +1,71 @@
+{
+  "image": "BEGO7553_frame_001098",
+  "candidate_id": "P02",
+  "original": {
+    "category": "pole",
+    "visibility": "clear",
+    "evidence": "A vertical pole with a dark color is visible against a uniform gray background."
+  },
+  "results": {
+    "v4_replay": {
+      "input": "BEGO7553_frame_001098_P02/v4_replay.jpg",
+      "sha256": "3926bd2b7ff65c9f955a5ab4dea620e2976ce1aff069aa0b9ba8f7e0be15a60d",
+      "image_tokens": 672,
+      "seconds": 3.7636838480830193,
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A vertical pole with a dark color is visible against a uniform gray background.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "A vertical pole with a dark color is visible against a uniform gray background."
+      },
+      "parse_error": null,
+      "finish_reason": "stop"
+    },
+    "paired_no_context": {
+      "input": "BEGO7553_frame_001098_P02/paired_no_context.png",
+      "sha256": "82145db0456cda56919ab223b1a91b33a0c044ff3e1f724195d403bfa99be9c1",
+      "image_tokens": 972,
+      "seconds": 1.1812559999525547,
+      "raw": "```json\n{\n  \"category\": \"unclear\",\n  \"visibility\": \"unclear\",\n  \"evidence\": \"The selected foreground pixels are too small and indistinct to identify any specific object.\"\n}\n```",
+      "parsed": {
+        "category": "unclear",
+        "visibility": "unclear",
+        "evidence": "The selected foreground pixels are too small and indistinct to identify any specific object."
+      },
+      "parse_error": null,
+      "finish_reason": "stop"
+    },
+    "paired_context": {
+      "input": "BEGO7553_frame_001098_P02/paired_context.png",
+      "sha256": "eeb3d216c6ec33eba314460ba21fcb2fc716ce1f37e80790af8be7b975032cc4",
+      "image_tokens": 972,
+      "seconds": 1.2614894732832909,
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The selected foreground shows a section of a road with a small patch of orange flowers growing along the side.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The selected foreground shows a section of a road with a small patch of orange flowers growing along the side."
+      },
+      "parse_error": null,
+      "finish_reason": "stop"
+    },
+    "paired_empty_target": {
+      "input": "BEGO7553_frame_001098_P02/paired_empty_target.png",
+      "sha256": "1d0127ed30bb52212c3fbdef693408100767e9f7a28b9a4c4ed4d494a69690b6",
+      "image_tokens": 972,
+      "seconds": 1.2775692269206047,
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The selected foreground shows a section of a road with a manhole cover and some orange flowers along the sidewalk.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The selected foreground shows a section of a road with a manhole cover and some orange flowers along the sidewalk."
+      },
+      "parse_error": null,
+      "finish_reason": "stop"
+    }
+  },
+  "baseline_replay_match": true,
+  "empty_target_control_pass": false,
+  "eligible_for_diagnostic_addback": false,
+  "source_mask_sha256": "ad63f14948e464c478be2c5e42f2f1b211d05aec9bdaad65e2ed3a46c443abc2"
+}

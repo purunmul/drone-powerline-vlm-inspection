@@ -1,0 +1,53 @@
+{
+  "candidate_id": "P13",
+  "identity": {
+    "raw": "```json\n{\n  \"category\": \"road_or_ground\",\n  \"description\": \"concrete surface\",\n  \"evidence\": \"the car is parked on a concrete surface\"\n}\n```",
+    "seconds": 0.9656654559075832,
+    "image_tokens": 374,
+    "prompt_tokens": 529,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P13/original_context.jpg",
+        "sha256": "4b685b033a3900a82cc7436a5cc61910dfc3dd7636bb1496fbc6e737125d273f"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P13/marked_context.jpg",
+        "sha256": "2a96f955d3feac40dc7cb1139f85a997c2dc59027a397635b3bfd150b4d72abe"
+      }
+    ]
+  },
+  "geometry": {
+    "raw": "```json\n{\n  \"shape\": \"mixed\",\n  \"fit\": \"tight\",\n  \"evidence\": \"short visible evidence\"\n}\n```",
+    "seconds": 0.726264514029026,
+    "image_tokens": 374,
+    "prompt_tokens": 529,
+    "finish_reason": "stop",
+    "inputs": [
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P13/original_context.jpg",
+        "sha256": "4b685b033a3900a82cc7436a5cc61910dfc3dd7636bb1496fbc6e737125d273f"
+      },
+      {
+        "path": "results/langsam_baseline/BEGO7553_frame_001098_candidates_v1/P13/marked_context.jpg",
+        "sha256": "2a96f955d3feac40dc7cb1139f85a997c2dc59027a397635b3bfd150b4d72abe"
+      }
+    ]
+  },
+  "identity_parsed": {
+    "category": "road_or_ground",
+    "description": "concrete surface",
+    "evidence": "the car is parked on a concrete surface"
+  },
+  "geometry_parsed": {
+    "shape": "mixed",
+    "fit": "tight",
+    "evidence": "short visible evidence"
+  },
+  "parse_errors": [
+    null,
+    null
+  ],
+  "decision": "reject",
+  "next_action": "none"
+}

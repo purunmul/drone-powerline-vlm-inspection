@@ -1,0 +1,80 @@
+{
+  "id": "P01_R1",
+  "parent_id": "P01",
+  "round": 1,
+  "crop_xyxy_original": [
+    1480,
+    520,
+    1660,
+    1177
+  ],
+  "context_origin_xy": [
+    1480,
+    520
+  ],
+  "prompt": {
+    "parent_id": "P01",
+    "crop": [
+      1480,
+      520,
+      1660,
+      1177
+    ],
+    "box": [
+      1525,
+      550,
+      1620,
+      1150
+    ],
+    "positive": [
+      [
+        1541,
+        600
+      ],
+      [
+        1553,
+        700
+      ],
+      [
+        1578,
+        900
+      ],
+      [
+        1602,
+        1100
+      ]
+    ],
+    "negative": [
+      [
+        1500,
+        800
+      ],
+      [
+        1630,
+        900
+      ]
+    ]
+  },
+  "selected_output_index": 1,
+  "sam_scores": [
+    0.8203125,
+    0.83984375,
+    0.75
+  ],
+  "before_area_same_scope": 21675,
+  "after_area_same_scope": 2781,
+  "area_change_ratio": 0.1283044982698962,
+  "positive_prompt_hits": 4,
+  "positive_prompt_count": 4,
+  "negative_prompt_hits": 0,
+  "inference_seconds": 0.49149852618575096,
+  "mask_original": "results/selective_reprocess/BEGO7553_frame_001098_round1/P01_R1/mask_original.png",
+  "mask_local": "results/selective_reprocess/BEGO7553_frame_001098_round1/P01_R1/mask_local.png",
+  "isolated_target": "results/selective_reprocess/BEGO7553_frame_001098_round1/P01_R1/isolated_target.jpg",
+  "comparison": "results/selective_reprocess/BEGO7553_frame_001098_round1/P01_R1/comparison.jpg",
+  "status": "SAM_INFERENCE_COMPLETE_NOT_ACCEPTED",
+  "finalized": false,
+  "accuracy_evaluated": false,
+  "parent_replaced": false,
+  "unprocessed_parent_regions_retained": true
+}

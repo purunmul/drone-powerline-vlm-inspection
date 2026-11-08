@@ -1,0 +1,373 @@
+{
+  "status": "REVIEW_COMPLETE",
+  "candidate_count": 17,
+  "counts": {
+    "reject": 8,
+    "keep": 7,
+    "uncertain": 2
+  },
+  "empty_control_pass": true,
+  "source_masks_unchanged": true,
+  "ground_truth_used": false,
+  "model_load_seconds_shared": 19.58160723000765,
+  "inference_seconds_total": 20.65959296375513,
+  "results": [
+    {
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, green object that appears to be a plant or a piece of vegetation.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The image shows a long, thin, green object that appears to be a plant or a piece of vegetation."
+      },
+      "parse_error": null,
+      "seconds": 1.455525390803814,
+      "image_tokens": 720,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P01_isolated.jpg",
+      "input_sha256": "235c5f2b3b551a77b2bc729018d0e96e69eb102f3bf4ddc2a4b3e42a4fbc119f",
+      "finish_reason": "stop",
+      "candidate_id": "P01",
+      "decision": "reject",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.393799781799316,
+      "mask_area_original_pixels": 10316
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, metallic object with a pointed tip, which appears to be a wire or cable.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The image shows a long, thin, metallic object with a pointed tip, which appears to be a wire or cable."
+      },
+      "parse_error": null,
+      "seconds": 1.3291172310709953,
+      "image_tokens": 192,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P02_isolated.jpg",
+      "input_sha256": "91cbc31073e8ff3466fd7b0db33691f4b2910d8e3d26b079dd5750e4ec017309",
+      "finish_reason": "stop",
+      "candidate_id": "P02",
+      "decision": "keep",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 7.19379997253418,
+      "mask_area_original_pixels": 2836
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, metallic object with a slightly curved shape, which appears to be a wire or cable.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The image shows a long, thin, metallic object with a slightly curved shape, which appears to be a wire or cable."
+      },
+      "parse_error": null,
+      "seconds": 1.3854806832969189,
+      "image_tokens": 540,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P03_isolated.jpg",
+      "input_sha256": "838bf9b56074ae386c5183a89db0772ed0c60b1827edd867943bb5c41112f078",
+      "finish_reason": "stop",
+      "candidate_id": "P03",
+      "decision": "keep",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.787599563598633,
+      "mask_area_original_pixels": 6328
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"unclear\",\n  \"visibility\": \"unclear\",\n  \"evidence\": \"A thin, light-colored line or object is present on a uniform gray background.\"\n}\n```",
+      "parsed": {
+        "category": "unclear",
+        "visibility": "unclear",
+        "evidence": "A thin, light-colored line or object is present on a uniform gray background."
+      },
+      "parse_error": null,
+      "seconds": 1.0823469422757626,
+      "image_tokens": 99,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P04_isolated.jpg",
+      "input_sha256": "2c11408851b610a6afe7241872b73b94c9e3853d4ef7eb514fa16a364bfb53c0",
+      "finish_reason": "stop",
+      "candidate_id": "P04",
+      "decision": "uncertain",
+      "decision_proposal": "uncertain",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 12.787599563598633,
+      "mask_area_original_pixels": 2699
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin pole with a green top and a gray base, extending diagonally across the frame.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "The image shows a long, thin pole with a green top and a gray base, extending diagonally across the frame."
+      },
+      "parse_error": null,
+      "seconds": 1.2922602891921997,
+      "image_tokens": 1008,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P05_isolated.jpg",
+      "input_sha256": "2ab89203a312d611fa659673dffa4c04adcc2bfe77cfcebef0d654c31aa50b12",
+      "finish_reason": "stop",
+      "candidate_id": "P05",
+      "decision": "reject",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.0,
+      "mask_area_original_pixels": 11980
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A long, thin, metallic object with a pointed tip, resembling a sword or spear, is visible against a uniform gray background.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "A long, thin, metallic object with a pointed tip, resembling a sword or spear, is visible against a uniform gray background."
+      },
+      "parse_error": null,
+      "seconds": 1.3286047913134098,
+      "image_tokens": 99,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P06_isolated.jpg",
+      "input_sha256": "9355a952fe129b41b5e631e489371516c784c70420bd05356211b513fd5aae29",
+      "finish_reason": "stop",
+      "candidate_id": "P06",
+      "decision": "keep",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.399999618530273,
+      "mask_area_original_pixels": 1650
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"building_edge\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a red building edge with a slight curve and a visible seam where the panels meet.\"\n}\n```",
+      "parsed": {
+        "category": "building_edge",
+        "visibility": "clear",
+        "evidence": "The image shows a red building edge with a slight curve and a visible seam where the panels meet."
+      },
+      "parse_error": null,
+      "seconds": 1.2326502539217472,
+      "image_tokens": 1024,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P07_isolated.jpg",
+      "input_sha256": "b240d176627dd4ee2104faec88612367f050adb4fe4de495a0ba98d9aada48d9",
+      "finish_reason": "stop",
+      "candidate_id": "P07",
+      "decision": "reject",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 726.0,
+      "mask_area_original_pixels": 991784
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a green plant with long, thin leaves and a stem.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The image shows a green plant with long, thin leaves and a stem."
+      },
+      "parse_error": null,
+      "seconds": 1.0345655381679535,
+      "image_tokens": 120,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P08_isolated.jpg",
+      "input_sha256": "5135566bb743a61dddadbb0771b7ce73f64ad080b6f1c8e7f27a773696739e79",
+      "finish_reason": "stop",
+      "candidate_id": "P08",
+      "decision": "reject",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 12.79379940032959,
+      "mask_area_original_pixels": 3836
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The object is a long, thin, white pole with a cylindrical shape and a pointed tip.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "The object is a long, thin, white pole with a cylindrical shape and a pointed tip."
+      },
+      "parse_error": null,
+      "seconds": 1.1025151684880257,
+      "image_tokens": 135,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P09_isolated.jpg",
+      "input_sha256": "a3773e897ff9c7668fc367e90e12ab898fe588cf05bd9b2908d689c4c8ba4426",
+      "finish_reason": "stop",
+      "candidate_id": "P09",
+      "decision": "reject",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 14.387598991394043,
+      "mask_area_original_pixels": 4451
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a vertical pole with a white and blue striped pattern, extending from the bottom to the top of the image.\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "The image shows a vertical pole with a white and blue striped pattern, extending from the bottom to the top of the image."
+      },
+      "parse_error": null,
+      "seconds": 1.246523704379797,
+      "image_tokens": 442,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P10_isolated.jpg",
+      "input_sha256": "27678236ba741fdc8ecf2741e2fa89052d32ec1479dea7b3efe3f5740298b4b1",
+      "finish_reason": "stop",
+      "candidate_id": "P10",
+      "decision": "reject",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 25.181396484375,
+      "mask_area_original_pixels": 17289
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"unclear\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image contains a long, thin object with a metallic sheen, but the background is uniform gray, making it difficult to identify the object clearly.\"\n}\n```",
+      "parsed": {
+        "category": "unclear",
+        "visibility": "clear",
+        "evidence": "The image contains a long, thin object with a metallic sheen, but the background is uniform gray, making it difficult to identify the object clearly."
+      },
+      "parse_error": null,
+      "seconds": 1.456675123423338,
+      "image_tokens": 1020,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P11_isolated.jpg",
+      "input_sha256": "bbdcf4b99653f192ece385758749e5c3f4b95fa3a8dda3fe6e6f1b2c28733b04",
+      "finish_reason": "stop",
+      "candidate_id": "P11",
+      "decision": "uncertain",
+      "decision_proposal": "uncertain",
+      "control_gate_pass": true,
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 137.81398010253906,
+      "mask_area_original_pixels": 330395
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A blue wire or cable is visible in the foreground.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "A blue wire or cable is visible in the foreground."
+      },
+      "parse_error": null,
+      "seconds": 1.0459716506302357,
+      "image_tokens": 980,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P12_isolated.jpg",
+      "input_sha256": "8977a7e5f2305bdef498991f02ae86061b3acf27d999528dc6e103258d180e84",
+      "finish_reason": "stop",
+      "candidate_id": "P12",
+      "decision": "keep",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 8.393799781799316,
+      "mask_area_original_pixels": 14029
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A long, thin, pink wire or cable running diagonally across the image.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "A long, thin, pink wire or cable running diagonally across the image."
+      },
+      "parse_error": null,
+      "seconds": 1.1602045260369778,
+      "image_tokens": 1000,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P13_isolated.jpg",
+      "input_sha256": "1aa0c4118e6b2287eb2ea5f3c5c68e9fefe9c452674bc3174f1857c292a9a799",
+      "finish_reason": "stop",
+      "candidate_id": "P13",
+      "decision": "keep",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 9.993799209594727,
+      "mask_area_original_pixels": 9311
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, green wire or cable stretching horizontally across the frame.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "The image shows a long, thin, green wire or cable stretching horizontally across the frame."
+      },
+      "parse_error": null,
+      "seconds": 1.195047602057457,
+      "image_tokens": 902,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P14_isolated.jpg",
+      "input_sha256": "1452a7b56db4a6640a7d0a2b758bb539bac315a9580cac98d5a4620a0d622645",
+      "finish_reason": "stop",
+      "candidate_id": "P14",
+      "decision": "keep",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 6.393799781799316,
+      "mask_area_original_pixels": 4263
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a green, leafy foreground object, likely a tree or a bush, with a uniform gray background.\"\n}\n```",
+      "parsed": {
+        "category": "vegetation",
+        "visibility": "clear",
+        "evidence": "The image shows a green, leafy foreground object, likely a tree or a bush, with a uniform gray background."
+      },
+      "parse_error": null,
+      "seconds": 1.2959909923374653,
+      "image_tokens": 999,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P15_isolated.jpg",
+      "input_sha256": "773125d11fda281da32bff04dac5ce285fd04d141ceda70ee4b5dc3dd2b8d682",
+      "finish_reason": "stop",
+      "candidate_id": "P15",
+      "decision": "reject",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 45.544193267822266,
+      "mask_area_original_pixels": 166139
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"A red wire or cable running diagonally across the image.\"\n}\n```",
+      "parsed": {
+        "category": "wire_or_cable",
+        "visibility": "clear",
+        "evidence": "A red wire or cable running diagonally across the image."
+      },
+      "parse_error": null,
+      "seconds": 1.0688342116773129,
+      "image_tokens": 990,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P16_isolated.jpg",
+      "input_sha256": "582f21e5989ea891226ac7745126aaaac294e338019aa9c8f1427b4a6278808b",
+      "finish_reason": "stop",
+      "candidate_id": "P16",
+      "decision": "keep",
+      "decision_proposal": "keep",
+      "control_gate_pass": true,
+      "broad_mask_flag": false,
+      "thickness_proxy_p95_original_pixels": 10.0,
+      "mask_area_original_pixels": 21115
+    },
+    {
+      "raw": "```json\n{\n  \"category\": \"pole\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a tall metal pole with wires attached to it\"\n}\n```",
+      "parsed": {
+        "category": "pole",
+        "visibility": "clear",
+        "evidence": "a tall metal pole with wires attached to it"
+      },
+      "parse_error": null,
+      "seconds": 0.9472788646817207,
+      "image_tokens": 910,
+      "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P17_isolated.jpg",
+      "input_sha256": "e80fbec4c65b1c859850126b3044a28d4f76162bf36e5d100da2752344a50499",
+      "finish_reason": "stop",
+      "candidate_id": "P17",
+      "decision": "reject",
+      "decision_proposal": "reject",
+      "control_gate_pass": true,
+      "broad_mask_flag": true,
+      "thickness_proxy_p95_original_pixels": 29.593795776367188,
+      "mask_area_original_pixels": 31055
+    }
+  ]
+}

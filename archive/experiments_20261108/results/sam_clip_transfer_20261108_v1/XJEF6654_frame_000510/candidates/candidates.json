@@ -1,0 +1,577 @@
+{
+  "status": "CANDIDATES_PREPARED",
+  "stage": 3,
+  "source_result": "results/sam_clip_transfer_20261108_v1/XJEF6654_frame_000510/tiles/result.json",
+  "image": "/home/work/123-0125/data/initial_8/images/XJEF6654_frame_000510.jpg",
+  "image_sha256": "34ef26278fdd2e38c56cca4a766b8c58611b1cc7d3e2bcadda34a6cd940e2ee5",
+  "raw_count": 18,
+  "organized_count": 18,
+  "near_duplicate_count": 0,
+  "duplicate_rule": "mask IoU >= 0.85 for every group member; highest detector-score representative; engineering initial setting",
+  "semantic_rejections": 0,
+  "ground_truth_used": false,
+  "vlm_run": false,
+  "partial_overlaps_may_remain": true,
+  "candidate_ids_are_not_physical_wire_ids": true,
+  "all_raw_predictions_preserved": true,
+  "candidates": [
+    {
+      "id": "P01",
+      "representative_raw_id": "C0009",
+      "equivalent_raw_ids": [
+        "C0009"
+      ],
+      "source_tile": "T09",
+      "mask_bounds_original": [
+        2463,
+        768,
+        3328,
+        1212
+      ],
+      "context_xyxy_original": [
+        2334,
+        639,
+        3457,
+        1341
+      ],
+      "context_origin_xy": [
+        2334,
+        639
+      ],
+      "mask_area_pixels": 12922,
+      "detector_score": 0.6548947095870972,
+      "sam_mask_score": 0.90234375,
+      "original_context": "P01/original_context.jpg",
+      "marked_context": "P01/marked_context.jpg",
+      "mask": "P01/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P02",
+      "representative_raw_id": "C0006",
+      "equivalent_raw_ids": [
+        "C0006"
+      ],
+      "source_tile": "T06",
+      "mask_bounds_original": [
+        15,
+        824,
+        1024,
+        1535
+      ],
+      "context_xyxy_original": [
+        0,
+        673,
+        1175,
+        1686
+      ],
+      "context_origin_xy": [
+        0,
+        673
+      ],
+      "mask_area_pixels": 11638,
+      "detector_score": 0.6136996746063232,
+      "sam_mask_score": 0.76171875,
+      "original_context": "P02/original_context.jpg",
+      "marked_context": "P02/marked_context.jpg",
+      "mask": "P02/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P03",
+      "representative_raw_id": "C0018",
+      "equivalent_raw_ids": [
+        "C0018"
+      ],
+      "source_tile": "T15",
+      "mask_bounds_original": [
+        3175,
+        1136,
+        3840,
+        1471
+      ],
+      "context_xyxy_original": [
+        3076,
+        1037,
+        3840,
+        1570
+      ],
+      "context_origin_xy": [
+        3076,
+        1037
+      ],
+      "mask_area_pixels": 10383,
+      "detector_score": 0.5614553093910217,
+      "sam_mask_score": 0.93359375,
+      "original_context": "P03/original_context.jpg",
+      "marked_context": "P03/marked_context.jpg",
+      "mask": "P03/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P04",
+      "representative_raw_id": "C0013",
+      "equivalent_raw_ids": [
+        "C0013"
+      ],
+      "source_tile": "T11",
+      "mask_bounds_original": [
+        449,
+        1136,
+        1024,
+        1535
+      ],
+      "context_xyxy_original": [
+        363,
+        1050,
+        1110,
+        1621
+      ],
+      "context_origin_xy": [
+        363,
+        1050
+      ],
+      "mask_area_pixels": 5779,
+      "detector_score": 0.5319388508796692,
+      "sam_mask_score": 0.88671875,
+      "original_context": "P04/original_context.jpg",
+      "marked_context": "P04/marked_context.jpg",
+      "mask": "P04/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P05",
+      "representative_raw_id": "C0005",
+      "equivalent_raw_ids": [
+        "C0005"
+      ],
+      "source_tile": "T05",
+      "mask_bounds_original": [
+        2816,
+        560,
+        3840,
+        1024
+      ],
+      "context_xyxy_original": [
+        2663,
+        407,
+        3840,
+        1177
+      ],
+      "context_origin_xy": [
+        2663,
+        407
+      ],
+      "mask_area_pixels": 16515,
+      "detector_score": 0.49623119831085205,
+      "sam_mask_score": 0.79296875,
+      "original_context": "P05/original_context.jpg",
+      "marked_context": "P05/marked_context.jpg",
+      "mask": "P05/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P06",
+      "representative_raw_id": "C0017",
+      "equivalent_raw_ids": [
+        "C0017"
+      ],
+      "source_tile": "T14",
+      "mask_bounds_original": [
+        3177,
+        1136,
+        3328,
+        1212
+      ],
+      "context_xyxy_original": [
+        3113,
+        1072,
+        3392,
+        1276
+      ],
+      "context_origin_xy": [
+        3113,
+        1072
+      ],
+      "mask_area_pixels": 2087,
+      "detector_score": 0.4830387830734253,
+      "sam_mask_score": 0.93359375,
+      "original_context": "P06/original_context.jpg",
+      "marked_context": "P06/marked_context.jpg",
+      "mask": "P06/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P07",
+      "representative_raw_id": "C0016",
+      "equivalent_raw_ids": [
+        "C0016"
+      ],
+      "source_tile": "T13",
+      "mask_bounds_original": [
+        1990,
+        1350,
+        2319,
+        2156
+      ],
+      "context_xyxy_original": [
+        1870,
+        1230,
+        2439,
+        2160
+      ],
+      "context_origin_xy": [
+        1870,
+        1230
+      ],
+      "mask_area_pixels": 4133,
+      "detector_score": 0.45181018114089966,
+      "sam_mask_score": 0.75390625,
+      "original_context": "P07/original_context.jpg",
+      "marked_context": "P07/marked_context.jpg",
+      "mask": "P07/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P08",
+      "representative_raw_id": "C0007",
+      "equivalent_raw_ids": [
+        "C0007"
+      ],
+      "source_tile": "T07",
+      "mask_bounds_original": [
+        768,
+        1351,
+        1411,
+        1792
+      ],
+      "context_xyxy_original": [
+        672,
+        1255,
+        1507,
+        1888
+      ],
+      "context_origin_xy": [
+        672,
+        1255
+      ],
+      "mask_area_pixels": 6696,
+      "detector_score": 0.4330222010612488,
+      "sam_mask_score": 0.8984375,
+      "original_context": "P08/original_context.jpg",
+      "marked_context": "P08/marked_context.jpg",
+      "mask": "P08/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P09",
+      "representative_raw_id": "C0014",
+      "equivalent_raw_ids": [
+        "C0014"
+      ],
+      "source_tile": "T12",
+      "mask_bounds_original": [
+        768,
+        1351,
+        1663,
+        1987
+      ],
+      "context_xyxy_original": [
+        634,
+        1217,
+        1797,
+        2121
+      ],
+      "context_origin_xy": [
+        634,
+        1217
+      ],
+      "mask_area_pixels": 17133,
+      "detector_score": 0.4148988425731659,
+      "sam_mask_score": 0.734375,
+      "original_context": "P09/original_context.jpg",
+      "marked_context": "P09/marked_context.jpg",
+      "mask": "P09/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P10",
+      "representative_raw_id": "C0011",
+      "equivalent_raw_ids": [
+        "C0011"
+      ],
+      "source_tile": "T10",
+      "mask_bounds_original": [
+        2816,
+        939,
+        3840,
+        1470
+      ],
+      "context_xyxy_original": [
+        2663,
+        786,
+        3840,
+        1623
+      ],
+      "context_origin_xy": [
+        2663,
+        786
+      ],
+      "mask_area_pixels": 16130,
+      "detector_score": 0.4040370583534241,
+      "sam_mask_score": 0.93359375,
+      "original_context": "P10/original_context.jpg",
+      "marked_context": "P10/marked_context.jpg",
+      "mask": "P10/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P11",
+      "representative_raw_id": "C0010",
+      "equivalent_raw_ids": [
+        "C0010"
+      ],
+      "source_tile": "T10",
+      "mask_bounds_original": [
+        2816,
+        768,
+        3840,
+        1470
+      ],
+      "context_xyxy_original": [
+        2663,
+        615,
+        3840,
+        1623
+      ],
+      "context_origin_xy": [
+        2663,
+        615
+      ],
+      "mask_area_pixels": 30559,
+      "detector_score": 0.38075897097587585,
+      "sam_mask_score": 0.8671875,
+      "original_context": "P11/original_context.jpg",
+      "marked_context": "P11/marked_context.jpg",
+      "mask": "P11/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P12",
+      "representative_raw_id": "C0001",
+      "equivalent_raw_ids": [
+        "C0001"
+      ],
+      "source_tile": "T01",
+      "mask_bounds_original": [
+        0,
+        29,
+        1024,
+        351
+      ],
+      "context_xyxy_original": [
+        0,
+        0,
+        1177,
+        504
+      ],
+      "context_origin_xy": [
+        0,
+        0
+      ],
+      "mask_area_pixels": 17625,
+      "detector_score": 0.3775406777858734,
+      "sam_mask_score": 0.7734375,
+      "original_context": "P12/original_context.jpg",
+      "marked_context": "P12/marked_context.jpg",
+      "mask": "P12/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P13",
+      "representative_raw_id": "C0008",
+      "equivalent_raw_ids": [
+        "C0008"
+      ],
+      "source_tile": "T08",
+      "mask_bounds_original": [
+        2141,
+        1340,
+        2322,
+        1696
+      ],
+      "context_xyxy_original": [
+        2077,
+        1276,
+        2386,
+        1760
+      ],
+      "context_origin_xy": [
+        2077,
+        1276
+      ],
+      "mask_area_pixels": 3564,
+      "detector_score": 0.3711366057395935,
+      "sam_mask_score": 0.7265625,
+      "original_context": "P13/original_context.jpg",
+      "marked_context": "P13/marked_context.jpg",
+      "mask": "P13/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P14",
+      "representative_raw_id": "C0002",
+      "equivalent_raw_ids": [
+        "C0002"
+      ],
+      "source_tile": "T01",
+      "mask_bounds_original": [
+        0,
+        126,
+        1024,
+        351
+      ],
+      "context_xyxy_original": [
+        0,
+        0,
+        1177,
+        504
+      ],
+      "context_origin_xy": [
+        0,
+        0
+      ],
+      "mask_area_pixels": 10255,
+      "detector_score": 0.36931508779525757,
+      "sam_mask_score": 0.87109375,
+      "original_context": "P14/original_context.jpg",
+      "marked_context": "P14/marked_context.jpg",
+      "mask": "P14/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P15",
+      "representative_raw_id": "C0004",
+      "equivalent_raw_ids": [
+        "C0004"
+      ],
+      "source_tile": "T04",
+      "mask_bounds_original": [
+        2304,
+        483,
+        3328,
+        983
+      ],
+      "context_xyxy_original": [
+        2151,
+        330,
+        3481,
+        1136
+      ],
+      "context_origin_xy": [
+        2151,
+        330
+      ],
+      "mask_area_pixels": 16769,
+      "detector_score": 0.3486451208591461,
+      "sam_mask_score": 0.62890625,
+      "original_context": "P15/original_context.jpg",
+      "marked_context": "P15/marked_context.jpg",
+      "mask": "P15/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P16",
+      "representative_raw_id": "C0015",
+      "equivalent_raw_ids": [
+        "C0015"
+      ],
+      "source_tile": "T12",
+      "mask_bounds_original": [
+        768,
+        1351,
+        1783,
+        2007
+      ],
+      "context_xyxy_original": [
+        616,
+        1199,
+        1935,
+        2159
+      ],
+      "context_origin_xy": [
+        616,
+        1199
+      ],
+      "mask_area_pixels": 21842,
+      "detector_score": 0.3345894515514374,
+      "sam_mask_score": 0.7578125,
+      "original_context": "P16/original_context.jpg",
+      "marked_context": "P16/marked_context.jpg",
+      "mask": "P16/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P17",
+      "representative_raw_id": "C0003",
+      "equivalent_raw_ids": [
+        "C0003"
+      ],
+      "source_tile": "T04",
+      "mask_bounds_original": [
+        2458,
+        385,
+        3328,
+        799
+      ],
+      "context_xyxy_original": [
+        2328,
+        255,
+        3458,
+        929
+      ],
+      "context_origin_xy": [
+        2328,
+        255
+      ],
+      "mask_area_pixels": 9672,
+      "detector_score": 0.3293917179107666,
+      "sam_mask_score": 0.77734375,
+      "original_context": "P17/original_context.jpg",
+      "marked_context": "P17/marked_context.jpg",
+      "mask": "P17/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    },
+    {
+      "id": "P18",
+      "representative_raw_id": "C0012",
+      "equivalent_raw_ids": [
+        "C0012"
+      ],
+      "source_tile": "T10",
+      "mask_bounds_original": [
+        2885,
+        768,
+        3840,
+        1222
+      ],
+      "context_xyxy_original": [
+        2742,
+        625,
+        3840,
+        1365
+      ],
+      "context_origin_xy": [
+        2742,
+        625
+      ],
+      "mask_area_pixels": 11845,
+      "detector_score": 0.32167303562164307,
+      "sam_mask_score": 0.875,
+      "original_context": "P18/original_context.jpg",
+      "marked_context": "P18/marked_context.jpg",
+      "mask": "P18/mask_original.png",
+      "semantic_decision": "NOT_REVIEWED"
+    }
+  ]
+}

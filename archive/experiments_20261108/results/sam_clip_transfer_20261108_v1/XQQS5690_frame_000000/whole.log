@@ -1,0 +1,24 @@
+One or both local paths not provided. Loading from Hugging Face Hub: IDEA-Research/grounding-dino-base
+{
+  "status": "INFERENCE_COMPLETE",
+  "original_size": [
+    3840,
+    2160
+  ],
+  "prompt": "power line.",
+  "candidate_count": 0,
+  "mask_shape": [
+    0,
+    2160,
+    3840
+  ],
+  "model_load_seconds": 3.3596240654587746,
+  "inference_seconds": 1.0674892403185368,
+  "gpu_peak_allocated_gib": 2.658250331878662,
+  "detector_resize_config": {
+    "longest_edge": 1333,
+    "shortest_edge": 800
+  },
+  "output_directory": "/home/work/123-0125/results/sam_clip_transfer_20261108_v1/XQQS5690_frame_000000/whole",
+  "accuracy_evaluated": false
+}

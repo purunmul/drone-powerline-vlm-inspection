@@ -1,0 +1,1982 @@
+[
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R01",
+    "core": [
+      0,
+      0,
+      640,
+      540
+    ],
+    "zoom": [
+      0,
+      0,
+      704,
+      604
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R01.jpg",
+    "board_sha": "b947460ad1916fe08caa188850490c03e035af163b3b732ce5f78cef04ab6984",
+    "raw": "```json\n{\n  \"region\": \"R01\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"none\",\n  \"reason\": \"Cyan lines are present but do not correspond to actual overhead wires.\"\n}\n```",
+    "parsed": {
+      "region": "R01",
+      "visibility": "uncertain",
+      "missing": "none",
+      "reason": "Cyan lines are present but do not correspond to actual overhead wires."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R02",
+    "core": [
+      640,
+      0,
+      1280,
+      540
+    ],
+    "zoom": [
+      576,
+      0,
+      1344,
+      604
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R02.jpg",
+    "board_sha": "628cf340c1068b7fad159e2b9ab78bab9e43f02030eb062fcc9b9aaa7058e287",
+    "raw": "```json\n{\n  \"region\": \"R02\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"none\",\n  \"reason\": \"Cable not visible in the original image.\"\n}\n```",
+    "parsed": {
+      "region": "R02",
+      "visibility": "uncertain",
+      "missing": "none",
+      "reason": "Cable not visible in the original image."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R03",
+    "core": [
+      1280,
+      0,
+      1920,
+      540
+    ],
+    "zoom": [
+      1216,
+      0,
+      1984,
+      604
+    ],
+    "control": false,
+    "fixed_score": 33487,
+    "board": "BEGO7553_frame_001098/R03.jpg",
+    "board_sha": "f3680ff29178839419189e3ea6687a809d176cb9ba710c548ef79ea55d6cfe32",
+    "raw": "```json\n{\n  \"region\": \"R03\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan lines are missing in the long segment of the cable.\"\n}\n```",
+    "parsed": {
+      "region": "R03",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan lines are missing in the long segment of the cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R04",
+    "core": [
+      1920,
+      0,
+      2560,
+      540
+    ],
+    "zoom": [
+      1856,
+      0,
+      2624,
+      604
+    ],
+    "control": false,
+    "fixed_score": 23367,
+    "board": "BEGO7553_frame_001098/R04.jpg",
+    "board_sha": "28650041c0ba2214030fddd04e0591db94b89282f823f02c0aaa6749ffd6beba",
+    "raw": "```json\n{\n  \"region\": \"R04\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a long missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R04",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a long missing cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R05",
+    "core": [
+      2560,
+      0,
+      3200,
+      540
+    ],
+    "zoom": [
+      2496,
+      0,
+      3264,
+      604
+    ],
+    "control": false,
+    "fixed_score": 39985,
+    "board": "BEGO7553_frame_001098/R05.jpg",
+    "board_sha": "bef6773a52f25fa68ad39b85de6525714c648f313a900ec100aac55fd57df915",
+    "raw": "```json\n{\n  \"region\": \"R05\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan prediction shows a long gap.\"\n}\n```",
+    "parsed": {
+      "region": "R05",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan prediction shows a long gap."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R06",
+    "core": [
+      3200,
+      0,
+      3840,
+      540
+    ],
+    "zoom": [
+      3136,
+      0,
+      3840,
+      604
+    ],
+    "control": false,
+    "fixed_score": 14596,
+    "board": "BEGO7553_frame_001098/R06.jpg",
+    "board_sha": "ede9422db35944ba527b875651ada7d3423885e61ec3e2b61e4266f26888991a",
+    "raw": "```json\n{\n  \"region\": \"R06\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"none\",\n  \"reason\": \"Cyan lines are present but do not correspond to actual wires visible in the original image.\"\n}\n```",
+    "parsed": {
+      "region": "R06",
+      "visibility": "uncertain",
+      "missing": "none",
+      "reason": "Cyan lines are present but do not correspond to actual wires visible in the original image."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R07",
+    "core": [
+      0,
+      540,
+      640,
+      1080
+    ],
+    "zoom": [
+      0,
+      476,
+      704,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R07.jpg",
+    "board_sha": "ea243c05490f3bba0f534efdaefa4d3409cc462f05dd4bed9aecf408af97d7ec",
+    "raw": "```json\n{\n  \"region\": \"R07\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R07",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R08",
+    "core": [
+      640,
+      540,
+      1280,
+      1080
+    ],
+    "zoom": [
+      576,
+      476,
+      1344,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R08.jpg",
+    "board_sha": "0c3cc90a967fb8615553e243523b320250e9a3ae1ddcb568237902cf7465edd5",
+    "raw": "```json\n{\n  \"region\": \"R08\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R08",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R09",
+    "core": [
+      1280,
+      540,
+      1920,
+      1080
+    ],
+    "zoom": [
+      1216,
+      476,
+      1984,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 45287,
+    "board": "BEGO7553_frame_001098/R09.jpg",
+    "board_sha": "c8b0ccccfd60357b364927031cdcfbc8d84abdd9004c77dc57dabaf18631d370",
+    "raw": "```json\n{\n  \"region\": \"R09\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, likely due to prediction error.\"\n}\n```",
+    "parsed": {
+      "region": "R09",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, likely due to prediction error."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R10",
+    "core": [
+      1920,
+      540,
+      2560,
+      1080
+    ],
+    "zoom": [
+      1856,
+      476,
+      2624,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 67369,
+    "board": "BEGO7553_frame_001098/R10.jpg",
+    "board_sha": "a3e55a77171143f30ea46edf0c2f42f008b67043ae48a73a4887a318b30f005a",
+    "raw": "```json\n{\n  \"region\": \"R10\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan prediction shows a long gap.\"\n}\n```",
+    "parsed": {
+      "region": "R10",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan prediction shows a long gap."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R11",
+    "core": [
+      2560,
+      540,
+      3200,
+      1080
+    ],
+    "zoom": [
+      2496,
+      476,
+      3264,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 30907,
+    "board": "BEGO7553_frame_001098/R11.jpg",
+    "board_sha": "cff7172211a3bb3639f1e27dc50fd5025ef144ffd529714bcb2193a10294cf40",
+    "raw": "```json\n{\n  \"region\": \"R11\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R11",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R12",
+    "core": [
+      3200,
+      540,
+      3840,
+      1080
+    ],
+    "zoom": [
+      3136,
+      476,
+      3840,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 16093,
+    "board": "BEGO7553_frame_001098/R12.jpg",
+    "board_sha": "6808d241d36a6cc201980bd1c75c8a2fd9e31e243b58a7b2a972f2fa3e505602",
+    "raw": "```json\n{\n  \"region\": \"R12\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, cyan lines are not present where the cable should be.\"\n}\n```",
+    "parsed": {
+      "region": "R12",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, cyan lines are not present where the cable should be."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R13",
+    "core": [
+      0,
+      1080,
+      640,
+      1620
+    ],
+    "zoom": [
+      0,
+      1016,
+      704,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R13.jpg",
+    "board_sha": "048ea39ad6477726b6f9233d0fa22b47a9ccca58a57bca13727d4ff6f4a3751d",
+    "raw": "```json\n{\n  \"region\": \"R13\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R13",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R14",
+    "core": [
+      640,
+      1080,
+      1280,
+      1620
+    ],
+    "zoom": [
+      576,
+      1016,
+      1344,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R14.jpg",
+    "board_sha": "250b48ecbc6f4b7f070870f762787878bdc64d1d9365b5ffe5ff9cb9e4ac0399",
+    "raw": "```json\n{\n  \"region\": \"R14\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R14",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R15",
+    "core": [
+      1280,
+      1080,
+      1920,
+      1620
+    ],
+    "zoom": [
+      1216,
+      1016,
+      1984,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 75589,
+    "board": "BEGO7553_frame_001098/R15.jpg",
+    "board_sha": "d11146ad4d70ce32985b43173f05cb0108ad1f13e2f3921d9331e7cd3929340c",
+    "raw": "```json\n{\n  \"region\": \"R15\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"short\",\n  \"reason\": \"Cyan lines are missing in the lower right section of the image.\"\n}\n```",
+    "parsed": {
+      "region": "R15",
+      "visibility": "uncertain",
+      "missing": "short",
+      "reason": "Cyan lines are missing in the lower right section of the image."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R16",
+    "core": [
+      1920,
+      1080,
+      2560,
+      1620
+    ],
+    "zoom": [
+      1856,
+      1016,
+      2624,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 76573,
+    "board": "BEGO7553_frame_001098/R16.jpg",
+    "board_sha": "111139b16c8adc555abe430a6712157b0b9c278eb28b0bbb209b8ccc990d7ac0",
+    "raw": "```json\n{\n  \"region\": \"R16\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image but present in the prediction.\"\n}\n```",
+    "parsed": {
+      "region": "R16",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image but present in the prediction."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R17",
+    "core": [
+      2560,
+      1080,
+      3200,
+      1620
+    ],
+    "zoom": [
+      2496,
+      1016,
+      3264,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 23438,
+    "board": "BEGO7553_frame_001098/R17.jpg",
+    "board_sha": "958f0ff127314ad2a90b39476ef44912edfdb5cf1c6147c4a1239b58283f31a7",
+    "raw": "```json\n{\n  \"region\": \"R17\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan lines in the prediction.\"\n}\n```",
+    "parsed": {
+      "region": "R17",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan lines in the prediction."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R18",
+    "core": [
+      3200,
+      1080,
+      3840,
+      1620
+    ],
+    "zoom": [
+      3136,
+      1016,
+      3840,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 52882,
+    "board": "BEGO7553_frame_001098/R18.jpg",
+    "board_sha": "89bb71f06f9afa488978db3a7ad1251b253a16fa8f63050cd497e5e2b2e653ea",
+    "raw": "```json\n{\n  \"region\": \"R18\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan lines indicate missing segments of an actual cable.\"\n}\n```",
+    "parsed": {
+      "region": "R18",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan lines indicate missing segments of an actual cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R19",
+    "core": [
+      0,
+      1620,
+      640,
+      2160
+    ],
+    "zoom": [
+      0,
+      1556,
+      704,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R19.jpg",
+    "board_sha": "05d041bc9073550c631c16b985d7ddab8591ad860d6bf00c7c377764e93bcd69",
+    "raw": "```json\n{\n  \"region\": \"R19\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"none\",\n  \"reason\": \"No clear indication of missing cables in the image.\"\n}\n```",
+    "parsed": {
+      "region": "R19",
+      "visibility": "uncertain",
+      "missing": "none",
+      "reason": "No clear indication of missing cables in the image."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R20",
+    "core": [
+      640,
+      1620,
+      1280,
+      2160
+    ],
+    "zoom": [
+      576,
+      1556,
+      1344,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R20.jpg",
+    "board_sha": "d4529a25c931958c8144693d357cb80f35bd3fa10b906f0722ac538cb37daa76",
+    "raw": "```json\n{\n  \"region\": \"R20\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"short\",\n  \"reason\": \"Cyan segments are missing, indicating a potential cable gap.\"\n}\n```",
+    "parsed": {
+      "region": "R20",
+      "visibility": "uncertain",
+      "missing": "short",
+      "reason": "Cyan segments are missing, indicating a potential cable gap."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R21",
+    "core": [
+      1280,
+      1620,
+      1920,
+      2160
+    ],
+    "zoom": [
+      1216,
+      1556,
+      1984,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 74760,
+    "board": "BEGO7553_frame_001098/R21.jpg",
+    "board_sha": "434ec908bbef7194584aae837ccd052e6b65ceeee2d1f1fa7236f1c0235580a0",
+    "raw": "```json\n{\n  \"region\": \"R21\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan lines in the prediction.\"\n}\n```",
+    "parsed": {
+      "region": "R21",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan lines in the prediction."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R22",
+    "core": [
+      1920,
+      1620,
+      2560,
+      2160
+    ],
+    "zoom": [
+      1856,
+      1556,
+      2624,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 63351,
+    "board": "BEGO7553_frame_001098/R22.jpg",
+    "board_sha": "7d29baa5f71845319877661597fc910cd15e22b49656886a25136a62dff30628",
+    "raw": "```json\n{\n  \"region\": \"R22\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image but present in the prediction.\"\n}\n```",
+    "parsed": {
+      "region": "R22",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image but present in the prediction."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R23",
+    "core": [
+      2560,
+      1620,
+      3200,
+      2160
+    ],
+    "zoom": [
+      2496,
+      1556,
+      3264,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R23.jpg",
+    "board_sha": "e5a7ecfdace41b270836f2aea99b4b61ecc68238e6988eb813d60c17331ec36e",
+    "raw": "```json\n{\n  \"region\": \"R23\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R23",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "R24",
+    "core": [
+      3200,
+      1620,
+      3840,
+      2160
+    ],
+    "zoom": [
+      3136,
+      1556,
+      3840,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/R24.jpg",
+    "board_sha": "7e37e0924e5044c9386216cc250c993f5e725542559ea2407cf249d8674fbcef",
+    "raw": "```json\n{\n  \"region\": \"R24\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R24",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL",
+    "core": null,
+    "zoom": null,
+    "control": true,
+    "fixed_score": 0,
+    "board": "BEGO7553_frame_001098/CTRL.jpg",
+    "board_sha": "c9ee8c5a7ec26cae131020e12d507a904bb4faf07f15ed67f5e1f4b14f44ee4d",
+    "raw": "```json\n{\n  \"region\": \"CTRL | ORIGINAL\",\n  \"visibility\": \"none\",\n  \"missing\": \"none\",\n  \"reason\": \"The original image is empty, no wire is visible.\"\n}\n```",
+    "parsed": null
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R01",
+    "core": [
+      0,
+      0,
+      640,
+      540
+    ],
+    "zoom": [
+      0,
+      0,
+      704,
+      604
+    ],
+    "control": false,
+    "fixed_score": 40892,
+    "board": "PUYL5573_frame_000165/R01.jpg",
+    "board_sha": "b99c3e82c6b07a7fc80532fea1bbc85b05583128fbc94e91282338b3d6b8d6be",
+    "raw": "```json\n{\n  \"region\": \"R01\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan lines are missing on the right side of the image.\"\n}\n```",
+    "parsed": {
+      "region": "R01",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan lines are missing on the right side of the image."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R02",
+    "core": [
+      640,
+      0,
+      1280,
+      540
+    ],
+    "zoom": [
+      576,
+      0,
+      1344,
+      604
+    ],
+    "control": false,
+    "fixed_score": 202575,
+    "board": "PUYL5573_frame_000165/R02.jpg",
+    "board_sha": "54bed6c370c7529697e09f7efe04af368b0aa26591e245ad74f7611ede2e9699",
+    "raw": "```json\n{\n  \"region\": \"R02\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan lines are missing in the long segment of the cable, indicating a clear gap.\"\n}\n```",
+    "parsed": {
+      "region": "R02",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan lines are missing in the long segment of the cable, indicating a clear gap."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R03",
+    "core": [
+      1280,
+      0,
+      1920,
+      540
+    ],
+    "zoom": [
+      1216,
+      0,
+      1984,
+      604
+    ],
+    "control": false,
+    "fixed_score": 162332,
+    "board": "PUYL5573_frame_000165/R03.jpg",
+    "board_sha": "5f1fec654f33f4d446be1be22f9e1ac47c103787444b666f80f51e94ce4b1aae",
+    "raw": "```json\n{\n  \"region\": \"R03\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R03",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R04",
+    "core": [
+      1920,
+      0,
+      2560,
+      540
+    ],
+    "zoom": [
+      1856,
+      0,
+      2624,
+      604
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "PUYL5573_frame_000165/R04.jpg",
+    "board_sha": "c021c0a45df27058fe8db90c6a4dfe7c5fa514e9af40a2d53a2c138a32d02886",
+    "raw": "```json\n{\n  \"region\": \"R04\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R04",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R05",
+    "core": [
+      2560,
+      0,
+      3200,
+      540
+    ],
+    "zoom": [
+      2496,
+      0,
+      3264,
+      604
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "PUYL5573_frame_000165/R05.jpg",
+    "board_sha": "ac3cea1d9da855863dbd3f4cf73a60761e4942155d583f519f7bc3a5152a0234",
+    "raw": "```json\n{\n  \"region\": \"R05\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R05",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R06",
+    "core": [
+      3200,
+      0,
+      3840,
+      540
+    ],
+    "zoom": [
+      3136,
+      0,
+      3840,
+      604
+    ],
+    "control": false,
+    "fixed_score": 45951,
+    "board": "PUYL5573_frame_000165/R06.jpg",
+    "board_sha": "63946789b8d67e9ba9620967fac8ed430d4ccc6142e09d8ee85761e1f83211ba",
+    "raw": "```json\n{\n  \"region\": \"R06\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R06",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R07",
+    "core": [
+      0,
+      540,
+      640,
+      1080
+    ],
+    "zoom": [
+      0,
+      476,
+      704,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 31715,
+    "board": "PUYL5573_frame_000165/R07.jpg",
+    "board_sha": "824ff86e16799f822e77af85412aaf14423c6a96f927a714f3e7a909a2f8aad1",
+    "raw": "```json\n{\n  \"region\": \"R07\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan prediction shows a long missing segment.\"\n}\n```",
+    "parsed": {
+      "region": "R07",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan prediction shows a long missing segment."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R08",
+    "core": [
+      640,
+      540,
+      1280,
+      1080
+    ],
+    "zoom": [
+      576,
+      476,
+      1344,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 188033,
+    "board": "PUYL5573_frame_000165/R08.jpg",
+    "board_sha": "22b9ef2f2c2c7e6873ca41b3cfb5375c4b8b08f1f4ea8d722b94199418a88f14",
+    "raw": "```json\n{\n  \"region\": \"R08\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R08",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R09",
+    "core": [
+      1280,
+      540,
+      1920,
+      1080
+    ],
+    "zoom": [
+      1216,
+      476,
+      1984,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 168580,
+    "board": "PUYL5573_frame_000165/R09.jpg",
+    "board_sha": "80458d7f745e8a6e68e6866eca10387387686d8c2ed11d7c64846f4d54a97c44",
+    "raw": "```json\n{\n  \"region\": \"R09\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R09",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R10",
+    "core": [
+      1920,
+      540,
+      2560,
+      1080
+    ],
+    "zoom": [
+      1856,
+      476,
+      2624,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 137306,
+    "board": "PUYL5573_frame_000165/R10.jpg",
+    "board_sha": "c23528876f1d6ec0f9243a844b26efe23372bf320fdfa0552d94037c7fdbf169",
+    "raw": "```json\n{\n  \"region\": \"R10\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a long missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R10",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a long missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R11",
+    "core": [
+      2560,
+      540,
+      3200,
+      1080
+    ],
+    "zoom": [
+      2496,
+      476,
+      3264,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "PUYL5573_frame_000165/R11.jpg",
+    "board_sha": "93b01a1f22197d3c1161dfdadb1977b6f4d37155c73ed17bfd55492c2479f8dc",
+    "raw": "```json\n{\n  \"region\": \"R11\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"none\",\n  \"reason\": \"Cyan lines are present but do not correspond to actual wires.\"\n}\n```",
+    "parsed": {
+      "region": "R11",
+      "visibility": "uncertain",
+      "missing": "none",
+      "reason": "Cyan lines are present but do not correspond to actual wires."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R12",
+    "core": [
+      3200,
+      540,
+      3840,
+      1080
+    ],
+    "zoom": [
+      3136,
+      476,
+      3840,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "PUYL5573_frame_000165/R12.jpg",
+    "board_sha": "46f03f06215f1be90b6e5e1b628014d87de2417638f6c3a4e201766dcd2baf10",
+    "raw": "```json\n{\n  \"region\": \"R12\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"none\",\n  \"reason\": \"Cyan lines are present but do not correspond to actual overhead wires.\"\n}\n```",
+    "parsed": {
+      "region": "R12",
+      "visibility": "uncertain",
+      "missing": "none",
+      "reason": "Cyan lines are present but do not correspond to actual overhead wires."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R13",
+    "core": [
+      0,
+      1080,
+      640,
+      1620
+    ],
+    "zoom": [
+      0,
+      1016,
+      704,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "PUYL5573_frame_000165/R13.jpg",
+    "board_sha": "bd42def915fcff63afa2fa6340d6d17c5205c76ae935b7c634aa74fcd4335232",
+    "raw": "```json\n{\n  \"region\": \"R13\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R13",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R14",
+    "core": [
+      640,
+      1080,
+      1280,
+      1620
+    ],
+    "zoom": [
+      576,
+      1016,
+      1344,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 138241,
+    "board": "PUYL5573_frame_000165/R14.jpg",
+    "board_sha": "a47d0c1e01512397eb5647a3c67f85cc333a99f7b5cc8eb2d4fe378d44b3e641",
+    "raw": "```json\n{\n  \"region\": \"R14\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan lines are missing in the long segment of the cable.\"\n}\n```",
+    "parsed": {
+      "region": "R14",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan lines are missing in the long segment of the cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R15",
+    "core": [
+      1280,
+      1080,
+      1920,
+      1620
+    ],
+    "zoom": [
+      1216,
+      1016,
+      1984,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 123800,
+    "board": "PUYL5573_frame_000165/R15.jpg",
+    "board_sha": "48a0d88b427a2823787fed7534803b1eca3ab8101df992c0774a48a3a8c3d724",
+    "raw": "```json\n{\n  \"region\": \"R15\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan lines are missing in the long segment of the cable.\"\n}\n```",
+    "parsed": {
+      "region": "R15",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan lines are missing in the long segment of the cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R16",
+    "core": [
+      1920,
+      1080,
+      2560,
+      1620
+    ],
+    "zoom": [
+      1856,
+      1016,
+      2624,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 136522,
+    "board": "PUYL5573_frame_000165/R16.jpg",
+    "board_sha": "c11cba984f71762c65bb9f3f6dd69ad36ab7e044425a0a3550616c8427cd2ee2",
+    "raw": "```json\n{\n  \"region\": \"R16\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R16",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R17",
+    "core": [
+      2560,
+      1080,
+      3200,
+      1620
+    ],
+    "zoom": [
+      2496,
+      1016,
+      3264,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 144223,
+    "board": "PUYL5573_frame_000165/R17.jpg",
+    "board_sha": "732804fbb58422764b94dfeec5496b25651c028100ab8f50d4eab2d7b8b23837",
+    "raw": "```json\n{\n  \"region\": \"R17\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan lines are missing in the long segment of the cable.\"\n}\n```",
+    "parsed": {
+      "region": "R17",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan lines are missing in the long segment of the cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R18",
+    "core": [
+      3200,
+      1080,
+      3840,
+      1620
+    ],
+    "zoom": [
+      3136,
+      1016,
+      3840,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 192593,
+    "board": "PUYL5573_frame_000165/R18.jpg",
+    "board_sha": "2048448ae26790cbe38a19e813e608ef25ecd8bdf5fd0b8b1d33f336205a40d9",
+    "raw": "```json\n{\n  \"region\": \"R18\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, likely due to prediction error.\"\n}\n```",
+    "parsed": {
+      "region": "R18",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, likely due to prediction error."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R19",
+    "core": [
+      0,
+      1620,
+      640,
+      2160
+    ],
+    "zoom": [
+      0,
+      1556,
+      704,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "PUYL5573_frame_000165/R19.jpg",
+    "board_sha": "3573e50c7fb5c767c65f8030de018edc2a0944408c94a030ea905f489170cee1",
+    "raw": "```json\n{\n  \"region\": \"R19\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"short\",\n  \"reason\": \"Cyan segments are missing, indicating a potential cable gap.\"\n}\n```",
+    "parsed": {
+      "region": "R19",
+      "visibility": "uncertain",
+      "missing": "short",
+      "reason": "Cyan segments are missing, indicating a potential cable gap."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R20",
+    "core": [
+      640,
+      1620,
+      1280,
+      2160
+    ],
+    "zoom": [
+      576,
+      1556,
+      1344,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 261569,
+    "board": "PUYL5573_frame_000165/R20.jpg",
+    "board_sha": "abb39a0f1c857400162bf670cc9f20511b8434e374b11353474b382c7a330824",
+    "raw": "```json\n{\n  \"region\": \"R20\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments are missing, indicating a long missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R20",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments are missing, indicating a long missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R21",
+    "core": [
+      1280,
+      1620,
+      1920,
+      2160
+    ],
+    "zoom": [
+      1216,
+      1556,
+      1984,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 163262,
+    "board": "PUYL5573_frame_000165/R21.jpg",
+    "board_sha": "7c1e165993d0af57d98e697a6f81123c5676381ea5f315378e100bc43dab8809",
+    "raw": "```json\n{\n  \"region\": \"R21\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan lines are missing in the right image, indicating a long missing segment of the cable.\"\n}\n```",
+    "parsed": {
+      "region": "R21",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan lines are missing in the right image, indicating a long missing segment of the cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R22",
+    "core": [
+      1920,
+      1620,
+      2560,
+      2160
+    ],
+    "zoom": [
+      1856,
+      1556,
+      2624,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 23920,
+    "board": "PUYL5573_frame_000165/R22.jpg",
+    "board_sha": "d1982ff04ae42d7e6a221f38cf10b88bd6aebdd17de5260d62576ec6c8785eba",
+    "raw": "```json\n{\n  \"region\": \"R22\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"none\",\n  \"reason\": \"No clear indication of missing cables in the image.\"\n}\n```",
+    "parsed": {
+      "region": "R22",
+      "visibility": "uncertain",
+      "missing": "none",
+      "reason": "No clear indication of missing cables in the image."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R23",
+    "core": [
+      2560,
+      1620,
+      3200,
+      2160
+    ],
+    "zoom": [
+      2496,
+      1556,
+      3264,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 94559,
+    "board": "PUYL5573_frame_000165/R23.jpg",
+    "board_sha": "ee49d377908352fde7cc0c7ddc3e83d8e86f69bc572e3dbdccdcd40388e3c1dd",
+    "raw": "```json\n{\n  \"region\": \"R23\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, likely due to prediction error.\"\n}\n```",
+    "parsed": {
+      "region": "R23",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, likely due to prediction error."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "R24",
+    "core": [
+      3200,
+      1620,
+      3840,
+      2160
+    ],
+    "zoom": [
+      3136,
+      1556,
+      3840,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 68266,
+    "board": "PUYL5573_frame_000165/R24.jpg",
+    "board_sha": "7c30033d42c70be23dee8f8b75dd66ac62ea9722d94d822d97a0bc105e34f33c",
+    "raw": "```json\n{\n  \"region\": \"R24\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan lines are missing in long segments, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R24",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan lines are missing in long segments, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL",
+    "core": null,
+    "zoom": null,
+    "control": true,
+    "fixed_score": 0,
+    "board": "PUYL5573_frame_000165/CTRL.jpg",
+    "board_sha": "c9ee8c5a7ec26cae131020e12d507a904bb4faf07f15ed67f5e1f4b14f44ee4d",
+    "raw": "```json\n{\n  \"region\": \"CTRL | ORIGINAL\",\n  \"visibility\": \"none\",\n  \"missing\": \"none\",\n  \"reason\": \"The original image is empty, no wire is visible.\"\n}\n```",
+    "parsed": null
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R01",
+    "core": [
+      0,
+      0,
+      640,
+      540
+    ],
+    "zoom": [
+      0,
+      0,
+      704,
+      604
+    ],
+    "control": false,
+    "fixed_score": 0,
+    "board": "KZIV5445_frame_000488/R01.jpg",
+    "board_sha": "bcba01a49177a9157020a0ea748e6eced66c53f4b2560deee7761ef7ab5f61cc",
+    "raw": "```json\n{\n  \"region\": \"R01\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"none\",\n  \"reason\": \"Cyan lines are missing in the predicted image, indicating a potential cable missing.\"\n}\n```",
+    "parsed": {
+      "region": "R01",
+      "visibility": "uncertain",
+      "missing": "none",
+      "reason": "Cyan lines are missing in the predicted image, indicating a potential cable missing."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R02",
+    "core": [
+      640,
+      0,
+      1280,
+      540
+    ],
+    "zoom": [
+      576,
+      0,
+      1344,
+      604
+    ],
+    "control": false,
+    "fixed_score": 9064,
+    "board": "KZIV5445_frame_000488/R02.jpg",
+    "board_sha": "9e78071493002e50cfd457c32e76c1d00b9d6584b5780bc62c52bf4e0c71750a",
+    "raw": "```json\n{\n  \"region\": \"R02\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R02",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R03",
+    "core": [
+      1280,
+      0,
+      1920,
+      540
+    ],
+    "zoom": [
+      1216,
+      0,
+      1984,
+      604
+    ],
+    "control": false,
+    "fixed_score": 95419,
+    "board": "KZIV5445_frame_000488/R03.jpg",
+    "board_sha": "677877f1f268d3c5b07bb1ef5594a4b3a9a5c4c125a1569375a393f2d44e24e7",
+    "raw": "```json\n{\n  \"region\": \"R03\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image but present in the prediction.\"\n}\n```",
+    "parsed": {
+      "region": "R03",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image but present in the prediction."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R04",
+    "core": [
+      1920,
+      0,
+      2560,
+      540
+    ],
+    "zoom": [
+      1856,
+      0,
+      2624,
+      604
+    ],
+    "control": false,
+    "fixed_score": 207506,
+    "board": "KZIV5445_frame_000488/R04.jpg",
+    "board_sha": "9bde7e61265c548ba96d8177335e0c0e5d08ec0af32040323b3dd15b8a71b25c",
+    "raw": "```json\n{\n  \"region\": \"R04\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image but present in the prediction.\"\n}\n```",
+    "parsed": {
+      "region": "R04",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image but present in the prediction."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R05",
+    "core": [
+      2560,
+      0,
+      3200,
+      540
+    ],
+    "zoom": [
+      2496,
+      0,
+      3264,
+      604
+    ],
+    "control": false,
+    "fixed_score": 181306,
+    "board": "KZIV5445_frame_000488/R05.jpg",
+    "board_sha": "c42f03627b12d1c86000c39c8a4fa69de292dffbf95d3f7373abb4afd0e18d40",
+    "raw": "```json\n{\n  \"region\": \"R05\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, likely due to occlusion or prediction error.\"\n}\n```",
+    "parsed": {
+      "region": "R05",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, likely due to occlusion or prediction error."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R06",
+    "core": [
+      3200,
+      0,
+      3840,
+      540
+    ],
+    "zoom": [
+      3136,
+      0,
+      3840,
+      604
+    ],
+    "control": false,
+    "fixed_score": 64497,
+    "board": "KZIV5445_frame_000488/R06.jpg",
+    "board_sha": "03cc9ab5e2aec734d5f44d23ff016987ee1c12c8896318facac489e01050d113",
+    "raw": "```json\n{\n  \"region\": \"R06\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a long missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R06",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a long missing cable."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R07",
+    "core": [
+      0,
+      540,
+      640,
+      1080
+    ],
+    "zoom": [
+      0,
+      476,
+      704,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 96505,
+    "board": "KZIV5445_frame_000488/R07.jpg",
+    "board_sha": "1ab252d4529041bc4419c705162a980f56de259a813722a8b40e38d0810e0672",
+    "raw": "```json\n{\n  \"region\": \"R07\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan prediction shows a long gap.\"\n}\n```",
+    "parsed": {
+      "region": "R07",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan prediction shows a long gap."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R08",
+    "core": [
+      640,
+      540,
+      1280,
+      1080
+    ],
+    "zoom": [
+      576,
+      476,
+      1344,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 59700,
+    "board": "KZIV5445_frame_000488/R08.jpg",
+    "board_sha": "36472a5c4097bf784ef5289b781a3065fb1396db1f57093fda9b621bff652e0c",
+    "raw": "```json\n{\n  \"region\": \"R08\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan lines in the prediction are long and unclear.\"\n}\n```",
+    "parsed": {
+      "region": "R08",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan lines in the prediction are long and unclear."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R09",
+    "core": [
+      1280,
+      540,
+      1920,
+      1080
+    ],
+    "zoom": [
+      1216,
+      476,
+      1984,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 232258,
+    "board": "KZIV5445_frame_000488/R09.jpg",
+    "board_sha": "0371bf49fa81b2681730a7933b267f497d7f4b7f397138009ab136a192f67538",
+    "raw": "```json\n{\n  \"region\": \"R09\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan lines in the prediction.\"\n}\n```",
+    "parsed": {
+      "region": "R09",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan lines in the prediction."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R10",
+    "core": [
+      1920,
+      540,
+      2560,
+      1080
+    ],
+    "zoom": [
+      1856,
+      476,
+      2624,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 202925,
+    "board": "KZIV5445_frame_000488/R10.jpg",
+    "board_sha": "8531cee3708f386f764108b47fc2e76dd42f7c48870b22db7983cb0698271a8b",
+    "raw": "```json\n{\n  \"region\": \"R10\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, likely due to prediction error.\"\n}\n```",
+    "parsed": {
+      "region": "R10",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, likely due to prediction error."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R11",
+    "core": [
+      2560,
+      540,
+      3200,
+      1080
+    ],
+    "zoom": [
+      2496,
+      476,
+      3264,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 172603,
+    "board": "KZIV5445_frame_000488/R11.jpg",
+    "board_sha": "d1975391711c2b0b83c74ab36ccbbab06e11b081264d8cd0415989ea872ff597",
+    "raw": "```json\n{\n  \"region\": \"R11\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, likely due to prediction error.\"\n}\n```",
+    "parsed": {
+      "region": "R11",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, likely due to prediction error."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R12",
+    "core": [
+      3200,
+      540,
+      3840,
+      1080
+    ],
+    "zoom": [
+      3136,
+      476,
+      3840,
+      1144
+    ],
+    "control": false,
+    "fixed_score": 39420,
+    "board": "KZIV5445_frame_000488/R12.jpg",
+    "board_sha": "1dc4776e15cc5677b853d8f37e8e68f43a17eb9bf4a05964fa6a93f87a56251a",
+    "raw": "```json\n{\n  \"region\": \"R12\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"none\",\n  \"reason\": \"Cable not visible in the original image.\"\n}\n```",
+    "parsed": {
+      "region": "R12",
+      "visibility": "uncertain",
+      "missing": "none",
+      "reason": "Cable not visible in the original image."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R13",
+    "core": [
+      0,
+      1080,
+      640,
+      1620
+    ],
+    "zoom": [
+      0,
+      1016,
+      704,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 282632,
+    "board": "KZIV5445_frame_000488/R13.jpg",
+    "board_sha": "94fc12797e55716c1203db6627c7d2569dfd17f7601db293d4d1e7470fced336",
+    "raw": "```json\n{\n  \"region\": \"R13\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a long missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R13",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a long missing cable."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R14",
+    "core": [
+      640,
+      1080,
+      1280,
+      1620
+    ],
+    "zoom": [
+      576,
+      1016,
+      1344,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 163518,
+    "board": "KZIV5445_frame_000488/R14.jpg",
+    "board_sha": "6acce2e844c681fc978a03e869c121ccf5c3cc81b02f2f269cc0901088255c5c",
+    "raw": "```json\n{\n  \"region\": \"R14\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, likely due to occlusion or prediction error.\"\n}\n```",
+    "parsed": {
+      "region": "R14",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, likely due to occlusion or prediction error."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R15",
+    "core": [
+      1280,
+      1080,
+      1920,
+      1620
+    ],
+    "zoom": [
+      1216,
+      1016,
+      1984,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 220169,
+    "board": "KZIV5445_frame_000488/R15.jpg",
+    "board_sha": "3f8a103fb2c656465b4b5808465861378521c44c115ba6ce94ee9de2f56bf9cc",
+    "raw": "```json\n{\n  \"region\": \"R15\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, likely due to occlusion or prediction error.\"\n}\n```",
+    "parsed": {
+      "region": "R15",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, likely due to occlusion or prediction error."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R16",
+    "core": [
+      1920,
+      1080,
+      2560,
+      1620
+    ],
+    "zoom": [
+      1856,
+      1016,
+      2624,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 237044,
+    "board": "KZIV5445_frame_000488/R16.jpg",
+    "board_sha": "cd070dafe06156ce3554700cc1df93554609cc99555fa0ba42e61264202fc4cd",
+    "raw": "```json\n{\n  \"region\": \"R16\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments are missing, indicating a missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R16",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments are missing, indicating a missing cable."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R17",
+    "core": [
+      2560,
+      1080,
+      3200,
+      1620
+    ],
+    "zoom": [
+      2496,
+      1016,
+      3264,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 173779,
+    "board": "KZIV5445_frame_000488/R17.jpg",
+    "board_sha": "da5431698e1a363b1291dc1982afe1dd572a38cf1463a5bb2aa527f818d8d35d",
+    "raw": "```json\n{\n  \"region\": \"R17\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan prediction shows a long gap.\"\n}\n```",
+    "parsed": {
+      "region": "R17",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan prediction shows a long gap."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R18",
+    "core": [
+      3200,
+      1080,
+      3840,
+      1620
+    ],
+    "zoom": [
+      3136,
+      1016,
+      3840,
+      1684
+    ],
+    "control": false,
+    "fixed_score": 54146,
+    "board": "KZIV5445_frame_000488/R18.jpg",
+    "board_sha": "b012a9ef8f65d3375508739d2c91768e42569a8480eacc1246550af61ffd0b5a",
+    "raw": "```json\n{\n  \"region\": \"R18\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cyan segments missing, indicating a long missing cable.\"\n}\n```",
+    "parsed": {
+      "region": "R18",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cyan segments missing, indicating a long missing cable."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R19",
+    "core": [
+      0,
+      1620,
+      640,
+      2160
+    ],
+    "zoom": [
+      0,
+      1556,
+      704,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 239930,
+    "board": "KZIV5445_frame_000488/R19.jpg",
+    "board_sha": "c618d1b570ff08f778dc3a1e2227cd2372d4a6fcfcdbdad37a259ab565c2874c",
+    "raw": "```json\n{\n  \"region\": \"R19\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the right image, likely due to shadow or obstruction.\"\n}\n```",
+    "parsed": {
+      "region": "R19",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the right image, likely due to shadow or obstruction."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R20",
+    "core": [
+      640,
+      1620,
+      1280,
+      2160
+    ],
+    "zoom": [
+      576,
+      1556,
+      1344,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 258158,
+    "board": "KZIV5445_frame_000488/R20.jpg",
+    "board_sha": "ec5e8b70fc2e5369a56342bfcf21028f3583387d18f09880f1ea3cfcf42e7768",
+    "raw": "```json\n{\n  \"region\": \"R20\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"short\",\n  \"reason\": \"Cyan segments are missing, indicating a potential cable gap.\"\n}\n```",
+    "parsed": {
+      "region": "R20",
+      "visibility": "uncertain",
+      "missing": "short",
+      "reason": "Cyan segments are missing, indicating a potential cable gap."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R21",
+    "core": [
+      1280,
+      1620,
+      1920,
+      2160
+    ],
+    "zoom": [
+      1216,
+      1556,
+      1984,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 209483,
+    "board": "KZIV5445_frame_000488/R21.jpg",
+    "board_sha": "ad9488cd8bf5d2aebf648546feaa8a5a3aad75284aba72c90c592461965696c7",
+    "raw": "```json\n{\n  \"region\": \"R21\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan lines in the prediction.\"\n}\n```",
+    "parsed": {
+      "region": "R21",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan lines in the prediction."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R22",
+    "core": [
+      1920,
+      1620,
+      2560,
+      2160
+    ],
+    "zoom": [
+      1856,
+      1556,
+      2624,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 89889,
+    "board": "KZIV5445_frame_000488/R22.jpg",
+    "board_sha": "ea0be5d2e2aacf7defe7af291372b7f11d901991ae24ed8d3d818cb244077bc8",
+    "raw": "```json\n{\n  \"region\": \"R22\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image but present in the prediction.\"\n}\n```",
+    "parsed": {
+      "region": "R22",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image but present in the prediction."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R23",
+    "core": [
+      2560,
+      1620,
+      3200,
+      2160
+    ],
+    "zoom": [
+      2496,
+      1556,
+      3264,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 188417,
+    "board": "KZIV5445_frame_000488/R23.jpg",
+    "board_sha": "ca6b0f95b3d754362827ff1adddd672dae68e1e362c3fa742e867a1781bdcfff",
+    "raw": "```json\n{\n  \"region\": \"R23\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan lines indicate a prediction but are not present in the original.\"\n}\n```",
+    "parsed": {
+      "region": "R23",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan lines indicate a prediction but are not present in the original."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "R24",
+    "core": [
+      3200,
+      1620,
+      3840,
+      2160
+    ],
+    "zoom": [
+      3136,
+      1556,
+      3840,
+      2160
+    ],
+    "control": false,
+    "fixed_score": 213787,
+    "board": "KZIV5445_frame_000488/R24.jpg",
+    "board_sha": "87cef563b2a7dcec1bc90984a17d924bfb936cd157a65d8358ab1e34d36a01ab",
+    "raw": "```json\n{\n  \"region\": \"R24\",\n  \"visibility\": \"uncertain\",\n  \"missing\": \"long\",\n  \"reason\": \"Cable missing in the original image, cyan lines indicate a prediction but are not present in the original.\"\n}\n```",
+    "parsed": {
+      "region": "R24",
+      "visibility": "uncertain",
+      "missing": "long",
+      "reason": "Cable missing in the original image, cyan lines indicate a prediction but are not present in the original."
+    }
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL",
+    "core": null,
+    "zoom": null,
+    "control": true,
+    "fixed_score": 0,
+    "board": "KZIV5445_frame_000488/CTRL.jpg",
+    "board_sha": "c9ee8c5a7ec26cae131020e12d507a904bb4faf07f15ed67f5e1f4b14f44ee4d",
+    "raw": "```json\n{\n  \"region\": \"CTRL | ORIGINAL\",\n  \"visibility\": \"none\",\n  \"missing\": \"none\",\n  \"reason\": \"The original image is empty, no wire is visible.\"\n}\n```",
+    "parsed": null
+  }
+]

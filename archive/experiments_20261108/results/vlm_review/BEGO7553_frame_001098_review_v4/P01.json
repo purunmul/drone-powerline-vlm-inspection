@@ -1,0 +1,22 @@
+{
+  "raw": "```json\n{\n  \"category\": \"wire_or_cable\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"a long cable running across the road\"\n}\n```",
+  "parsed": {
+    "category": "wire_or_cable",
+    "visibility": "clear",
+    "evidence": "a long cable running across the road"
+  },
+  "parse_error": null,
+  "seconds": 1.0827610604465008,
+  "image_tokens": 924,
+  "input": "results/vlm_review/BEGO7553_frame_001098_review_v4/P01_isolated.jpg",
+  "input_sha256": "b6287af61fa3005bc0587a15e629878b1fe47f8b282e08785cce776f39c4b428",
+  "finish_reason": "stop",
+  "decision_proposal": "uncertain",
+  "control_gate_pass": true,
+  "candidate_id": "P01",
+  "decision": "uncertain",
+  "broad_mask_flag": true,
+  "thickness_proxy_p95_original_pixels": 111.05117797851562,
+  "mask_area_original_pixels": 203464,
+  "next_action": "resegment"
+}

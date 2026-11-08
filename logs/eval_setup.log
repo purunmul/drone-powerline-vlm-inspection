@@ -1,0 +1,58 @@
+Collecting numpy==1.26.4
+  Downloading numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.0/61.0 kB 4.5 MB/s eta 0:00:00
+Collecting scipy==1.14.1
+  Downloading scipy-1.14.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.8/60.8 kB 9.1 MB/s eta 0:00:00
+Collecting scikit-image==0.24.0
+  Downloading scikit_image-0.24.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (14 kB)
+Collecting opencv-python-headless==4.10.0.84
+  Downloading opencv_python_headless-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+Collecting pillow==13.0.0
+  Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+Collecting networkx>=2.8 (from scikit-image==0.24.0)
+  Downloading networkx-3.7-py3-none-any.whl.metadata (6.7 kB)
+Collecting imageio>=2.33 (from scikit-image==0.24.0)
+  Downloading imageio-2.38.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting tifffile>=2022.8.12 (from scikit-image==0.24.0)
+  Downloading tifffile-2026.10.15-py3-none-any.whl.metadata (34 kB)
+Collecting packaging>=21 (from scikit-image==0.24.0)
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting lazy-loader>=0.4 (from scikit-image==0.24.0)
+  Downloading lazy_loader-0.6-py3-none-any.whl.metadata (6.0 kB)
+INFO: pip is looking at multiple versions of tifffile to determine which version is compatible with other requirements. This could take a while.
+Collecting tifffile>=2022.8.12 (from scikit-image==0.24.0)
+  Downloading tifffile-2026.9.20-py3-none-any.whl.metadata (34 kB)
+  Downloading tifffile-2026.9.15-py3-none-any.whl.metadata (33 kB)
+  Downloading tifffile-2026.9.9-py3-none-any.whl.metadata (33 kB)
+  Downloading tifffile-2026.8.23-py3-none-any.whl.metadata (34 kB)
+  Downloading tifffile-2026.8.16-py3-none-any.whl.metadata (34 kB)
+  Downloading tifffile-2026.7.31-py3-none-any.whl.metadata (33 kB)
+  Downloading tifffile-2026.7.14-py3-none-any.whl.metadata (33 kB)
+INFO: pip is still looking at multiple versions of tifffile to determine which version is compatible with other requirements. This could take a while.
+  Downloading tifffile-2026.6.1-py3-none-any.whl.metadata (33 kB)
+  Downloading tifffile-2026.5.15-py3-none-any.whl.metadata (32 kB)
+  Downloading tifffile-2026.5.2-py3-none-any.whl.metadata (32 kB)
+  Downloading tifffile-2026.4.11-py3-none-any.whl.metadata (31 kB)
+  Downloading tifffile-2026.3.3-py3-none-any.whl.metadata (31 kB)
+Downloading numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.0/18.0 MB 11.0 MB/s eta 0:00:00
+Downloading scipy-1.14.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (40.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.8/40.8 MB 5.5 MB/s eta 0:00:00
+Downloading scikit_image-0.24.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (15.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.0/15.0 MB 5.7 MB/s eta 0:00:00
+Downloading opencv_python_headless-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (49.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.9/49.9 MB 5.7 MB/s eta 0:00:00
+Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 5.8 MB/s eta 0:00:00
+Downloading imageio-2.38.1-py3-none-any.whl (328 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 328.4/328.4 kB 5.1 MB/s eta 0:00:00
+Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Downloading networkx-3.7-py3-none-any.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 6.6 MB/s eta 0:00:00
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.0/130.0 kB 10.1 MB/s eta 0:00:00
+Downloading tifffile-2026.3.3-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 244.0/244.0 kB 10.5 MB/s eta 0:00:00
+Installing collected packages: pillow, packaging, numpy, networkx, tifffile, scipy, opencv-python-headless, lazy-loader, imageio, scikit-image
+Successfully installed imageio-2.38.1 lazy-loader-0.6 networkx-3.7 numpy-1.26.4 opencv-python-headless-4.10.0.84 packaging-26.3 pillow-13.0.0 scikit-image-0.24.0 scipy-1.14.1 tifffile-2026.3.3

@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "max_model_len": 2048,
+    "gpu_memory_utilization": 0.65,
+    "limit_mm_per_prompt": {
+      "image": 1,
+      "video": 0
+    },
+    "max_num_seqs": 2,
+    "max_num_batched_tokens": 2048,
+    "enforce_eager": true,
+    "seed": 0,
+    "mm_processor_kwargs": {
+      "min_pixels": 784,
+      "max_pixels": 200704
+    },
+    "dtype": "float16"
+  },
+  "options": {
+    "temperature": 0,
+    "max_tokens": 48
+  },
+  "plain": "Left is original; right is the same crop with two cyan endpoint circles if a target is marked. Judge only the thin path between the circles. Is it a clear overhead electrical wire, obvious background (road paint, fence, vehicle, vegetation), or uncertain? A cyan marker itself is not wire evidence. Without two markers answer no_target. Return JSON only: {\"label\":\"wire|background|uncertain|no_target\"}.",
+  "prior": "Use this background information before judging: Korean conductor identification colors include brown, black, gray, blue and green-yellow. They can look lighter, darker or less saturated in a photo, and on bare wire color marking can be at ends. Treat this as a weak hint. Left is original; right is the same crop with two cyan endpoint circles if a target is marked. Judge only the thin path between the circles. Is it a clear overhead electrical wire, obvious background (road paint, fence, vehicle, vegetation), or uncertain? A cyan marker itself is not wire evidence. Without two markers answer no_target. Return JSON only: {\"label\":\"wire|background|uncertain|no_target\"}."
+}

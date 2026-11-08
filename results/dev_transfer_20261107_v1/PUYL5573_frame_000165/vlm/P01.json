@@ -1,0 +1,21 @@
+{
+  "raw": "```json\n{\n  \"category\": \"vegetation\",\n  \"visibility\": \"clear\",\n  \"evidence\": \"The image shows a long, thin, green object that appears to be a plant or a piece of vegetation.\"\n}\n```",
+  "parsed": {
+    "category": "vegetation",
+    "visibility": "clear",
+    "evidence": "The image shows a long, thin, green object that appears to be a plant or a piece of vegetation."
+  },
+  "parse_error": null,
+  "seconds": 1.455525390803814,
+  "image_tokens": 720,
+  "input": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/vlm/P01_isolated.jpg",
+  "input_sha256": "235c5f2b3b551a77b2bc729018d0e96e69eb102f3bf4ddc2a4b3e42a4fbc119f",
+  "finish_reason": "stop",
+  "candidate_id": "P01",
+  "decision": "reject",
+  "decision_proposal": "reject",
+  "control_gate_pass": true,
+  "broad_mask_flag": false,
+  "thickness_proxy_p95_original_pixels": 8.393799781799316,
+  "mask_area_original_pixels": 10316
+}

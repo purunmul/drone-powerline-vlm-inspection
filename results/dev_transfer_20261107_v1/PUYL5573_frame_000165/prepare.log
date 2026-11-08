@@ -1,0 +1,17 @@
+{
+  "status": "CANDIDATES_PREPARED",
+  "stage": 3,
+  "source_result": "results/dev_transfer_20261107_v1/PUYL5573_frame_000165/tiles/result.json",
+  "image": "/home/work/123-0125/data/initial_8/images/PUYL5573_frame_000165.jpg",
+  "image_sha256": "0a34a5743b2275e03dd30aa3899dd6f9825985e9039e163f6972cc5cc5ae156c",
+  "raw_count": 18,
+  "organized_count": 17,
+  "near_duplicate_count": 1,
+  "duplicate_rule": "mask IoU >= 0.85 for every group member; highest detector-score representative; engineering initial setting",
+  "semantic_rejections": 0,
+  "ground_truth_used": false,
+  "vlm_run": false,
+  "partial_overlaps_may_remain": true,
+  "candidate_ids_are_not_physical_wire_ids": true,
+  "all_raw_predictions_preserved": true
+}
