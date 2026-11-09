@@ -1,0 +1,110 @@
+[
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "COLOR",
+    "image": "results/wire_four_rules_20261109_v1/review_inputs/BEGO7553_frame_001098_color.jpg",
+    "prompt": "These numbered crops are tentative aerial wire fragments. Korean conductor identification colors are brown, black, gray, blue and green-yellow. The marking may only be at an end; shade and reflections shift the apparent color. Choose apparent color variability: WIDE if shadows, reflections or mixed tones need a broad prior, MEDIUM otherwise. Return exactly WIDE or MEDIUM."
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C01",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_C01.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B. Estimated visible wire width: 3.0 pixels."
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_EMPTY",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_CTRL_EMPTY.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B."
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_WRONG",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_CTRL_WRONG.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B."
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C02",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_C02.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B. Estimated visible wire width: 3.0 pixels."
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C03",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_C03.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B. Estimated visible wire width: 3.0 pixels."
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C04",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/BEGO7553_frame_001098_C04.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B. Estimated visible wire width: 5.0 pixels."
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "COLOR",
+    "image": "results/wire_four_rules_20261109_v1/review_inputs/PUYL5573_frame_000165_color.jpg",
+    "prompt": "These numbered crops are tentative aerial wire fragments. Korean conductor identification colors are brown, black, gray, blue and green-yellow. The marking may only be at an end; shade and reflections shift the apparent color. Choose apparent color variability: WIDE if shadows, reflections or mixed tones need a broad prior, MEDIUM otherwise. Return exactly WIDE or MEDIUM."
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C01",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_C01.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B. Estimated visible wire width: 2.0 pixels."
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_EMPTY",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_CTRL_EMPTY.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B."
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_WRONG",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_CTRL_WRONG.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B."
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C02",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_C02.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B. Estimated visible wire width: 5.0 pixels."
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C03",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_C03.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B. Estimated visible wire width: 3.0 pixels."
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C04",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/PUYL5573_frame_000165_C04.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B. Estimated visible wire width: 4.0 pixels."
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "COLOR",
+    "image": "results/wire_four_rules_20261109_v1/review_inputs/KZIV5445_frame_000488_color.jpg",
+    "prompt": "These numbered crops are tentative aerial wire fragments. Korean conductor identification colors are brown, black, gray, blue and green-yellow. The marking may only be at an end; shade and reflections shift the apparent color. Choose apparent color variability: WIDE if shadows, reflections or mixed tones need a broad prior, MEDIUM otherwise. Return exactly WIDE or MEDIUM."
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "C01",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/KZIV5445_frame_000488_C01.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B. Estimated visible wire width: 2.0 pixels."
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_EMPTY",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/KZIV5445_frame_000488_CTRL_EMPTY.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B."
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_WRONG",
+    "image": "results/wire_pole_contacts_20261108_v1/review_inputs/KZIV5445_frame_000488_CTRL_WRONG.jpg",
+    "prompt": "The right panel labels one wire end and candidate points A and B. First check the visible letters. If there are no letters answer NONE. Use the unmarked left panel to check whether the wire end physically approaches the pole hardware at A or B. A nearby pole alone is insufficient. If both positions are off the wire direction answer NONE. If ambiguous answer UNSURE. Return exactly one of NONE, UNSURE, A, B."
+  }
+]

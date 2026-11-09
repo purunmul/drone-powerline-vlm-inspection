@@ -1,0 +1,146 @@
+[
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "COLOR",
+    "choice": "WIDE",
+    "raw": "WIDE",
+    "prompt_tokens": 393,
+    "output_tokens": 3
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C01",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 395,
+    "output_tokens": 2
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_EMPTY",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 384,
+    "output_tokens": 2
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "CTRL_WRONG",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 384,
+    "output_tokens": 2
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C02",
+    "choice": "B",
+    "raw": "B",
+    "prompt_tokens": 395,
+    "output_tokens": 2
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C03",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 395,
+    "output_tokens": 2
+  },
+  {
+    "stem": "BEGO7553_frame_001098",
+    "id": "C04",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 395,
+    "output_tokens": 2
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "COLOR",
+    "choice": "WIDE",
+    "raw": "WIDE",
+    "prompt_tokens": 393,
+    "output_tokens": 3
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C01",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 395,
+    "output_tokens": 2
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_EMPTY",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 384,
+    "output_tokens": 2
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "CTRL_WRONG",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 384,
+    "output_tokens": 2
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C02",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 395,
+    "output_tokens": 2
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C03",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 395,
+    "output_tokens": 2
+  },
+  {
+    "stem": "PUYL5573_frame_000165",
+    "id": "C04",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 395,
+    "output_tokens": 2
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "COLOR",
+    "choice": "WIDE",
+    "raw": "WIDE",
+    "prompt_tokens": 393,
+    "output_tokens": 3
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "C01",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 395,
+    "output_tokens": 2
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_EMPTY",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 384,
+    "output_tokens": 2
+  },
+  {
+    "stem": "KZIV5445_frame_000488",
+    "id": "CTRL_WRONG",
+    "choice": "A",
+    "raw": "A",
+    "prompt_tokens": 384,
+    "output_tokens": 2
+  }
+]

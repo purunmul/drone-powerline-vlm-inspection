@@ -1,0 +1,10 @@
+previous_continuity 76.47 25.21 37.90 15.92
+continuity 74.00 27.45 39.99 17.66
+with_poles 74.00 27.45 39.99 17.66
+with_color 74.00 27.45 39.99 17.66
+four_rules 74.01 27.46 39.99 17.66
+BEGO7553_frame_001098 pole 3 vlm 0 ctrl ['A', 'A'] range WIDE seed 4 width 86 changed 4 0 20
+PUYL5573_frame_000165 pole 3 vlm 0 ctrl ['A', 'A'] range WIDE seed 4 width 186 changed 0 0 5
+KZIV5445_frame_000488 pole 0 vlm 0 ctrl ['A', 'A'] range WIDE seed 4 width 166 changed 0 11 10
+TOKENS {'prompt_tokens': 7038, 'output_tokens': 39}
+VERIFIED results/wire_four_rules_20261109_v1/review

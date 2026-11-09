@@ -1,0 +1,8 @@
+previous 74.01 27.46 39.99 17.66
+trace_only 72.19 32.78 44.96 22.09
+trace_min160 89.46 26.29 40.62 19.89
+trace_min160_poles 89.39 26.49 40.86 19.89
+BEGO7553_frame_001098 short_removed 56 kept 19 stops 3 new_stop 0 blocked_links 1 pole_delta 105
+PUYL5573_frame_000165 short_removed 106 kept 36 stops 3 new_stop 0 blocked_links 0 pole_delta 114
+KZIV5445_frame_000488 short_removed 102 kept 41 stops 0 new_stop 0 blocked_links 0 pole_delta 0
+VERIFIED results/wire_long_trace_20261109_v2
