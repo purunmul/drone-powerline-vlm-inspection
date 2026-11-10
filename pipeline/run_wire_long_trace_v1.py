@@ -27,18 +27,21 @@ def at_pole(yx, direction, contacts):
     return None
 
 
-def walk_end(points, lab, maskdist, contacts):
+def walk_end(points, lab, maskdist, contacts, *, max_extension=MAX_EXTENSION):
     if len(points)<18:
         return [],None
     start=points[-1].astype(float)
     direction=span.unit(points[-1]-points[-min(len(points),12)])
+    contact=at_pole(start,direction,contacts)
+    if contact is not None:
+        return [],contact
     initial=direction.copy()
     current=start.copy()
     novel=0
     traveled=0.0
     extension=[]
     height,width=lab.shape
-    for _ in range(MAX_EXTENSION//3):
+    for _ in range(max_extension//3):
         stop=at_pole(current,direction,contacts)
         if stop is not None:
             return extension,stop
@@ -67,7 +70,7 @@ def walk_end(points, lab, maskdist, contacts):
             break
         _,proposed,near,step=max(candidates,key=lambda row:row[0])
         traveled+=float(np.linalg.norm(proposed-current))
-        if traveled>MAX_EXTENSION:
+        if traveled>max_extension:
             break
         extension.append(proposed)
         direction=span.unit(.80*direction+.20*step)
@@ -129,7 +132,8 @@ def chain_paths(paths, links, selected, contacts):
     return result
 
 
-def render_paths(chains, lab, maskdist, contacts):
+def render_paths(chains, lab, maskdist, contacts, *, min_length=MIN_LENGTH,
+                 min_terminal_length=MIN_TERMINAL_LENGTH, max_extension=MAX_EXTENSION):
     shape=lab.shape
     raw=np.zeros(shape,np.uint8)
     filtered=np.zeros(shape,np.uint8)
@@ -141,8 +145,8 @@ def render_paths(chains, lab, maskdist, contacts):
     for path in chains:
         if len(path)<18:
             continue
-        head,ph=walk_end(path[::-1],lab,maskdist,contacts)
-        tail,pt=walk_end(path,lab,maskdist,contacts)
+        head,ph=walk_end(path[::-1],lab,maskdist,contacts,max_extension=max_extension)
+        tail,pt=walk_end(path,lab,maskdist,contacts,max_extension=max_extension)
         parts=[np.asarray(head)[::-1],path,np.asarray(tail)]
         points=np.concatenate([part for part in parts if len(part)])
         expanded+=len(head)+len(tail)
@@ -153,7 +157,7 @@ def render_paths(chains, lab, maskdist, contacts):
         edge=any(min(y,x,shape[0]-1-y,shape[1]-1-x)<=6 for y,x in (points[0],points[-1]))
         anchored=ph is not None or pt is not None or edge
         cv2.polylines(raw,[points[:,::-1].astype(np.int32)],False,1,1)
-        if arc<MIN_LENGTH and not (anchored and arc>=MIN_TERMINAL_LENGTH):
+        if arc<min_length and not (anchored and arc>=min_terminal_length):
             short+=1
             continue
         retained+=1

@@ -76,8 +76,8 @@ def color_board(photo, paths, seeds, target):
     for k,index in enumerate(seeds):
         p=np.asarray(paths[index]['points'])
         y,x=p[len(p)//2]
-        xx=int(np.clip(x-110,0,photo.shape[1]-220))
-        yy=int(np.clip(y-70,0,photo.shape[0]-140))
+        xx=int(np.clip(x-110,0,max(0,photo.shape[1]-220)))
+        yy=int(np.clip(y-70,0,max(0,photo.shape[0]-140)))
         crop=Image.fromarray(photo[yy:yy+140,xx:xx+220])
         a,b=(k%2)*320,(k//2)*180
         board.paste(crop.resize((310,156),Image.Resampling.LANCZOS),(a+5,b+23))

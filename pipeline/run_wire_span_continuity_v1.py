@@ -1,3 +1,4 @@
+from repository_paths import image_path
 import argparse
 import base64
 import csv
@@ -20,7 +21,7 @@ def save(path, data):
 
 
 def source(stem):
-    return Path(read_json(input_paths(stem)[0]/'result.json')['image'])
+    return image_path(read_json(input_paths(stem)[0]/'result.json')['image'])
 
 
 def unit(vector):

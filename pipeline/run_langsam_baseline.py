@@ -1,5 +1,6 @@
 import argparse,hashlib,json,time,traceback
 from datetime import datetime,timezone
+from dataclasses import asdict,is_dataclass
 from pathlib import Path
 import importlib.metadata as metadata
 import numpy as np
@@ -31,7 +32,8 @@ try:
  model=LangSAM(sam_type=report['sam_type'])
  torch.cuda.synchronize()
  report['model_load_seconds']=time.perf_counter()-start
- report['detector_resize_config']=model.gdino.processor.image_processor.size
+ size=model.gdino.processor.image_processor.size
+ report['detector_resize_config']=asdict(size) if is_dataclass(size) else size
  torch.cuda.reset_peak_memory_stats()
  torch.cuda.synchronize()
  start=time.perf_counter()

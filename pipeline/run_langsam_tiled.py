@@ -1,5 +1,7 @@
+from repository_paths import image_path
 import argparse,hashlib,json,time,traceback
 from datetime import datetime,timezone
+from dataclasses import asdict,is_dataclass
 from pathlib import Path
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont
@@ -14,7 +16,7 @@ p.add_argument('--overlap',type=int,default=256)
 a=p.parse_args()
 base=json.loads(Path(a.baseline).read_text())
 assert base['status']=='INFERENCE_COMPLETE'
-source=Path(base['image'])
+source=image_path(base['image'])
 assert hashlib.sha256(source.read_bytes()).hexdigest()==base['sha256']
 assert 0<=a.overlap<a.tile_size
 image=Image.open(source).convert('RGB')
@@ -51,7 +53,8 @@ try:
  model=LangSAM(sam_type=report['sam_type'])
  torch.cuda.synchronize()
  report['model_load_seconds']=time.perf_counter()-started
- report['detector_resize_config']=model.gdino.processor.image_processor.size
+ size=model.gdino.processor.image_processor.size
+ report['detector_resize_config']=asdict(size) if is_dataclass(size) else size
  torch.cuda.reset_peak_memory_stats()
  union=np.zeros((h,w),dtype=bool)
  total_infer=0.0

@@ -1,3 +1,4 @@
+from repository_paths import image_path
 import base64
 import time
 from collections import Counter
@@ -125,7 +126,7 @@ def prepare():
     for stem in STEMS:
         raw_dir,candidate_dir=input_paths(stem)
         report=read_json(raw_dir/'result.json')
-        source=Path(report['image'])
+        source=image_path(report['image'])
         assert digest(source)==report['sha256']
         photo=Image.open(source).convert('RGB')
         candidates=read_json(candidate_dir/'candidates.json')['candidates']

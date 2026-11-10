@@ -1,6 +1,6 @@
 import os,json,time
 from pathlib import Path
-root=Path('/home/work/123-0125')
+root=Path(__file__).resolve().parents[1]
 os.environ['HF_HOME']=str(root/'.cache/huggingface')
 os.environ['TORCH_HOME']=str(root/'.cache/torch')
 import torch

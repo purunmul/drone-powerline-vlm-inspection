@@ -1,3 +1,4 @@
+from repository_paths import image_path
 import json
 from pathlib import Path
 from PIL import Image
@@ -24,7 +25,7 @@ def main():
     model.build_model()
     all_poles={}
     for stem in STEMS:
-        source=Path(read_json(input_paths(stem)[0]/'result.json')['image'])
+        source=image_path(read_json(input_paths(stem)[0]/'result.json')['image'])
         with Image.open(source) as opened:
             image=opened.convert('RGB')
         w,h=image.size

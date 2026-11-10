@@ -1,3 +1,4 @@
+from repository_paths import image_path
 import json
 from pathlib import Path
 
@@ -28,7 +29,7 @@ def prepare():
     manifest=[]
     for stem in STEMS:
         raw=read_json(input_paths(stem)[0]/'result.json')
-        photo_path=Path(raw['image'])
+        photo_path=image_path(raw['image'])
         assert digest(photo_path)==raw['sha256']
         photo=Image.open(photo_path).convert('RGB')
         w,h=photo.size
@@ -142,8 +143,8 @@ def rerun():
         raw=read_json(input_paths(stem)[0]/'result.json')
         assert raw['prompt']=='power line.' and raw['sam_type']=='sam2.1_hiera_small'
         assert raw['box_threshold']==.30 and raw['text_threshold']==.25
-        assert digest(Path(raw['image']))==raw['sha256']
-        photo=Image.open(raw['image']).convert('RGB')
+        assert digest(image_path(raw['image']))==raw['sha256']
+        photo=Image.open(image_path(raw['image'])).convert('RGB')
         ids=set(choices[stem]['fixed'])|set(choices[stem]['vlm'])
         for r in manifest:
             if r['stem']!=stem or r['id'] not in ids:

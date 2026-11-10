@@ -64,8 +64,8 @@ def make_board(photo, trail, choices, dest):
     height,width=photo.shape[:2]
     ey,ex=trail[-1]
     size=420
-    x0=int(np.clip(ex-size//2,0,width-size))
-    y0=int(np.clip(ey-size//2,0,height-size))
+    x0=int(np.clip(ex-size//2,0,max(0,width-size)))
+    y0=int(np.clip(ey-size//2,0,max(0,height-size)))
     img=Image.fromarray(photo[y0:y0+size,x0:x0+size])
     right=img.copy()
     draw=ImageDraw.Draw(right)
@@ -85,7 +85,8 @@ def make_board(photo, trail, choices, dest):
     board.save(dest,quality=94)
 
 
-def review_cases(stem, photo, paths, poles, base):
+def review_cases(stem, photo, paths, poles, base, *, output_dir=None, max_cases=4):
+    output_dir=Path(output_dir) if output_dir is not None else OUT/'review_inputs'
     candidates = []
     for index,item in enumerate(paths):
         for side,points in enumerate((item['points'],item['points'][::-1])):
@@ -123,10 +124,10 @@ def review_cases(stem, photo, paths, poles, base):
         if i==1:
             cases.extend([('CTRL_EMPTY',{}),('CTRL_WRONG',{'A':dict(yx=wrong[0]),'B':dict(yx=wrong[1])})])
         for ident,options in cases:
-            dest=OUT/'review_inputs'/f'{stem}_{ident}.jpg'
+            dest=output_dir/f'{stem}_{ident}.jpg'
             make_board(photo,trail,options,dest)
             entries.append(dict(stem=stem,id=ident,options=options,image=str(dest)))
-        if i==4:
+        if i==max_cases:
             break
     return entries
 

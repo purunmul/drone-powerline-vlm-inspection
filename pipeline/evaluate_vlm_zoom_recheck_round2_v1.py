@@ -12,6 +12,7 @@ from scipy.spatial import cKDTree
 from skimage.morphology import skeletonize
 
 from evaluate_first_image_v1 import metrics, readmask
+from repository_paths import image_path
 from run_vlm_zoom_recheck_round1_v1 import (
     BASE, OUT as ROUND1, STEMS, baseline_path, digest, input_paths, read_json,
 )
@@ -144,7 +145,7 @@ def render(output, stem, line):
     folder = output / stem
     folder.mkdir(exist_ok=True)
     info = read_json(input_paths(stem)[0] / 'result.json')
-    source = Path(info['image'])
+    source = image_path(info['image'])
     assert digest(source) == info['sha256']
     with Image.open(source) as image:
         photo = np.array(image.convert('RGB'))

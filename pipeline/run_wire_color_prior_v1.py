@@ -1,3 +1,4 @@
+from repository_paths import image_path
 import argparse
 import base64
 import csv
@@ -33,7 +34,7 @@ def write_json(path, value):
 def inputs(stem):
     _, folder = input_paths(stem)
     record = read_json(folder / 'candidates.json')
-    source = Path(record['image'])
+    source = image_path(record['image'])
     assert digest(source) == record['image_sha256'], stem
     return source, [folder / item['mask'] for item in record['candidates']]
 

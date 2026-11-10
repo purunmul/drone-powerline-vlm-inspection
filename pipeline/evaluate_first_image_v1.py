@@ -1,3 +1,4 @@
+from repository_paths import image_path
 import json,csv,time,hashlib,zipfile,subprocess,importlib.metadata
 from pathlib import Path
 import xml.etree.ElementTree as ET
@@ -51,7 +52,7 @@ def sanity_tests():
     assert trace(gt)[0]['points_xy']
 def main():
     sanity_tests();OUT.mkdir(parents=True,exist_ok=False)
-    d=json.loads((ROOT/'candidates.json').read_text());rows=d['candidates'];impath=Path(d['image']);assert sha(impath)==d['image_sha256']
+    d=json.loads((ROOT/'candidates.json').read_text());rows=d['candidates'];impath=image_path(d['image']);assert sha(impath)==d['image_sha256']
     image=Image.open(impath).convert('RGB');w,h=image.size;assert (w,h)==(3840,2160)
     masks={c['id']:readmask(ROOT/c['mask']) for c in rows};sources={str(ROOT/c['mask']):sha(ROOT/c['mask']) for c in rows}
     xml=Path('data/initial_8/annotations.xml');tree=ET.parse(xml);matches=[x for x in tree.getroot().findall('image') if Path(x.attrib['name']).name==impath.name];assert len(matches)==1
