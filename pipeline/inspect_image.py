@@ -25,6 +25,10 @@ def parser():
     p.add_argument('--min-length', type=int, default=160)
     p.add_argument('--min-terminal-length', type=int, default=80)
     p.add_argument('--max-extension', type=int, default=192)
+    p.add_argument('--recovery-turns', type=int, default=0,
+                   help='Enable Qwen wire recovery with this many turns per region (0 disables it)')
+    p.add_argument('--recovery-regions', type=int, default=12,
+                   help='Maximum number of suspected gaps or missing fragments to review')
     return p
 
 
@@ -44,6 +48,10 @@ def main(argv=None):
         p.error('Require 0 < min-terminal-length <= min-length and max-extension >= 0')
     if not args.prompt.strip():
         p.error('Prompt must not be empty')
+    if args.recovery_turns == 1 or args.recovery_turns < 0 or args.recovery_regions < 1:
+        p.error('Recovery needs at least two turns and a positive region limit, or zero turns to disable')
+    if args.recovery_turns and args.prompt.strip().lower().rstrip('.') != 'power line':
+        p.error('Recovery supports the power line prompt only')
     image = args.image.resolve()
     model_path = Path(args.qwen_model).expanduser()
     if model_path.is_dir():
@@ -55,6 +63,8 @@ def main(argv=None):
     interpreters = {stage: ROOT / env / 'bin/python' for stage, env in
                     [('detect', '.venv-langsam'), ('prepare', '.venv-eval'),
                      ('review', '.venv-vlm'), ('trace', '.venv-eval')]}
+    if args.recovery_turns:
+        interpreters['recover'] = ROOT / '.venv-vlm/bin/python'
     for executable in set(interpreters.values()):
         if not os.access(executable, os.X_OK):
             p.error(f'Missing environment interpreter: {executable}')
@@ -74,14 +84,15 @@ def main(argv=None):
     write_json(manifest, run)
     started = time.perf_counter()
     labels = dict(detect='LangSAM tiles + pole detection', prepare='Continuity geometry + review inputs',
-                  review='Qwen image review', trace='Centerline tracing + visualization')
+                  review='Qwen image review', trace='Centerline tracing + visualization',
+                  recover='Multi-turn Qwen wire recovery')
     try:
         for index, (stage, executable) in enumerate(interpreters.items(), 1):
             log = output / 'logs' / f'{stage}.log'
             record = dict(name=stage, status='RUNNING', log=str(log.relative_to(output)))
             run['stages'].append(record)
             write_json(manifest, run)
-            print(f'[{index}/4] {labels[stage]}', flush=True)
+            print(f'[{index}/{len(interpreters)}] {labels[stage]}', flush=True)
             env = os.environ.copy()
             for key in ('PYTHONPATH', 'PYTHONHOME'):
                 env.pop(key, None)

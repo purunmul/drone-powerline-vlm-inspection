@@ -1,4 +1,4 @@
-"""Resumable, supervised dataset inference and centerline precision/recall."""
+"""Resumable dataset inference with centerline or pixel overlap evaluation."""
 import argparse
 from collections import Counter
 import csv
@@ -20,6 +20,7 @@ from inspection_io import ROOT, default_qwen_model, digest, read_json
 
 IMAGE_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.bmp', '.webp', '.tif', '.tiff'}
 FIELDS = ['image', 'precision', 'recall', 'status', 'attempts', 'output', 'error']
+MASK_FIELDS = ['f1', 'tp', 'fp', 'fn']
 
 
 def now():
@@ -137,13 +138,27 @@ def publish(output, state):
                    groups={group: dict(total=sum(r['group'] == group for r in records),
                                        completed=sum(r['group'] == group for r in completed))
                            for group in sorted({r['group'] for r in records})})
+    fields = FIELDS
+    thickness = state['config'].get('mask_thickness_px')
+    if thickness is not None:
+        from mask_overlap import aggregate_overlap
+
+        summary.pop('tolerance_px')
+        summary.update(aggregate_overlap(completed), evaluation='strict_pixel_overlap',
+                       native_mask_thickness_px=thickness)
+        for group, group_summary in summary['groups'].items():
+            rows = [row for row in completed if row['group'] == group]
+            group_summary.update(aggregate_overlap(rows))
+        fields = FIELDS + MASK_FIELDS
     buffer = io.StringIO(newline='')
-    writer = csv.DictWriter(buffer, fieldnames=FIELDS, extrasaction='ignore')
+    writer = csv.DictWriter(buffer, fieldnames=fields)
     writer.writeheader()
     for record in records:
-        row = {key: record.get(key, '') for key in FIELDS}
+        row = {key: record.get(key, '') for key in fields}
         if record['status'] != 'COMPLETE':
-            row['precision'] = row['recall'] = ''
+            for key in ('precision', 'recall', *MASK_FIELDS):
+                if key in row:
+                    row[key] = ''
         writer.writerow(row)
     # The durable state is authoritative; the CSV and summary can be regenerated.
     save_json(output / 'state.json', state)
@@ -172,6 +187,10 @@ def prepare(args):
                   tolerance_px=args.tolerance_px, gpu_mem=args.gpu_mem,
                   max_attempts=args.max_attempts, timeout_seconds=args.timeout_seconds,
                   retry_delay=args.retry_delay, max_gpu_used_mib=args.max_gpu_used_mib)
+    if args.mask_thickness_px is not None:
+        config['mask_thickness_px'] = args.mask_thickness_px
+    if args.recovery_turns:
+        config.update(recovery_turns=args.recovery_turns, recovery_regions=args.recovery_regions)
     model = Path(config['qwen_model']).expanduser()
     if not model.is_dir():
         raise ValueError('Use a complete local Qwen model snapshot; download the model before starting the batch')
@@ -290,6 +309,9 @@ def run_image(output, state, row, task):
     command = [str(output / 'source/.venv-eval/bin/python'), '-u', str(script),
                '--image', task['image'], '--output', str(attempt), '--qwen-model', config['qwen_model'],
                '--gpu-mem', str(config['gpu_mem'])]
+    if config.get('recovery_turns'):
+        command.extend(('--recovery-turns', str(config['recovery_turns']),
+                        '--recovery-regions', str(config['recovery_regions'])))
     env = os.environ.copy()
     env.pop('PYTHONPATH', None)
     env.pop('PYTHONHOME', None)
@@ -327,7 +349,21 @@ def collect_result(row, task, config):
         raise ValueError('Incomplete run or mismatched input hash')
     if str(Path(run['config']['qwen_model']).resolve()) != config['qwen_model']:
         raise ValueError('The model used for this image differs from the batch model')
-    scores = evaluate_prediction(attempt / 'prediction_centerline.png', task, config['tolerance_px'])
+    if config.get('recovery_turns'):
+        if any(run['config'].get(key) != config[key] for key in ('recovery_turns', 'recovery_regions')):
+            raise ValueError('The image recovery settings differ from the batch settings')
+        if not any(stage['name'] == 'recover' and stage['status'] == 'COMPLETE'
+                   for stage in run.get('stages', [])):
+            raise ValueError('Image recovery did not complete')
+    prediction = attempt / 'prediction_centerline.png'
+    thickness = config.get('mask_thickness_px')
+    if thickness is None:
+        scores = evaluate_prediction(prediction, task, config['tolerance_px'])
+    else:
+        from mask_overlap import evaluate_masks
+
+        scores = evaluate_masks(attempt, task, thickness)
+        scores['prediction_sha256'] = digest(prediction)
     row.update(scores, status='COMPLETE', error='', completed_at_utc=now())
 
 
@@ -412,7 +448,10 @@ def main(argv=None):
     parser.add_argument('--dataset', type=Path, default=ROOT / 'dataset')
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--qwen-model', default=default_qwen_model())
-    parser.add_argument('--tolerance-px', type=int, default=5)
+    scoring = parser.add_mutually_exclusive_group()
+    scoring.add_argument('--tolerance-px', type=int, default=5)
+    scoring.add_argument('--mask-thickness-px', type=int,
+                         help='Score strict overlap of equally thick masks at original image resolution')
     parser.add_argument('--gpu-mem', type=float, default=.35)
     parser.add_argument('--max-attempts', type=int, default=3)
     parser.add_argument('--timeout-seconds', type=int, default=900)
@@ -420,6 +459,10 @@ def main(argv=None):
     parser.add_argument('--max-gpu-used-mib', type=int, default=1024)
     parser.add_argument('--expected-count', type=int)
     parser.add_argument('--priority-image')
+    parser.add_argument('--recovery-turns', type=int, default=0,
+                        help='Enable Qwen recovery with this many turns per region')
+    parser.add_argument('--recovery-regions', type=int, default=12,
+                        help='Maximum number of suspected regions per image')
     parser.add_argument('--prepare-only', action='store_true')
     parser.add_argument('--worker', action='store_true', help=argparse.SUPPRESS)
     args = parser.parse_args(argv)
@@ -428,6 +471,10 @@ def main(argv=None):
     if (args.tolerance_px < 0 or not 0 < args.gpu_mem < 1 or args.max_attempts < 1 or
             args.timeout_seconds < 1 or args.retry_delay < 0):
         parser.error('Invalid tolerance, memory fraction, attempt count, timeout or retry delay')
+    if args.mask_thickness_px is not None and not 1 <= args.mask_thickness_px <= 32767:
+        parser.error('Mask thickness must be between 1 and 32767 pixels')
+    if args.recovery_turns == 1 or args.recovery_turns < 0 or args.recovery_regions < 1:
+        parser.error('Recovery needs at least two turns and a positive region limit, or zero turns to disable')
     output = prepare(args)
     return 0 if args.prepare_only else supervise(output)
 

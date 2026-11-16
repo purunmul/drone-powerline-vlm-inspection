@@ -112,29 +112,17 @@ def detect(run_dir):
     print(f'DETECTION_COMPLETE candidates={len(candidates)} poles={len(poles)}', flush=True)
 
 
-def review(run_dir):
+def ask_images(llm, jobs):
     import base64
-    import importlib.metadata
-    from vllm import LLM, SamplingParams
+    from vllm import SamplingParams
 
-    run = read_json(run_dir / 'run.json')
-    jobs = read_json(run_dir / 'review_jobs.json')
-    for job in jobs:
-        if digest(run_dir / job['image']) != job['image_sha256']:
-            raise ValueError(f'Review image changed: {job["id"]}')
-    model = run['config']['qwen_model']
-    settings = dict(model=model, max_model_len=2048, max_num_batched_tokens=2048,
-                    gpu_memory_utilization=run['config']['gpu_mem'], max_num_seqs=2,
-                    limit_mm_per_prompt={'image': 1, 'video': 0}, enforce_eager=True, seed=0,
-                    mm_processor_kwargs={'min_pixels': 784, 'max_pixels': 200704})
-    llm = LLM(**settings)
     sampling = SamplingParams(temperature=0, max_tokens=16)
     answers = []
     for start in range(0, len(jobs), 2):
         batch = jobs[start:start + 2]
         messages = []
         for job in batch:
-            data = base64.b64encode((run_dir / job['image']).read_bytes()).decode('ascii')
+            data = base64.b64encode(Path(job['image']).read_bytes()).decode('ascii')
             messages.append([dict(role='user', content=[
                 dict(type='image_url', image_url=dict(url='data:image/jpeg;base64,' + data)),
                 dict(type='text', text=job['prompt'])])])
@@ -150,8 +138,30 @@ def review(run_dir):
                                 output_tokens=len(value.token_ids),
                                 image_sha256=job['image_sha256']))
             print(f'QWEN {job["id"]}: {choice!r}', flush=True)
+    return answers
+
+
+def qwen_settings(config, max_pixels=200704):
+    return dict(model=config['qwen_model'], max_model_len=2048, max_num_batched_tokens=2048,
+                gpu_memory_utilization=config['gpu_mem'], max_num_seqs=2,
+                limit_mm_per_prompt={'image': 1, 'video': 0}, enforce_eager=True, seed=0,
+                mm_processor_kwargs={'min_pixels': 784, 'max_pixels': max_pixels})
+
+
+def review(run_dir):
+    import importlib.metadata
+    from vllm import LLM
+
+    run = read_json(run_dir / 'run.json')
+    jobs = read_json(run_dir / 'review_jobs.json')
+    for job in jobs:
+        job['image'] = run_dir / job['image']
+        if digest(job['image']) != job['image_sha256']:
+            raise ValueError(f'Review image changed: {job["id"]}')
+    settings = qwen_settings(run['config'])
+    answers = ask_images(LLM(**settings), jobs)
     usage = {key: sum(item[key] for item in answers) for key in ('prompt_tokens', 'output_tokens')}
-    write_json(run_dir / 'qwen_review.json', dict(status='COMPLETE', model=model, settings=settings,
+    write_json(run_dir / 'qwen_review.json', dict(status='COMPLETE', model=settings['model'], settings=settings,
                timestamp_utc=datetime.now(timezone.utc).isoformat(),
                versions={name: importlib.metadata.version(name) for name in ['vllm', 'torch', 'transformers']},
                responses=answers, usage=usage))
@@ -160,12 +170,15 @@ def review(run_dir):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('stage', choices=['detect', 'prepare', 'review', 'trace'])
+    p.add_argument('stage', choices=['detect', 'prepare', 'review', 'trace', 'recover'])
     p.add_argument('--run-dir', type=Path, required=True)
     args = p.parse_args()
     if args.stage in ('prepare', 'trace'):
         from inspection_core import finish, prepare
         function = prepare if args.stage == 'prepare' else finish
+    elif args.stage == 'recover':
+        from recovery_agent import recover
+        function = recover
     else:
         function = detect if args.stage == 'detect' else review
     function(args.run_dir.resolve())

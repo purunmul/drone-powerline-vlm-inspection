@@ -54,8 +54,8 @@ class LangSAM:
                 "mask_scores": [],
             }
 
-            if result["labels"]:
-                sam_images.append(np.asarray(images_pil[idx]))
+            if len(processed_result["boxes"]) > 0:
+                sam_images.append(np.array(images_pil[idx], copy=True))
                 sam_boxes.append(processed_result["boxes"])
                 sam_indices.append(idx)
 

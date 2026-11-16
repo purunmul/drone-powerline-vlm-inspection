@@ -209,25 +209,7 @@ def overlay(photo, line):
     return Image.fromarray(result)
 
 
-def finish(run_dir):
-    run_dir = Path(run_dir)
-    run = read_json(run_dir / 'run.json')
-    if digest(run['image']) != run['image_sha256']:
-        raise ValueError('Input image changed during inspection')
-    photo = np.asarray(open_image(run['image']))
-    geometry = read_json(run_dir / 'geometry.json')
-    review = read_json(run_dir / 'qwen_review.json')
-    jobs = read_json(run_dir / 'review_jobs.json')
-    if [r['id'] for r in review['responses']] != [j['id'] for j in jobs]:
-        raise ValueError('Qwen response IDs do not match review jobs')
-    with Image.open(run_dir / 'baseline_centerline.png') as image:
-        baseline = np.asarray(image.convert('L')) > 0
-    variants, audit = predict(geometry, baseline, photo, review['responses'], run['config'])
-    intermediate = run_dir / 'centerlines'
-    intermediate.mkdir()
-    for name, line in variants.items():
-        Image.fromarray(line.astype(np.uint8) * 255).save(intermediate / f'{name}.png')
-    final = variants['final']
+def save_prediction(run_dir, photo, final, baseline, geometry, audit, title):
     Image.fromarray(final.astype(np.uint8) * 255).save(run_dir / 'prediction_centerline.png')
     image = overlay(photo, final)
     image.save(run_dir / 'prediction_on_original.jpg', quality=95, subsampling=0)
@@ -247,15 +229,40 @@ def finish(run_dir):
     draw = ImageDraw.Draw(comparison)
     font = ImageFont.load_default(size=18)
     for index, name in enumerate(('baseline', 'final')):
-        draw.text((800 * index + 8, 6), 'Initial LangSAM' if index == 0 else 'Continuity + Qwen + tracking',
+        draw.text((800 * index + 8, 6), 'Initial LangSAM' if index == 0 else title,
                   fill='white', font=font)
-        panel = ImageOps.contain(overlay(photo, variants[name]), (800, 450), Image.Resampling.LANCZOS)
+        panel = ImageOps.contain(overlay(photo, baseline if name == 'baseline' else final),
+                                 (800, 450), Image.Resampling.LANCZOS)
         comparison.paste(panel, (800 * index + (800 - panel.width) // 2, 35 + (450 - panel.height) // 2))
     comparison.save(run_dir / 'comparison.jpg', quality=93)
     graph_paths = [p[:, ::-1].tolist() for p in span.trace_without_corner_edges(final)]
     write_json(run_dir / 'line_coordinates.json', dict(image_size_wh=[photo.shape[1], photo.shape[0]],
                coordinate_order='xy', unit='EXIF-oriented input image pixel', physical_wire_instances=False,
                paths=graph_paths))
+    return len(graph_paths)
+
+
+def finish(run_dir):
+    run_dir = Path(run_dir)
+    run = read_json(run_dir / 'run.json')
+    if digest(run['image']) != run['image_sha256']:
+        raise ValueError('Input image changed during inspection')
+    photo = np.asarray(open_image(run['image']))
+    geometry = read_json(run_dir / 'geometry.json')
+    review = read_json(run_dir / 'qwen_review.json')
+    jobs = read_json(run_dir / 'review_jobs.json')
+    if [r['id'] for r in review['responses']] != [j['id'] for j in jobs]:
+        raise ValueError('Qwen response IDs do not match review jobs')
+    with Image.open(run_dir / 'baseline_centerline.png') as image:
+        baseline = np.asarray(image.convert('L')) > 0
+    variants, audit = predict(geometry, baseline, photo, review['responses'], run['config'])
+    intermediate = run_dir / 'centerlines'
+    intermediate.mkdir()
+    for name, line in variants.items():
+        Image.fromarray(line.astype(np.uint8) * 255).save(intermediate / f'{name}.png')
+    final = variants['final']
+    graph_path_count = save_prediction(run_dir, photo, final, baseline, geometry, audit,
+                                       'Continuity + Qwen + tracking')
     detection = read_json(run_dir / 'detection/result.json')
     write_json(run_dir / 'summary.json', dict(status='COMPLETE', image=run['image'],
                image_sha256=run['image_sha256'], image_size_wh=run['image_size_wh'],
@@ -263,7 +270,7 @@ def finish(run_dir):
                candidate_count_includes_tile_duplicates=True, candidate_count=len(detection['candidates']),
                tile_count=len(detection['tiles']), pole_count=len(detection['poles']),
                fragment_count=len(geometry['paths']), link_candidate_count=len(geometry['links']),
-               final_centerline_pixels=int(final.sum()), graph_path_count=len(graph_paths),
+               final_centerline_pixels=int(final.sum()), graph_path_count=graph_path_count,
                qwen_model=review['model'], qwen_usage=review['usage'], audit=audit,
                parameters=run['config']))
-    print(f'TRACE_COMPLETE pixels={int(final.sum())} graph_paths={len(graph_paths)}', flush=True)
+    print(f'TRACE_COMPLETE pixels={int(final.sum())} graph_paths={graph_path_count}', flush=True)
